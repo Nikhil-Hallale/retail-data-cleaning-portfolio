@@ -1,205 +1,249 @@
--- ====================================================================
--- PROJECT: Retail Store Analytics - Data Cleaning & ETL Pipeline (V2)
--- OBJECTIVE: Clean, transform, index, and strictly filter out dead sales rows
--- DATABASE SYSTEM: SQLite
--- ====================================================================
+/* ============================================================
+   PROJECT   : Clothing Store Sales - Data Cleaning
+   SCRIPT    : 02_cleaning_clothing_sales.sql
+   SOURCE    : raw_clothing_sales   (see 01_profiling script)
+   OUTPUT    : cleaned_clothing_sales
+   DIALECT   : PostgreSQL (regexp_replace, TO_DATE, ~ operator)
+   RUN ORDER : 01_profiling_raw_clothing_sales.sql first, so you
+               have "before" numbers to compare against.
+   ============================================================ */
 
--- STEP 1: INITIALIZE TARGET WAREHOUSE STRUCTURE
-DROP TABLE IF EXISTS cleaned_clothing_store_sales;
 
-CREATE TABLE cleaned_clothing_store_sales AS 
-SELECT 
-    -- Generates a clean, sequential primary key index (1, 2, 3...)
-    ROW_NUMBER() OVER() AS transaction_id,
-    
-    date                AS transaction_date,
-    customer_name       AS customer_name,
-    phone               AS phone_number,
-    
-    -- FIX: Forces Title Case ('men' -> 'Men') and catches hidden NULL categories
-    CASE 
-        WHEN category IS NULL OR TRIM(category) = '' THEN 'Unassigned'
-        ELSE UPPER(SUBSTR(TRIM(category), 1, 1)) || LOWER(SUBSTR(TRIM(category), 2))
-    END AS category,
-    
-    item                AS item_name,
-    size                AS item_size,
-    color               AS color,
-    qty                 AS quantity,
-    price               AS price_per_unit,
-    discount            AS discount_percentage,
-    total_amount        AS total_amount,
-    payment_mode        AS payment_mode,
-    branch              AS branch_name,
-    sales_rep           AS sales_rep_name
+-- ------------------------------------------------------------
+-- STEP 0 -- Clean slate if re-running
+-- ------------------------------------------------------------
+DROP TABLE IF EXISTS cleaned_clothing_sales;
+
+
+-- ------------------------------------------------------------
+-- STEP 1 -- Stage: drop junk rows, fully blank rows, and exact
+--           duplicate rows before touching individual columns.
+--           (Fixes profiling sections 3, 4, 5a)
+-- ------------------------------------------------------------
+CREATE TEMP TABLE staged_sales AS
+SELECT DISTINCT ON ("Bill No", "Date", "Customer Name", "Phone", "Item", "Total Amount") *
 FROM raw_clothing_sales
--- FIX: Strict elimination of dead rows. 
--- If quantity is 0, empty, or NULL, it's not a real transaction and shouldn't pollute metrics.
-WHERE qty > 0 AND qty IS NOT NULL AND qty != '';
+WHERE
+    NOT (
+        NULLIF(TRIM("Bill No"), '')       IS NULL
+        AND NULLIF(TRIM("Date"), '')          IS NULL
+        AND NULLIF(TRIM("Customer Name"), '') IS NULL
+        AND NULLIF(TRIM("Item"), '')          IS NULL
+        AND NULLIF(TRIM("Total Amount"), '')  IS NULL
+    )
+    AND "Bill No" NOT ILIKE '%total%'
+    AND ("Total Amount" IS NULL OR "Total Amount" NOT ILIKE '=%');
 
 
--- STEP 2: RECTIFY TEXT CASING, TRIM WHITESPACE, AND RESOLVE NULL CUSTOMERS
-UPDATE cleaned_clothing_store_sales
-SET 
-    item_name = TRIM(item_name),
-    color = TRIM(color),
-    customer_name = CASE 
-        WHEN LOWER(TRIM(customer_name)) IN ('customer', 'walk-in', 'walk in', '') OR customer_name IS NULL THEN 'Walk-in'
-        ELSE TRIM(customer_name)
-    END;
+-- ------------------------------------------------------------
+-- STEP 2 -- Build the cleaned table, one CTE per fix.
+-- ------------------------------------------------------------
+CREATE TABLE cleaned_clothing_sales AS
+
+WITH
+
+-- 2a. Date -> single ISO DATE type.
+--     (Fixes profiling section 6)
+--     ASSUMPTION, stated explicitly: this file has two distinct
+--     slash-date patterns -- one 4-digit-year, one 2-digit-year.
+--     Profiling showed they behave as MM/DD/YYYY and DD/MM/YY
+--     respectively in this export. That mapping is specific to
+--     this source system; re-verify before reusing on another
+--     file, since numeric slash-dates are ambiguous in general.
+dates AS (
+    SELECT
+        *,
+        CASE
+            WHEN "Date" ~ '^\d{4}-\d{2}-\d{2}$'
+                THEN TO_DATE("Date", 'YYYY-MM-DD')
+            WHEN "Date" ~ '^\d{2}-\d{2}-\d{4}$'
+                THEN TO_DATE("Date", 'DD-MM-YYYY')
+            WHEN "Date" ~ '^\d{2}/\d{2}/\d{4}$'
+                THEN TO_DATE("Date", 'MM/DD/YYYY')
+            WHEN "Date" ~ '^\d{2}/\d{2}/\d{2}$'
+                THEN TO_DATE("Date", 'DD/MM/YY')
+            WHEN "Date" ~ '^\d{2} [A-Za-z]{3} \d{4}$'
+                THEN TO_DATE("Date", 'DD Mon YYYY')
+            ELSE NULL
+        END AS transaction_date_clean
+    FROM staged_sales
+),
+
+-- 2b. Phone -> digits-only 10-digit number, or true NULL.
+--     Collapses the "NA" placeholder text into the same NULL
+--     used for genuinely blank cells.
+--     (Fixes profiling section 12)
+phones AS (
+    SELECT
+        *,
+        CASE
+            WHEN "Phone" IS NULL OR TRIM("Phone") = '' OR "Phone" ILIKE 'na'
+                THEN NULL
+            ELSE regexp_replace(TRIM("Phone"), '[^0-9]', '', 'g')
+        END AS phone_clean
+    FROM dates
+),
+
+-- 2c. Price -> numeric, currency symbols stripped.
+--     Missing/unparseable price becomes NULL, never 0 -- a
+--     literal 0 would understate AVG(price) and misrepresent a
+--     real sale as free.
+--     (Fixes profiling sections 8a/8b)
+prices AS (
+    SELECT
+        *,
+        CASE
+            WHEN regexp_replace(TRIM("Price"), '(Rs\.?|₹)', '', 'gi') ~ '^\d+(\.\d+)?$'
+                THEN regexp_replace(TRIM("Price"), '(Rs\.?|₹)', '', 'gi')::numeric
+            ELSE NULL
+        END AS price_clean
+    FROM phones
+),
+
+-- 2d. Qty -> positive integer or NULL; negative qty flagged
+--     separately as a return instead of being discarded.
+--     (Fixes profiling section 9)
+quantities AS (
+    SELECT
+        *,
+        CASE WHEN "Qty" ~ '^-?\d+$' AND "Qty"::int < 0 THEN TRUE ELSE FALSE END AS is_return,
+        CASE
+            WHEN "Qty" ~ '^\d+$' AND "Qty"::int > 0 THEN "Qty"::int
+            ELSE NULL
+        END AS qty_clean
+    FROM prices
+),
+
+-- 2e. Discount -> integer percent (0-100).
+--     "Yes" with no percentage given is treated as unknown, not
+--     guessed at, so it falls back to 0 rather than fabricating
+--     a discount amount.
+--     (Fixes profiling section 10)
+discounts AS (
+    SELECT
+        *,
+        CASE
+            WHEN "Discount" ~ '^\d+%$'        THEN replace("Discount", '%', '')::int
+            WHEN "Discount" ~ '^\d+(\.\d+)?$' THEN ROUND("Discount"::numeric)::int
+            ELSE 0
+        END AS discount_clean
+    FROM quantities
+),
+
+-- 2f. Categorical / free-text columns -> trimmed, consistently
+--     cased, known typos and near-duplicates collapsed onto one
+--     canonical spelling.
+--     (Fixes profiling section 7)
+text_fields AS (
+    SELECT
+        *,
+        INITCAP(TRIM("Category")) AS category_clean,
+
+        CASE
+            WHEN INITCAP(TRIM("Item")) = 'Kurthi'                THEN 'Kurti'
+            WHEN INITCAP(TRIM("Item")) IN ('Tshirt', 'T Shirt')  THEN 'T-Shirt'
+            ELSE INITCAP(TRIM("Item"))
+        END AS item_clean,
+
+        CASE
+            WHEN INITCAP(TRIM("Size")) IN ('Free Size', 'One Size') THEN 'Free Size'
+            WHEN "Size" IS NULL OR TRIM("Size") = ''                THEN NULL
+            ELSE UPPER(TRIM("Size"))
+        END AS size_clean,
+
+        INITCAP(TRIM("Color")) AS color_clean,
+
+        CASE
+            WHEN UPPER(TRIM("Payment Mode")) = 'CASH'                                THEN 'Cash'
+            WHEN UPPER(TRIM("Payment Mode")) IN ('UPI', 'GPAY', 'PHONEPE')            THEN 'UPI'
+            WHEN UPPER(TRIM("Payment Mode")) IN ('CARD', 'DEBIT CARD', 'CREDIT CARD') THEN 'Card'
+            WHEN "Payment Mode" IS NULL OR TRIM("Payment Mode") = ''                  THEN 'Unknown'
+            ELSE 'Other'
+        END AS payment_mode_clean,
+
+        CASE
+            WHEN UPPER(TRIM("Branch")) IN ('MALL ROAD', 'MALL RD')  THEN 'Mall Road'
+            WHEN UPPER(TRIM("Branch")) = 'MAIN MARKET'              THEN 'Main Market'
+            WHEN UPPER(TRIM("Branch")) = 'STATION BRANCH'           THEN 'Station Branch'
+            ELSE NULL   -- unrecognized/blank left NULL rather than guessed
+        END AS branch_clean,
+
+        CASE
+            WHEN "Sales Rep" IS NULL OR TRIM("Sales Rep") = '' THEN NULL
+            ELSE INITCAP(TRIM("Sales Rep"))
+        END AS sales_rep_clean,
+
+        CASE
+            WHEN "Customer Name" IS NULL OR TRIM("Customer Name") = ''
+                 OR UPPER(TRIM("Customer Name")) IN ('WALK IN', 'WALK-IN', 'CUSTOMER')
+                THEN 'Walk-in'
+            ELSE INITCAP(TRIM("Customer Name"))
+        END AS customer_name_clean
+
+    FROM discounts
+)
+
+-- 2g. Final projection: Total Amount is recomputed from the now
+--     -clean Price / Qty / Discount rather than trusting the
+--     original stored value, which profiling showed disagreed
+--     with the math on a meaningful share of rows.
+--     (Fixes profiling section 11)
+SELECT
+    ROW_NUMBER() OVER (ORDER BY transaction_date_clean, "Bill No") AS transaction_id,
+    transaction_date_clean AS transaction_date,
+    customer_name_clean    AS customer_name,
+    phone_clean             AS phone_number,
+    category_clean          AS category,
+    item_clean               AS item_name,
+    size_clean                AS item_size,
+    color_clean                AS color,
+    qty_clean                   AS quantity,
+    price_clean                  AS price_per_unit,
+    discount_clean                AS discount_percentage,
+    CASE
+        WHEN price_clean IS NOT NULL AND qty_clean IS NOT NULL
+            THEN ROUND(price_clean * qty_clean * (1 - discount_clean / 100.0), 2)
+        ELSE NULL
+    END AS total_amount,
+    payment_mode_clean  AS payment_mode,
+    branch_clean        AS branch_name,
+    sales_rep_clean     AS sales_rep_name,
+    is_return
+FROM text_fields;
 
 
--- STEP 3: NORMALIZE OPERATIONAL SEGMENTS (BRANCHES & PAYMENTS)
-UPDATE cleaned_clothing_store_sales
-SET 
-    branch_name = CASE 
-        WHEN LOWER(TRIM(branch_name)) IN ('mall road', 'mall rd') THEN 'Mall Road'
-        WHEN LOWER(TRIM(branch_name)) IN ('main market') THEN 'Main Market'
-        WHEN LOWER(TRIM(branch_name)) IN ('station branch') THEN 'Station Branch'
-        WHEN branch_name IS NULL THEN 'Main Branch'
-        ELSE TRIM(branch_name)
-    END,
-    payment_mode = CASE 
-        WHEN UPPER(TRIM(payment_mode)) IN ('CASH') THEN 'Cash'
-        WHEN UPPER(TRIM(payment_mode)) IN ('UPI', 'PHONEPE', 'GPAY') THEN 'UPI'
-        WHEN UPPER(TRIM(payment_mode)) IN ('CARD', 'DEBIT CARD', 'CREDIT CARD') THEN 'Card'
-        ELSE 'Other'
-    END;
+-- ------------------------------------------------------------
+-- STEP 3 -- Verification. Every query below should come back
+--           empty / zero if the cleaning worked as intended.
+-- ------------------------------------------------------------
 
+-- 3a. No duplicate rows
+SELECT customer_name, phone_number, item_name, total_amount, COUNT(*)
+FROM cleaned_clothing_sales
+GROUP BY 1, 2, 3, 4
+HAVING COUNT(*) > 1;
 
--- STEP 4: PURGE CORRUPTED CURRENCY TEXT FROM NUMERIC CHANNELS
-UPDATE cleaned_clothing_store_sales
-SET 
-    price_per_unit = REPLACE(REPLACE(price_per_unit, 'Rs.', ''), '₹', '');
+-- 3b. Exactly one representation of missing per categorical column
+SELECT DISTINCT payment_mode FROM cleaned_clothing_sales;
+SELECT DISTINCT branch_name  FROM cleaned_clothing_sales;
+SELECT DISTINCT item_size    FROM cleaned_clothing_sales;
 
+-- 3c. No zero-priced rows standing in for missing prices
+SELECT COUNT(*) AS zero_price_rows
+FROM cleaned_clothing_sales
+WHERE price_per_unit = 0;
 
--- STEP 5: STANDARDIZE DISCOUNT STRINGS INTO FLAT INTEGERS
-UPDATE cleaned_clothing_store_sales
-SET 
-    discount_percentage = CASE 
-        WHEN discount_percentage IS NULL OR discount_percentage IN ('0', 'No', '') THEN '0'
-        WHEN discount_percentage = 'Yes' THEN '10' -- Strategic fallback for textual markers
-        ELSE REPLACE(discount_percentage, '%', '')
-    END;
+-- 3d. Total Amount is internally consistent
+SELECT COUNT(*) AS mismatched_totals
+FROM cleaned_clothing_sales
+WHERE total_amount IS NOT NULL
+  AND total_amount <> ROUND(price_per_unit * quantity * (1 - discount_percentage / 100.0), 2);
 
+-- 3e. Date range sanity check (single clean DATE type now)
+SELECT MIN(transaction_date) AS earliest, MAX(transaction_date) AS latest
+FROM cleaned_clothing_sales;
 
--- STEP 6: ENFORCE REVENUE CALCULATIONS & RE-COMPUTE FINANCIAL TOTALS
-UPDATE cleaned_clothing_store_sales
-SET 
-    price_per_unit = CASE WHEN price_per_unit IS NULL OR price_per_unit = '' THEN 0 ELSE price_per_unit END,
-    total_amount = CAST(quantity AS REAL) * CAST(price_per_unit AS REAL) * (1.0 - (CAST(discount_percentage AS REAL) / 100.0));
-
-
--- ====================================================================
--- STEP 7: POST-CLEANING QUALITY ASSURANCE CHECK
--- ====================================================================
--- This query should return 0 if our pipeline worked perfectly!
-SELECT COUNT(*) AS remaining_invalid_quantity_rows 
-FROM cleaned_clothing_store_sales 
-WHERE quantity <= 0 OR quantity IS NULL;
-
--- This query should return perfectly consolidated, beautiful categories.
-SELECT category, COUNT(*) as clean_frequency 
-FROM cleaned_clothing_store_sales 
-GROUP BY category;
-
--- ====================================================================
--- METRIC 8: ADVANCED DATE TEXT-TO-NUMBER CONVERSION
--- Converts textual formats (e.g., '25 Jul 2024') into clear, query-ready 'YYYY-MM-DD'
--- ====================================================================
-UPDATE cleaned_clothing_store_sales
-SET transaction_date = 
-    CASE 
-        -- Catch text dates by matching the space before the year ' 2023', ' 2024', or ' 2025'
-        WHEN transaction_date LIKE '% 202%' THEN 
-            SUBSTR(transaction_date, -4) || '-' || -- Year extraction
-            CASE 
-                WHEN transaction_date LIKE '%Jan%' THEN '01'
-                WHEN transaction_date LIKE '%Feb%' THEN '02'
-                WHEN transaction_date LIKE '%Mar%' THEN '03'
-                WHEN transaction_date LIKE '%Apr%' THEN '04'
-                WHEN transaction_date LIKE '%May%' THEN '05'
-                WHEN transaction_date LIKE '%Jun%' THEN '06'
-                WHEN transaction_date LIKE '%Jul%' THEN '07'
-                WHEN transaction_date LIKE '%Aug%' THEN '08'
-                WHEN transaction_date LIKE '%Sep%' THEN '09'
-                WHEN transaction_date LIKE '%Oct%' THEN '10'
-                WHEN transaction_date LIKE '%Nov%' THEN '11'
-                WHEN transaction_date LIKE '%Dec%' THEN '12'
-            END || '-' || 
-            SUBSTR('0' || TRIM(SUBSTR(transaction_date, 1, 2)), -2) -- Padding single-digit days (e.g., '5' to '05')
-        
-        -- Keeps standard numerical dates untouched
-        ELSE transaction_date 
-    END;
-
-
--- ====================================================================
--- METRIC 9: HIDDEN CORRUPTION CHARACTERS IN FINANCIAL FIELDS
--- Eradicates the '?' and 'Rs.' text markers directly from the numeric column
--- ====================================================================
-UPDATE cleaned_clothing_store_sales
-SET price_per_unit = REPLACE(REPLACE(REPLACE(price_per_unit, 'Rs.', ''), '₹', ''), '?', '');
-
-
--- ====================================================================
--- METRIC 10 : PRODUCT COLOR SKEW STANDARDIZATION
--- Forces Proper/Title Case (e.g., 'grey', 'Grey', 'GREY' all combine cleanly into 'Grey')
--- ====================================================================
-UPDATE cleaned_clothing_store_sales
-SET color = 
-    CASE 
-        WHEN color IS NULL OR TRIM(color) = '' THEN 'Unknown'
-        ELSE UPPER(SUBSTR(TRIM(color), 1, 1)) || LOWER(SUBSTR(TRIM(color), 2))
-    END;
-
--- ====================================================================
--- CLEANING STEP: SANITIZE PHONE NUMBERS FOR CRM READINESS
--- Strips country codes, structural dashes, and spaces to extract 10-digit numbers
--- ====================================================================
-UPDATE cleaned_clothing_store_sales
-SET phone_number = 
-    CASE 
-        WHEN phone_number IS NULL OR TRIM(phone_number) = '' THEN 'No Contact'
-        ELSE 
-            -- 1. Remove common formatting noise (country prefix signs, structural spaces, dashes)
-            CASE 
-                -- If it contains +91-, remove it entirely
-                WHEN phone_number LIKE '+91-%' THEN REPLACE(phone_number, '+91-', '')
-                -- Strip basic special symbols manually for absolute standard string formatting
-                ELSE REPLACE(REPLACE(REPLACE(phone_number, '+91', ''), '-', ''), ' ', '')
-            END
-    END;
-
--- Final normalization pass: Trim spaces and make sure we keep only the last 10 digits 
--- (This cleanly strips out any accidental remaining prefix numbers)
-UPDATE cleaned_clothing_store_sales
-SET phone_number = CASE 
-    WHEN phone_number = 'No Contact' THEN 'No Contact'
-    ELSE SUBSTR(TRIM(phone_number), -10)
-END;
-
--- ====================================================================
--- CLEANING STEP: LOGISTICS & ATTRIBUTION STANDARDIZATION
--- Imputes logical defaults for missing size classifications and ghost staff records
--- ====================================================================
-
--- 1. Rectify missing garment and accessory sizing labels
-UPDATE cleaned_clothing_store_sales
-SET item_size = 
-    CASE 
-        WHEN item_size IS NULL OR TRIM(item_size) = '' THEN 
-            CASE 
-                WHEN category = 'Accessories' THEN 'Free Size'
-                ELSE 'Standard' -- Clear operational marker for apparel missing explicit dimensions
-            END
-        ELSE TRIM(item_size)
-    END;
-
--- 2. Attribute unnamed or missing staff transactions to the business owner's central profile
-UPDATE cleaned_clothing_store_sales
-SET sales_rep_name = 
-    CASE 
-        WHEN sales_rep_name IS NULL OR TRIM(sales_rep_name) = '' THEN 'House Account'
-        ELSE sales_rep_name
-    END;
+-- 3f. Row count before/after
+SELECT
+    (SELECT COUNT(*) FROM raw_clothing_sales)     AS raw_row_count,
+    (SELECT COUNT(*) FROM cleaned_clothing_sales) AS cleaned_row_count;
