@@ -178,3 +178,28 @@ SET phone_number = CASE
     WHEN phone_number = 'No Contact' THEN 'No Contact'
     ELSE SUBSTR(TRIM(phone_number), -10)
 END;
+
+-- ====================================================================
+-- CLEANING STEP: LOGISTICS & ATTRIBUTION STANDARDIZATION
+-- Imputes logical defaults for missing size classifications and ghost staff records
+-- ====================================================================
+
+-- 1. Rectify missing garment and accessory sizing labels
+UPDATE cleaned_clothing_store_sales
+SET item_size = 
+    CASE 
+        WHEN item_size IS NULL OR TRIM(item_size) = '' THEN 
+            CASE 
+                WHEN category = 'Accessories' THEN 'Free Size'
+                ELSE 'Standard' -- Clear operational marker for apparel missing explicit dimensions
+            END
+        ELSE TRIM(item_size)
+    END;
+
+-- 2. Attribute unnamed or missing staff transactions to the business owner's central profile
+UPDATE cleaned_clothing_store_sales
+SET sales_rep_name = 
+    CASE 
+        WHEN sales_rep_name IS NULL OR TRIM(sales_rep_name) = '' THEN 'House Account'
+        ELSE sales_rep_name
+    END;
