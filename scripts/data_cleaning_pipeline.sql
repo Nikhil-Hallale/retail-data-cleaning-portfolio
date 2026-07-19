@@ -152,3 +152,29 @@ SET color =
         WHEN color IS NULL OR TRIM(color) = '' THEN 'Unknown'
         ELSE UPPER(SUBSTR(TRIM(color), 1, 1)) || LOWER(SUBSTR(TRIM(color), 2))
     END;
+
+-- ====================================================================
+-- CLEANING STEP: SANITIZE PHONE NUMBERS FOR CRM READINESS
+-- Strips country codes, structural dashes, and spaces to extract 10-digit numbers
+-- ====================================================================
+UPDATE cleaned_clothing_store_sales
+SET phone_number = 
+    CASE 
+        WHEN phone_number IS NULL OR TRIM(phone_number) = '' THEN 'No Contact'
+        ELSE 
+            -- 1. Remove common formatting noise (country prefix signs, structural spaces, dashes)
+            CASE 
+                -- If it contains +91-, remove it entirely
+                WHEN phone_number LIKE '+91-%' THEN REPLACE(phone_number, '+91-', '')
+                -- Strip basic special symbols manually for absolute standard string formatting
+                ELSE REPLACE(REPLACE(REPLACE(phone_number, '+91', ''), '-', ''), ' ', '')
+            END
+    END;
+
+-- Final normalization pass: Trim spaces and make sure we keep only the last 10 digits 
+-- (This cleanly strips out any accidental remaining prefix numbers)
+UPDATE cleaned_clothing_store_sales
+SET phone_number = CASE 
+    WHEN phone_number = 'No Contact' THEN 'No Contact'
+    ELSE SUBSTR(TRIM(phone_number), -10)
+END;
