@@ -95,3 +95,19 @@ FROM cleaned_clothing_store_sales
 WHERE phone_number LIKE '%-%' 
    OR phone_number LIKE '%+%' 
    OR phone_number LIKE '% %';
+
+-- ====================================================================
+-- METRIC 12: INVENTORY STOCK LOGISTICS & PERSONNEL AUDIT
+-- Flags apparel items missing structural sizes and unattributed staff sales
+-- ====================================================================
+
+-- Count core apparel missing stock dimensions (Size tags)
+SELECT category, COUNT(*) AS apparel_missing_sizes
+FROM raw_clothing_sales
+WHERE size IS NULL OR TRIM(size) = ''
+GROUP BY category;
+
+-- Count transactions missing personnel accountability tags
+SELECT COUNT(*) AS ghost_sales_missing_sales_reps
+FROM raw_clothing_sales
+WHERE sales_rep IS NULL OR TRIM(sales_rep) = '';
