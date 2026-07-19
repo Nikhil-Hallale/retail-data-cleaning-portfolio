@@ -84,3 +84,14 @@ SELECT date, COUNT(*)
 FROM raw_clothing_sales 
 WHERE date LIKE '%Jan%' OR date LIKE '%Feb%' OR date LIKE '%Jul%' OR date LIKE '%Dec%'
 GROUP BY date;
+
+-- ====================================================================
+-- METRIC 11: CRM CONTACT INTEGRITY & PHONE FORMATTING AUDIT
+-- Flags phone numbers corrupted with dashes, country codes, or spaces
+-- ====================================================================
+SELECT 
+    COUNT(*) AS total_corrupted_phone_records
+FROM cleaned_clothing_store_sales
+WHERE phone_number LIKE '%-%' 
+   OR phone_number LIKE '%+%' 
+   OR phone_number LIKE '% %';
