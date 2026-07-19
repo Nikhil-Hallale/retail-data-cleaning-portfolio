@@ -56,3 +56,31 @@ GROUP BY discount;
 SELECT COUNT(*) AS zero_or_negative_quantity_transactions
 FROM raw_clothing_sales
 WHERE qty <= 0 OR qty IS NULL;
+
+
+-- 7. SALES REPRESENTATIVE INCONSISTENCY PROFILING
+-- Exposes duplicate employee names caused by loose uppercase/lowercase typing rules
+SELECT LOWER(TRIM(sales_rep)) AS normalized_rep_name, COUNT(*) AS total_sales_logged
+FROM raw_clothing_sales
+GROUP BY normalized_rep_name;
+
+-- 8. PRODUCT COLOR SKEW AUDIT
+-- Detects split color metrics (e.g., 'grey' vs 'Grey') causing filter dilution
+SELECT color, COUNT(*) as tracking_count
+FROM raw_clothing_sales
+GROUP BY color
+ORDER BY color;
+
+-- 9. HIDDEN CORRUPTION CHARACTERS IN FINANCIAL FIELDS
+-- Looks for stray text symbols (like '?') that disrupt financial aggregations
+SELECT price, COUNT(*) 
+FROM raw_clothing_sales 
+WHERE price LIKE '%?%'
+GROUP BY price;
+
+-- 10. ADVANCED TEXT-BASED DATE DETECTION
+-- Identifies if textual names of months are embedded in the date records
+SELECT date, COUNT(*) 
+FROM raw_clothing_sales 
+WHERE date LIKE '%Jan%' OR date LIKE '%Feb%' OR date LIKE '%Jul%' OR date LIKE '%Dec%'
+GROUP BY date;
