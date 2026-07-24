@@ -1,0 +1,1253 @@
+transaction_id,transaction_date,customer_name,phone_number,category,item_name,item_size,color,quantity,price_per_unit,discount_percentage,total_amount,payment_mode,branch_name,sales_rep_name
+1,08/09/2024,Walk-in,NA,Men,Shirt,M,White,1,0,0,0.0,UPI,Mall Road,Rahul
+2,03/08/2023,Walk-in,2832764835,Women,Palazzo,Standard,White,1,599,0,599.0,UPI,Main Market,Sneha
+3,13/08/2023,Walk-in,0122691669,Kids,Frock,XL,Grey,2,299,10,538.2,Cash,Unknown,Vikas
+4,15/09/2024,Walk-in,2880957015,Kids,T-Shirt,Standard,Black,1,399,0,399.0,Cash,Main Market,Amit
+5,13/02/2024,ANJALI,7133150983,Men,Jacket,Standard,Grey,1,999,20,799.2,Cash,Mall Road,Priya
+6,25/02/2024,Walk-in,1065133387,Women,Leggings,M,Pink,1,1599,0,1599.0,Cash,Mall Road,Priya
+7,13/03/2025,Sunita Sharma,8723430980,Men,Blazer,S,White,1,499,0,499.0,Cash,Main Market,Priya
+8,25/09/2023,Anil Kumar,NA,Women,Kurti,M,Maroon,1,1199,0,1199.0,Card,Main Market,Rahul
+9,21/12/2024,Walk-in,NA,Accessories,Socks,Free Size,Pink,1,149,0,149.0,Cash,Mall Road,Priya
+10,05/04/2023,Sunita Sharma,NA,Men,Blazer,L,Green,2,999,10,1798.2,Cash,Unknown,Amit
+11,31/05/2025,Anil Kumar,NA,Accessories,Socks,Free Size,Blue,1,199,10,179.1,Card,Station Branch,Amit
+12,27/01/2024,ANJALI,NA,Women,Dupatta,M,Maroon,3,449,0,1347.0,UPI,Main Market,Rahul
+13,25/09/2023,Sunita Sharma,NA,Women,Dress,L,Blue,2,599,0,1198.0,Card,Station Branch,Priya
+14,13/03/2023,Anil Kumar,1484656482,Accessories,Socks,Free Size,Red,2,399,20,638.4,Cash,Station Branch,Vikas
+15,23/06/2023,Sunita Sharma,9513433200,Accessories,Socks,Free Size,Green,2,299.00,10,538.2,Card,Unknown,Sneha
+16,13/09/2023,ANJALI,NA,Accessories,Cap,Free Size,Black,3,99,0,297.0,Card,Mall Road,Rahul
+17,24/11/2023,Walk-in,NA,Accessories,Wallet,Free Size,Green,1,399.00,0,399.0,Cash,Mall Road,Rahul
+18,19/06/2025,Sunita Sharma,6417080531,Accessories,Socks,Free Size,Maroon,1,0,0,0.0,Cash,Station Branch,Amit
+19,21/04/2023,Walk-in,9663193149,Women,Saree,Standard,Navy,2,899,20,1438.4,Other,Mall Road,Priya
+20,21/04/2024,Sunita Sharma,3147379965,Kids,T-Shirt,XL,Blue,2,499.00,20,798.4,UPI,Mall Road,Vikas
+21,29/10/2023,Pooja Verma,4957885685,Kids,T-Shirt,S,White,2,499,0,998.0,Card,Main Market,Amit
+23,08/10/2023,Walk-in,2710947775,Women,Saree,L,Navy,1,1199,0,1199.0,Cash,Mall Road,Amit
+24,05/03/2025,Pooja Verma,7496499091,Men,Kurta,M,Black,3,1499,0,4497.0,Cash,Station Branch,Priya
+25,17/03/2025,Ramesh Gupta,8324210249,Women,Kurti,XL,Navy,3,599,0,1797.0,Card,Mall Road,Amit
+26,19/11/2024,Walk-in,2787429671,Accessories,Belt,Free Size,Yellow,3,99,10,267.3,Card,Unknown,Amit
+27,18/04/2024,Walk-in,NA,Kids,Shirt,XL,Blue,2,399,0,798.0,Cash,Main Market,Vikas
+28,26/11/2023,Ramesh Gupta,3605766270,Kids,Shorts,L,Green,1,499.00,0,499.0,Card,Main Market,Amit
+29,25/01/2024,ANJALI,0913431611,Men,Blazer,Standard,Black,1,399,10,359.1,UPI,Mall Road,House Account
+30,27/05/2023,ANJALI,7407482175,Accessories,Wallet,Free Size,Navy,1,149,0,149.0,UPI,Main Market,Rahul
+31,03/12/2024,ANJALI,4395339421,Accessories,Belt,Free Size,Navy,1,0,0,0.0,Cash,Main Market,Vikas
+32,30/10/2023,Walk-in,1236851604,Kids,Shirt,M,Black,1,399,10,359.1,Other,Mall Road,Priya
+33,08/02/2023,ANJALI,NA,Women,Dress,XXL,Pink,2,1199,0,2398.0,Card,Unknown,Rahul
+34,11/07/2024,Walk-in,3171390053,Women,Dress,XL,Navy,1,599,0,599.0,UPI,Main Market,Sneha
+35,29/09/2023,Walk-in,8117758917,Kids,Frock,L,Black,1,399,0,399.0,UPI,Mall Road,Amit
+37,01/02/2025,Walk-in,9885165604,Kids,Shirt,XL,Blue,1,399,10,359.1,UPI,Main Market,House Account
+38,26/12/2023,Walk-in,9612018366,Kids,T-Shirt,XXL,White,1,199,15,169.15,UPI,Main Market,Rahul
+39,18/10/2023,ANJALI,4036900343,Women,Saree,S,Green,1,1599,0,1599.0,Card,Main Market,Amit
+40,19/02/2024,Sunita Sharma,NA,Accessories,Socks,Free Size,Blue,3,0,0,0.0,UPI,Mall Road,House Account
+41,27/04/2023,Walk-in,NA,Men,Trousers,M,Maroon,1,999,0,999.0,Other,Main Market,Sneha
+42,22/06/2025,Anil Kumar,5271774490,Men,T-Shirt,Standard,Black,1,999,10,899.1,UPI,Main Market,Priya
+43,28/03/2023,Walk-in,NA,Accessories,Cap,Free Size,Navy,1,399.00,15,339.15,UPI,Main Market,House Account
+44,18/03/2025,Walk-in,8059296222,Accessories,Socks,Free Size,Yellow,1,199,0,199.0,Card,Mall Road,Sneha
+45,16/10/2023,Walk-in,2392407581,Accessories,Socks,Free Size,White,2,299,10,538.2,Card,Station Branch,Amit
+46,09/05/2025,Walk-in,NA,Accessories,Belt,Free Size,Yellow,1,299,0,299.0,Cash,Unknown,Amit
+47,18/02/2023,Pooja Verma,9711798089,Accessories,Socks,Free Size,Red,1,399,0,399.0,UPI,Station Branch,Rahul
+48,10/02/2025,Sunita Sharma,0541566765,Men,Blazer,S,Green,1,499,0,499.0,Cash,Unknown,Rahul
+49,02/04/2024,Anil Kumar,6401658202,Men,Trousers,XXL,Green,2,599,0,1198.0,Other,Mall Road,House Account
+50,27/01/2023,ANJALI,8144739473,Accessories,Socks,Free Size,Grey,1,99,0,99.0,Card,Main Market,House Account
+51,05/01/2024,Anil Kumar,8291146786,Kids,T-Shirt,L,Black,1,299,0,299.0,Card,Mall Road,House Account
+52,15/06/2024,Walk-in,8424981829,Women,Dupatta,M,Maroon,1,1999,15,1699.15,UPI,Main Market,Rahul
+53,02/12/2024,Sunita Sharma,0276773592,Men,Shirt,M,Navy,2,799,0,1598.0,Cash,Mall Road,Priya
+54,05/06/2025,Anil Kumar,5327877470,Kids,Frock,S,Green,3,0,0,0.0,UPI,Mall Road,Rahul
+55,22/02/2023,Walk-in,NA,Men,Jeans,Standard,Grey,2,599.00,0,1198.0,UPI,Mall Road,Priya
+56,02/06/2023,Walk-in,NA,Women,Kurti,L,Yellow,1,599,10,539.1,UPI,Unknown,Vikas
+57,29/09/2023,Ramesh Gupta,9728962309,Kids,Shirt,XL,Red,2,199,0,398.0,UPI,Mall Road,Amit
+58,01/03/2025,ANJALI,NA,Men,Blazer,XXL,White,1,999,0,999.0,UPI,Mall Road,Sneha
+59,02/03/2025,Sunita Sharma,NA,Accessories,Scarf,Free Size,Pink,1,199,0,199.0,Other,Mall Road,Amit
+60,28/02/2024,ANJALI,NA,Women,Saree,Standard,Green,1,0,0,0.0,Cash,Mall Road,Amit
+61,22/06/2025,Walk-in,6724004991,Accessories,Wallet,Free Size,Green,3,399,10,1077.3,Cash,Station Branch,Amit
+62,29/06/2023,Pooja Verma,8516122753,Kids,Frock,L,Black,1,0,0,0.0,Card,Mall Road,Rahul
+63,30/10/2023,Ramesh Gupta,NA,Kids,Shorts,S,Blue,2,299,0,598.0,UPI,Mall Road,Rahul
+64,01/06/2024,Walk-in,NA,Accessories,Socks,Free Size,Navy,1,399.00,0,399.0,UPI,Unknown,Amit
+65,04/01/2023,Walk-in,NA,Men,Kurta,Standard,Grey,2,499,10,898.2,Cash,Mall Road,Rahul
+66,02/05/2023,Walk-in,2300478686,Kids,Shirt,M,Maroon,2,499,0,998.0,Cash,Main Market,Rahul
+67,11/08/2023,Walk-in,4395995342,Men,T-Shirt,S,Blue,1,999,0,999.0,UPI,Unknown,Amit
+68,04/09/2023,Sunita Sharma,2708668826,Accessories,Socks,Free Size,Yellow,1,399,0,399.0,Card,Main Market,Sneha
+69,07/12/2023,Walk-in,NA,Men,Jeans,XXL,Navy,2,399,0,798.0,Card,Main Market,Sneha
+70,24/11/2023,Anil Kumar,0932048996,Accessories,Wallet,Free Size,Maroon,1,199,10,179.1,UPI,Mall Road,House Account
+71,02/03/2023,Walk-in,1006231203,Kids,Shirt,XL,Black,1,399,0,399.0,Card,Unknown,Amit
+72,08/04/2023,Walk-in,NA,Men,Trousers,XL,Pink,2,0,20,0.0,UPI,Main Market,Priya
+73,07/07/2024,Pooja Verma,2185016315,Kids,T-Shirt,L,Red,2,299,10,538.2,Other,Mall Road,Amit
+74,29/12/2024,Pooja Verma,1104754121,Accessories,Wallet,Free Size,Maroon,1,99,0,99.0,Cash,Main Market,House Account
+75,23/05/2023,Sunita Sharma,2126464715,Men,Kurta,XL,Red,1,599,0,599.0,UPI,Mall Road,Priya
+76,25/11/2023,Ramesh Gupta,2654793564,Women,Leggings,XL,Yellow,3,1199.00,10,3237.3,UPI,Main Market,Rahul
+77,04/09/2024,Pooja Verma,6805891135,Accessories,Wallet,Free Size,Blue,1,299,10,269.1,Other,Mall Road,House Account
+78,26/01/2023,Walk-in,1125457387,Accessories,Belt,Free Size,Green,2,299,0,598.0,Cash,Unknown,Priya
+79,17/10/2024,Pooja Verma,NA,Men,Jacket,S,Black,1,1299,0,1299.0,Card,Main Market,Sneha
+80,17/11/2023,Pooja Verma,9155792499,Women,Leggings,XXL,Blue,1,1999,0,1999.0,Cash,Mall Road,Amit
+81,03/01/2024,ANJALI,NA,Accessories,Cap,Free Size,Maroon,1,399,0,399.0,Card,Mall Road,Amit
+82,30/01/2025,Walk-in,9148580783,Accessories,Cap,Free Size,Blue,1,0,0,0.0,Cash,Mall Road,Vikas
+83,29/06/2024,Walk-in,NA,Kids,T-Shirt,S,White,1,399,10,359.1,UPI,Unknown,Priya
+84,14/08/2024,Pooja Verma,1168457759,Women,Dupatta,S,Green,3,1599,10,4317.3,Card,Unknown,House Account
+85,18/12/2023,Walk-in,NA,Men,Jacket,M,Maroon,2,1499,0,2998.0,Cash,Mall Road,Amit
+86,02/10/2024,Ramesh Gupta,1103712938,Men,Trousers,M,Green,1,499,0,499.0,Card,Unknown,Amit
+87,24/11/2024,Walk-in,0927532697,Accessories,Belt,Free Size,Blue,1,99,20,79.2,Card,Mall Road,Rahul
+88,06/02/2024,Walk-in,3761379180,Kids,Frock,L,Blue,1,399,0,399.0,Card,Station Branch,Amit
+89,19/12/2024,Walk-in,8924141832,Accessories,Belt,Free Size,Red,1,99,0,99.0,Cash,Mall Road,Rahul
+90,22/12/2023,Walk-in,4252410564,Women,Kurti,S,Maroon,1,899,10,809.1,UPI,Mall Road,Rahul
+91,08/09/2023,ANJALI,2208635365,Accessories,Socks,Free Size,Black,2,399,0,798.0,Cash,Main Market,Sneha
+92,08/11/2023,Ramesh Gupta,9738320603,Men,Trousers,Standard,Green,1,0,0,0.0,Other,Mall Road,Vikas
+93,17/01/2024,Walk-in,8261990623,Men,T-Shirt,XL,Grey,3,0,0,0.0,Card,Mall Road,Amit
+94,01/08/2023,Sunita Sharma,1124903521,Kids,Frock,Standard,Black,1,199,0,199.0,Cash,Main Market,Rahul
+95,17/01/2024,Sunita Sharma,1013721510,Accessories,Socks,Free Size,Grey,1,0,0,0.0,Card,Main Market,Rahul
+96,22/06/2025,ANJALI,NA,Accessories,Wallet,Free Size,Black,1,0,0,0.0,UPI,Main Market,Rahul
+97,12/07/2023,Walk-in,7010393087,Women,Saree,XXL,Yellow,2,0,0,0.0,Cash,Mall Road,Rahul
+98,11/06/2023,ANJALI,2895392644,Men,T-Shirt,S,Pink,2,1499,0,2998.0,Card,Station Branch,Rahul
+99,01/04/2023,ANJALI,NA,Women,Top,XXL,White,1,1199,0,1199.0,Cash,Unknown,Rahul
+100,19/08/2023,ANJALI,NA,Men,Trousers,XL,Black,1,799,0,799.0,Cash,Main Market,House Account
+101,30/07/2023,Pooja Verma,8444310698,Women,Dress,S,Pink,2,599.00,0,1198.0,Other,Unknown,Amit
+102,19/10/2024,Pooja Verma,NA,Women,Kurti,M,Black,1,599,10,539.1,UPI,Mall Road,Amit
+103,10/05/2025,Walk-in,8793741608,Kids,Frock,XXL,Red,1,199,0,199.0,Card,Main Market,Amit
+104,06/04/2025,Walk-in,6854870998,Women,Dupatta,M,Red,3,349,0,1047.0,Cash,Main Market,Priya
+105,29/06/2025,Ramesh Gupta,NA,Kids,Shorts,L,Maroon,2,499,0,998.0,Card,Mall Road,Vikas
+106,21/02/2024,Walk-in,0821486289,Kids,Shirt,M,Black,2,499,0,998.0,UPI,Main Market,Amit
+107,23/08/2024,Anil Kumar,4140602933,Men,Jeans,L,Yellow,1,1499,0,1499.0,Other,Main Market,Amit
+108,17/06/2024,Pooja Verma,0858994417,Women,Palazzo,XXL,Red,1,599.00,0,599.0,UPI,Unknown,Vikas
+109,06/02/2023,Ramesh Gupta,3875842824,Women,Saree,S,Navy,1,1599,0,1599.0,Cash,Unknown,House Account
+110,17/08/2024,Walk-in,3816846022,Men,T-Shirt,M,Green,3,799,0,2397.0,Cash,Mall Road,Amit
+111,09/03/2025,Walk-in,6667600835,Men,Trousers,M,Yellow,1,1299,0,1299.0,Cash,Unknown,Sneha
+112,30/07/2023,Sunita Sharma,1849926189,Accessories,Scarf,Free Size,Blue,1,99,0,99.0,UPI,Mall Road,Sneha
+113,30/06/2025,Walk-in,2557941552,Accessories,Scarf,Free Size,Red,2,99,10,178.2,Card,Mall Road,Amit
+114,20/06/2025,ANJALI,1670145089,Men,T-Shirt,M,Blue,1,799,0,799.0,UPI,Main Market,Rahul
+115,08/02/2025,Anil Kumar,NA,Women,Dress,Standard,Black,3,1999,0,5997.0,Other,Mall Road,Rahul
+116,24/07/2024,Walk-in,9948837550,Women,Kurti,XL,Navy,2,349,0,698.0,Other,Mall Road,Amit
+117,30/01/2025,Walk-in,3316373516,Men,Shirt,S,Yellow,1,599,0,599.0,Card,Mall Road,Amit
+118,31/05/2024,Pooja Verma,3465472269,Accessories,Belt,Free Size,Navy,1,399,0,399.0,UPI,Unknown,Sneha
+119,07/08/2024,Walk-in,6081062003,Women,Saree,L,Black,2,1599,0,3198.0,Cash,Main Market,Vikas
+120,26/01/2024,Pooja Verma,5800439735,Women,Dupatta,L,Grey,3,1199,0,3597.0,UPI,Mall Road,Amit
+121,08/06/2023,Walk-in,9094798515,Men,T-Shirt,XXL,Blue,2,799,0,1598.0,UPI,Station Branch,Rahul
+122,21/12/2023,Ramesh Gupta,9930561648,Men,Jeans,M,Yellow,1,599,10,539.1,UPI,Mall Road,Amit
+123,30/07/2023,Pooja Verma,1207501102,Men,Jeans,L,Pink,1,399,10,359.1,Card,Mall Road,Rahul
+124,16/03/2025,Walk-in,7660728326,Accessories,Scarf,Free Size,Blue,1,0,10,0.0,Other,Mall Road,Rahul
+125,08/06/2024,Walk-in,NA,Women,Kurti,S,Navy,2,899,0,1798.0,Other,Station Branch,Rahul
+126,13/03/2023,Anil Kumar,5949299556,Accessories,Socks,Free Size,Blue,1,399.00,0,399.0,Other,Mall Road,Vikas
+127,05/07/2024,Sunita Sharma,1108099693,Kids,Frock,XL,Grey,2,399,0,798.0,Cash,Mall Road,Rahul
+128,10/04/2024,Walk-in,5184498926,Kids,T-Shirt,XL,White,3,0,0,0.0,Card,Main Market,Rahul
+129,30/04/2025,Walk-in,2984257991,Women,Kurti,L,Black,2,899,10,1618.2,UPI,Unknown,Rahul
+130,02/01/2023,Walk-in,0863765991,Women,Top,M,Grey,1,1199,10,1079.1,UPI,Station Branch,Rahul
+131,22/08/2024,Sunita Sharma,6959463688,Kids,Frock,S,Navy,1,199,0,199.0,Card,Unknown,Rahul
+132,23/02/2023,Pooja Verma,0127961143,Women,Dupatta,M,Grey,1,1599,0,1599.0,Other,Station Branch,Vikas
+133,21/11/2024,Anil Kumar,NA,Men,Jacket,XL,Grey,2,0,0,0.0,Card,Mall Road,Rahul
+134,18/02/2024,Walk-in,6818184518,Accessories,Socks,Free Size,Blue,3,399,0,1197.0,Card,Station Branch,Amit
+135,10/11/2024,Walk-in,8075957947,Accessories,Wallet,Free Size,Green,3,149,10,402.3,UPI,Main Market,Rahul
+136,24/01/2024,Walk-in,9428434795,Accessories,Cap,Free Size,Maroon,1,299,0,299.0,Card,Mall Road,Amit
+137,05/04/2025,Walk-in,2885744890,Women,Top,XXL,White,1,349,10,314.1,Other,Main Market,Amit
+138,13/08/2024,Walk-in,NA,Kids,Shorts,L,Pink,3,0,0,0.0,Card,Unknown,Amit
+139,18/11/2023,Sunita Sharma,9647598762,Men,Trousers,XL,Black,3,1499,0,4497.0,Cash,Main Market,Amit
+140,25/06/2025,Sunita Sharma,NA,Accessories,Belt,Free Size,Grey,1,299,0,299.0,UPI,Main Market,Rahul
+141,05/02/2025,Pooja Verma,8457831745,Men,Blazer,L,Grey,2,799.00,0,1598.0,Cash,Mall Road,Vikas
+142,09/02/2024,Walk-in,6634163894,Accessories,Socks,Free Size,Grey,2,199,0,398.0,Cash,Main Market,Amit
+143,24/03/2024,Ramesh Gupta,NA,Kids,T-Shirt,XXL,Grey,2,499,0,998.0,Card,Mall Road,Amit
+144,25/02/2025,Pooja Verma,7303718376,Men,Jeans,M,Red,3,599,0,1797.0,UPI,Station Branch,Priya
+146,19/03/2025,Walk-in,9792513271,Kids,Shirt,M,Yellow,1,299,0,299.0,Card,Unknown,Amit
+147,05/11/2024,Pooja Verma,NA,Accessories,Scarf,Free Size,Grey,1,149,0,149.0,UPI,Mall Road,Rahul
+148,02/02/2024,Walk-in,9405391037,Kids,T-Shirt,XXL,Blue,1,299,0,299.0,Card,Mall Road,Rahul
+149,03/07/2023,Walk-in,1957612286,Kids,T-Shirt,L,Blue,1,199,0,199.0,Card,Station Branch,House Account
+150,01/01/2023,Sunita Sharma,8240433504,Kids,Shirt,L,Navy,1,299,0,299.0,Card,Mall Road,Amit
+151,25/04/2025,Walk-in,4096105566,Women,Leggings,XXL,White,1,599,10,539.1,Cash,Unknown,Rahul
+152,01/09/2024,Walk-in,NA,Men,Jeans,L,Pink,2,999,0,1998.0,Card,Main Market,Amit
+153,22/09/2024,Ramesh Gupta,NA,Men,Kurta,L,Blue,1,799,0,799.0,UPI,Main Market,Priya
+154,15/02/2023,Ramesh Gupta,2110392405,Accessories,Cap,Free Size,White,3,199,0,597.0,UPI,Main Market,Sneha
+155,09/01/2023,Pooja Verma,5104636815,Kids,Shirt,S,Maroon,3,199,0,597.0,UPI,Unknown,Rahul
+156,10/10/2023,Sunita Sharma,0843256216,Men,T-Shirt,L,Grey,2,799,10,1438.2,UPI,Main Market,Rahul
+157,19/05/2023,Walk-in,9251881252,Kids,Shorts,XXL,Black,3,299,0,897.0,Card,Unknown,Vikas
+158,09/03/2025,Walk-in,9752677223,Women,Dupatta,S,Black,1,349,0,349.0,Card,Main Market,Sneha
+159,30/01/2025,Walk-in,0817703886,Women,Kurti,XL,Navy,3,1599,10,4317.3,UPI,Mall Road,Amit
+160,22/08/2024,Walk-in,5702793714,Accessories,Scarf,Free Size,Black,2,399,10,718.2,Cash,Main Market,Amit
+161,29/05/2023,Walk-in,4742123094,Kids,T-Shirt,XXL,Navy,2,499,10,898.2,UPI,Mall Road,Sneha
+162,26/02/2023,Walk-in,NA,Women,Top,XL,Maroon,2,349,10,628.2,Card,Main Market,Rahul
+163,24/01/2024,Pooja Verma,1472145868,Men,Trousers,Standard,Green,1,999,0,999.0,Other,Station Branch,Priya
+164,24/05/2024,Walk-in,3430107139,Accessories,Socks,Free Size,Navy,1,399,0,399.0,Cash,Unknown,Sneha
+165,29/06/2023,Anil Kumar,7702727857,Kids,Shorts,L,Green,1,399,0,399.0,Other,Mall Road,Rahul
+167,30/04/2023,Anil Kumar,4617357438,Women,Top,L,Blue,3,599,0,1797.0,Card,Station Branch,Rahul
+168,30/07/2023,ANJALI,8104091570,Accessories,Socks,Free Size,Yellow,3,199,0,597.0,UPI,Unknown,Sneha
+169,23/11/2023,Walk-in,4932149587,Kids,Frock,L,Green,1,499,0,499.0,Card,Main Market,Priya
+170,04/08/2024,Walk-in,7174773329,Accessories,Cap,Free Size,Navy,2,149,10,268.2,Card,Mall Road,Amit
+171,26/03/2025,Anil Kumar,1487696393,Accessories,Belt,Free Size,Blue,2,149,0,298.0,UPI,Mall Road,Rahul
+172,13/03/2023,Walk-in,9657013290,Kids,Frock,S,Navy,1,199,0,199.0,Card,Main Market,Sneha
+173,24/02/2023,Walk-in,5140369656,Kids,Shorts,XL,Yellow,1,199,0,199.0,UPI,Mall Road,House Account
+174,05/04/2025,ANJALI,9692786876,Accessories,Wallet,Free Size,Black,1,149,0,149.0,UPI,Unknown,Vikas
+175,22/03/2023,Walk-in,NA,Accessories,Socks,Free Size,Red,1,99,15,84.15,Other,Unknown,Vikas
+176,06/02/2025,Sunita Sharma,NA,Men,Jeans,XL,Grey,1,999,0,999.0,UPI,Unknown,Rahul
+177,28/08/2024,ANJALI,2437280512,Kids,Shirt,M,Pink,3,399,20,957.6,Card,Main Market,Amit
+178,28/08/2023,Pooja Verma,2860476580,Women,Saree,S,Green,1,1999,10,1799.1,UPI,Unknown,Vikas
+179,07/12/2024,Anil Kumar,0106181753,Kids,Shorts,S,Green,2,499,20,798.4,UPI,Unknown,Sneha
+180,11/10/2023,Anil Kumar,1406650442,Men,Blazer,S,Navy,1,499,0,499.0,Card,Main Market,Amit
+181,08/02/2023,Sunita Sharma,NA,Accessories,Wallet,Free Size,Green,1,99,0,99.0,Card,Mall Road,Rahul
+182,24/10/2024,Anil Kumar,5174328063,Accessories,Belt,Free Size,Maroon,1,99,0,99.0,Card,Main Market,Amit
+183,05/04/2024,Walk-in,5061387829,Women,Saree,M,Red,2,1199,0,2398.0,Cash,Mall Road,Rahul
+184,29/03/2025,Ramesh Gupta,NA,Women,Palazzo,S,Black,2,349.00,10,628.2,Other,Mall Road,House Account
+185,20/07/2024,ANJALI,NA,Men,Blazer,L,White,3,0,0,0.0,Other,Station Branch,Rahul
+186,27/05/2023,Walk-in,3290927914,Women,Kurti,S,Red,3,449,0,1347.0,Cash,Station Branch,House Account
+187,15/09/2023,ANJALI,NA,Women,Dress,L,Red,1,349.00,0,349.0,Cash,Mall Road,Priya
+188,14/08/2023,ANJALI,0623972652,Men,T-Shirt,XXL,Navy,1,599,20,479.2,Cash,Unknown,Rahul
+189,14/08/2024,Ramesh Gupta,NA,Kids,Frock,XL,Grey,3,399,10,1077.3,UPI,Mall Road,Amit
+190,21/01/2025,Walk-in,6717731806,Kids,T-Shirt,M,White,1,299,0,299.0,Card,Unknown,Vikas
+191,02/01/2023,Pooja Verma,5804649893,Women,Palazzo,XXL,Navy,3,899,0,2697.0,Other,Mall Road,Rahul
+192,02/09/2023,Walk-in,9335548640,Men,Trousers,XL,Navy,2,399,0,798.0,Cash,Mall Road,Vikas
+193,23/05/2024,Ramesh Gupta,0468275670,Accessories,Socks,Free Size,White,1,299,0,299.0,UPI,Unknown,House Account
+194,23/10/2023,Walk-in,7292842222,Accessories,Socks,Free Size,Grey,3,299,20,717.6,UPI,Mall Road,Amit
+195,29/05/2023,Anil Kumar,NA,Women,Top,L,Yellow,1,599,0,599.0,Other,Unknown,Vikas
+196,26/02/2023,Ramesh Gupta,3430187186,Accessories,Scarf,Free Size,Yellow,1,99,0,99.0,Other,Mall Road,Rahul
+197,29/01/2025,ANJALI,6629912347,Women,Palazzo,L,Maroon,3,349,0,1047.0,Card,Main Market,Rahul
+198,08/11/2023,Walk-in,3002447146,Accessories,Scarf,Free Size,Pink,2,149,15,253.3,UPI,Mall Road,Priya
+199,17/04/2024,Anil Kumar,NA,Kids,Shirt,L,Grey,3,199,0,597.0,Card,Main Market,Vikas
+200,05/12/2024,Walk-in,5202845765,Kids,T-Shirt,M,Blue,3,299,0,897.0,UPI,Station Branch,Priya
+201,17/12/2023,Sunita Sharma,NA,Accessories,Cap,Free Size,Black,1,199,0,199.0,Cash,Unknown,Sneha
+202,23/03/2025,Walk-in,4014011939,Kids,Frock,Standard,Blue,1,0,0,0.0,UPI,Station Branch,House Account
+203,12/04/2023,Walk-in,7592712566,Kids,Frock,XXL,Navy,1,199,10,179.1,Cash,Mall Road,Priya
+204,30/03/2024,Walk-in,6317520716,Women,Dress,L,Pink,1,349.00,0,349.0,UPI,Main Market,Amit
+205,13/02/2025,Anil Kumar,9678427114,Men,Jeans,Standard,White,1,999,20,799.2,Cash,Mall Road,Rahul
+206,17/05/2024,Sunita Sharma,8800616756,Women,Dress,M,Green,1,1199,0,1199.0,Cash,Mall Road,Rahul
+207,27/09/2023,Pooja Verma,5450090255,Women,Leggings,XL,Blue,1,1599,0,1599.0,Card,Mall Road,House Account
+208,21/01/2023,Anil Kumar,NA,Accessories,Scarf,Free Size,White,3,0,0,0.0,Card,Mall Road,Rahul
+209,29/05/2024,Walk-in,5637183440,Accessories,Socks,Free Size,Maroon,2,0,0,0.0,Cash,Unknown,Priya
+210,17/11/2023,Pooja Verma,9878208297,Kids,Shorts,XXL,Pink,1,299,0,299.0,Other,Station Branch,Rahul
+211,27/02/2024,Sunita Sharma,4936312303,Men,Kurta,L,Grey,3,499,0,1497.0,Cash,Main Market,Amit
+212,02/11/2023,Pooja Verma,1623198189,Kids,Frock,L,Green,1,299,10,269.1,Cash,Mall Road,House Account
+213,26/04/2023,Walk-in,3425754090,Accessories,Wallet,Free Size,Black,2,199.00,0,398.0,UPI,Mall Road,Rahul
+214,01/11/2023,Walk-in,5604177656,Kids,Shorts,XXL,White,1,499,10,449.1,Card,Mall Road,House Account
+215,31/12/2024,Pooja Verma,5772429543,Accessories,Belt,Free Size,Grey,1,99.00,0,99.0,UPI,Main Market,Rahul
+216,03/08/2024,Walk-in,6771333447,Men,Kurta,S,Grey,1,499.00,10,449.1,Other,Main Market,Rahul
+217,10/12/2024,Ramesh Gupta,6941180053,Women,Dress,S,Green,1,449,0,449.0,Cash,Main Market,Vikas
+218,27/06/2024,Walk-in,5027456449,Accessories,Scarf,Free Size,Black,1,199,0,199.0,Card,Main Market,Amit
+219,01/01/2024,ANJALI,1215134228,Men,T-Shirt,S,White,1,499,10,449.1,Cash,Station Branch,Amit
+220,30/04/2025,ANJALI,4905097592,Accessories,Belt,Free Size,Blue,1,99,0,99.0,Cash,Unknown,Priya
+221,31/10/2024,Walk-in,6492515837,Accessories,Belt,Free Size,Black,1,0,15,0.0,Card,Mall Road,Amit
+222,31/03/2025,Sunita Sharma,NA,Accessories,Cap,Free Size,Pink,2,149,0,298.0,UPI,Mall Road,Vikas
+223,25/03/2023,Walk-in,NA,Men,Kurta,S,Pink,2,0,15,0.0,Card,Main Market,Priya
+224,23/09/2023,Pooja Verma,0610277697,Accessories,Scarf,Free Size,Grey,1,199,0,199.0,Other,Mall Road,Vikas
+225,28/05/2025,Ramesh Gupta,NA,Men,T-Shirt,S,White,2,399,0,798.0,Cash,Main Market,Amit
+226,18/03/2024,ANJALI,9840767899,Accessories,Cap,Free Size,Grey,1,199,0,199.0,Cash,Mall Road,House Account
+227,24/11/2024,Walk-in,8015619318,Women,Saree,XXL,Grey,1,1999,0,1999.0,Cash,Station Branch,Vikas
+228,21/06/2023,Ramesh Gupta,2478712552,Women,Dupatta,S,Grey,3,899,10,2427.3,Cash,Main Market,Amit
+229,01/04/2025,Pooja Verma,7850720811,Kids,Shorts,S,Green,3,499,0,1497.0,Cash,Unknown,Amit
+230,08/11/2023,Walk-in,NA,Men,Kurta,XXL,Yellow,2,0,0,0.0,Card,Main Market,Rahul
+231,19/10/2023,Walk-in,8315893571,Men,Trousers,XXL,Red,2,799,20,1278.4,Card,Main Market,Amit
+232,02/03/2024,Walk-in,7728813770,Women,Dress,L,Pink,1,1199,10,1079.1,Card,Main Market,Priya
+233,09/11/2023,Ramesh Gupta,NA,Kids,Shorts,Standard,Black,3,399,10,1077.3,Cash,Main Market,Rahul
+234,06/06/2025,Walk-in,9663658074,Accessories,Socks,Free Size,Yellow,2,399,0,798.0,UPI,Station Branch,Priya
+235,09/09/2023,ANJALI,NA,Men,T-Shirt,XXL,Pink,2,499,0,998.0,Card,Main Market,House Account
+236,28/08/2023,Sunita Sharma,9138249671,Women,Dupatta,XL,Pink,2,1199,0,2398.0,Cash,Main Market,Rahul
+237,25/01/2024,Ramesh Gupta,8402891416,Accessories,Belt,Free Size,Navy,1,0,0,0.0,UPI,Station Branch,House Account
+238,15/09/2024,Walk-in,2687681180,Kids,Shorts,L,White,1,399.00,0,399.0,Card,Station Branch,House Account
+239,27/09/2024,Walk-in,0785931109,Men,Kurta,L,Maroon,2,799,0,1598.0,UPI,Mall Road,House Account
+240,08/07/2024,Walk-in,9545089203,Accessories,Cap,Free Size,White,2,99,15,168.3,UPI,Unknown,Sneha
+241,19/03/2025,ANJALI,NA,Men,Jeans,XL,Grey,1,999,0,999.0,UPI,Main Market,Sneha
+242,19/07/2023,Anil Kumar,NA,Accessories,Scarf,Free Size,Maroon,2,0,0,0.0,UPI,Unknown,Amit
+243,13/12/2023,Sunita Sharma,5528961122,Kids,Frock,M,Red,1,0,0,0.0,Other,Main Market,Rahul
+244,10/11/2024,Walk-in,NA,Women,Dupatta,M,Yellow,1,349,0,349.0,Card,Mall Road,Amit
+245,27/07/2023,Ramesh Gupta,4669254812,Women,Leggings,XXL,Grey,3,899,0,2697.0,UPI,Station Branch,House Account
+246,08/06/2024,Pooja Verma,NA,Women,Palazzo,XXL,Green,1,1999,10,1799.1,UPI,Station Branch,Amit
+247,25/01/2025,ANJALI,5536668459,Accessories,Scarf,Free Size,White,1,149.00,0,149.0,Card,Station Branch,Rahul
+248,20/07/2024,Walk-in,9702316433,Accessories,Wallet,Free Size,Pink,2,99,0,198.0,Cash,Main Market,House Account
+249,27/12/2024,Walk-in,4938743027,Accessories,Cap,Free Size,Black,1,99,0,99.0,UPI,Mall Road,Amit
+250,20/01/2025,ANJALI,2916032484,Accessories,Socks,Free Size,Green,3,199,0,597.0,Card,Station Branch,Priya
+251,02/01/2024,Ramesh Gupta,8370816470,Women,Saree,XXL,Blue,2,599,0,1198.0,UPI,Main Market,Priya
+252,13/10/2023,Anil Kumar,NA,Accessories,Belt,Free Size,Blue,1,99.00,0,99.0,Card,Main Market,Amit
+253,06/12/2023,Ramesh Gupta,NA,Women,Palazzo,L,Black,3,599,0,1797.0,Other,Unknown,Sneha
+254,09/05/2023,Walk-in,3381674233,Accessories,Socks,Free Size,Grey,2,0,10,0.0,UPI,Mall Road,Amit
+255,13/03/2024,Sunita Sharma,2824674746,Men,Jeans,XL,Black,1,799,10,719.1,UPI,Main Market,Rahul
+256,30/01/2024,Walk-in,NA,Kids,Shirt,XL,Maroon,1,499,0,499.0,Card,Station Branch,Amit
+257,28/11/2024,Sunita Sharma,NA,Kids,T-Shirt,XL,White,2,199,0,398.0,Cash,Main Market,Rahul
+258,26/02/2024,Walk-in,5243640270,Accessories,Socks,Free Size,Maroon,2,199,0,398.0,UPI,Unknown,Rahul
+259,08/04/2025,Sunita Sharma,6791214161,Women,Saree,M,Black,3,899,0,2697.0,Other,Main Market,Rahul
+260,10/09/2024,Anil Kumar,5535669055,Men,Jeans,XXL,Red,3,399,0,1197.0,Cash,Main Market,Priya
+261,13/06/2025,Anil Kumar,3976915671,Kids,Frock,XL,Navy,2,499.00,10,898.2,UPI,Unknown,Rahul
+262,06/11/2024,Walk-in,0256434712,Women,Dress,L,Pink,2,899,0,1798.0,UPI,Station Branch,Priya
+263,26/05/2024,Walk-in,2095481497,Accessories,Cap,Free Size,Black,1,99,15,84.15,Card,Main Market,Sneha
+264,05/02/2024,Walk-in,4438612590,Women,Palazzo,M,Grey,1,899,0,899.0,Card,Mall Road,Amit
+265,30/04/2024,Walk-in,NA,Women,Saree,S,Yellow,2,1999,10,3598.2,Cash,Unknown,Rahul
+266,30/10/2024,Anil Kumar,NA,Women,Kurti,M,Maroon,2,599,10,1078.2,UPI,Main Market,Rahul
+267,04/11/2024,Ramesh Gupta,8487297585,Women,Top,M,Blue,1,599,0,599.0,Cash,Main Market,Amit
+268,17/06/2023,ANJALI,NA,Kids,Frock,XXL,Pink,1,399,0,399.0,UPI,Main Market,Priya
+269,23/04/2023,Pooja Verma,NA,Kids,Frock,XXL,Pink,1,499,0,499.0,UPI,Main Market,Sneha
+270,18/12/2024,Sunita Sharma,9102562588,Kids,T-Shirt,XL,White,2,199,0,398.0,UPI,Unknown,Amit
+271,29/05/2024,Sunita Sharma,8341465111,Women,Saree,Standard,Green,1,1599,10,1439.1,UPI,Mall Road,Rahul
+272,06/02/2025,Ramesh Gupta,8909728321,Accessories,Socks,Free Size,Grey,3,0,10,0.0,Cash,Mall Road,Priya
+273,20/10/2024,Walk-in,9705097545,Kids,Frock,L,Green,1,0,0,0.0,Cash,Main Market,Rahul
+274,06/07/2023,Sunita Sharma,NA,Accessories,Wallet,Free Size,Maroon,1,149,0,149.0,Card,Unknown,Rahul
+275,12/11/2024,Walk-in,8725686211,Men,Jeans,Standard,White,1,599.00,0,599.0,Cash,Unknown,House Account
+276,28/04/2023,Ramesh Gupta,6371892392,Accessories,Socks,Free Size,Grey,1,99,0,99.0,Cash,Mall Road,Rahul
+277,08/01/2024,Anil Kumar,3502000534,Women,Kurti,XL,Maroon,2,599,0,1198.0,Card,Mall Road,Vikas
+278,19/04/2023,Walk-in,NA,Men,Shirt,XXL,Black,2,599,0,1198.0,UPI,Unknown,Amit
+279,27/07/2024,Anil Kumar,1617688029,Men,Shirt,L,Grey,2,1499,10,2698.2,Cash,Unknown,Sneha
+280,29/08/2024,Walk-in,8443448123,Accessories,Cap,Free Size,Grey,1,399,0,399.0,UPI,Main Market,Vikas
+281,18/09/2024,Anil Kumar,0534240891,Men,Blazer,M,Pink,2,399,0,798.0,UPI,Station Branch,Sneha
+282,05/07/2023,Walk-in,2397240422,Accessories,Wallet,Free Size,White,1,149.00,10,134.1,Card,Unknown,Rahul
+283,22/01/2023,Walk-in,1862030366,Men,T-Shirt,XL,Navy,1,799,0,799.0,Card,Unknown,Priya
+284,27/06/2024,Walk-in,2494514754,Accessories,Wallet,Free Size,Blue,1,399,0,399.0,Cash,Unknown,Amit
+285,30/01/2024,Anil Kumar,7695236687,Kids,Frock,XL,Grey,1,199.00,10,179.1,Card,Station Branch,Sneha
+286,06/06/2025,Sunita Sharma,8633302126,Men,T-Shirt,Standard,White,1,1499.00,0,1499.0,UPI,Main Market,Amit
+287,24/06/2024,ANJALI,5704120092,Women,Kurti,L,Black,1,449,0,449.0,UPI,Unknown,Vikas
+288,26/07/2024,Walk-in,7756620563,Kids,Frock,M,Green,1,499,0,499.0,Card,Main Market,Sneha
+289,15/02/2023,ANJALI,NA,Kids,Frock,S,White,1,399,0,399.0,Card,Mall Road,Rahul
+290,27/01/2024,Walk-in,2711332288,Women,Leggings,L,Black,1,1599.00,10,1439.1,Cash,Mall Road,Vikas
+291,14/07/2024,ANJALI,NA,Kids,Shirt,XL,White,1,199,0,199.0,UPI,Station Branch,House Account
+292,21/10/2023,Pooja Verma,2758955168,Kids,T-Shirt,Standard,Grey,1,399,0,399.0,Cash,Unknown,Sneha
+293,17/04/2025,Walk-in,NA,Men,T-Shirt,L,Maroon,2,499,0,998.0,Card,Main Market,Rahul
+294,16/10/2024,Walk-in,NA,Men,T-Shirt,M,Grey,1,1499,10,1349.1,Cash,Station Branch,Rahul
+295,11/04/2024,Pooja Verma,8685127652,Women,Leggings,M,Navy,3,599,0,1797.0,Other,Mall Road,Vikas
+296,03/02/2023,Pooja Verma,NA,Men,Shirt,S,Red,2,999,0,1998.0,Card,Main Market,House Account
+297,05/01/2023,Walk-in,NA,Accessories,Cap,Free Size,Yellow,3,199,10,537.3,UPI,Mall Road,House Account
+298,17/02/2024,Walk-in,NA,Women,Top,M,Pink,1,449,0,449.0,Cash,Unknown,Rahul
+299,08/08/2024,Walk-in,2752334383,Kids,Frock,M,Blue,1,499,0,499.0,Cash,Main Market,Rahul
+300,18/02/2025,Ramesh Gupta,1305231244,Kids,Shorts,XXL,Navy,1,299,0,299.0,Card,Mall Road,Rahul
+301,06/10/2023,Walk-in,6395517208,Women,Leggings,M,Green,1,349,0,349.0,UPI,Mall Road,Rahul
+302,10/01/2023,Walk-in,3795381649,Men,Shirt,L,Maroon,1,0,0,0.0,Other,Main Market,Rahul
+303,01/12/2023,Pooja Verma,NA,Accessories,Scarf,Free Size,White,1,0,0,0.0,UPI,Main Market,Amit
+304,11/01/2025,Walk-in,0401041459,Accessories,Belt,Free Size,Red,2,149,0,298.0,Cash,Main Market,House Account
+305,23/02/2025,Walk-in,3311703037,Women,Dupatta,XL,Blue,1,1199.00,20,959.2,UPI,Station Branch,House Account
+306,09/03/2024,Sunita Sharma,9127113072,Kids,Shirt,XXL,Blue,2,399,0,798.0,Cash,Station Branch,Priya
+307,13/07/2023,Walk-in,8978610313,Kids,Shirt,M,Maroon,1,399.00,10,359.1,UPI,Main Market,Vikas
+308,07/04/2023,Walk-in,9743251225,Women,Top,XL,Maroon,1,449,15,381.65,Cash,Mall Road,Priya
+309,05/05/2025,Walk-in,2114577584,Women,Palazzo,XXL,Yellow,1,1199,0,1199.0,Card,Station Branch,Amit
+310,02/04/2023,Pooja Verma,4878245569,Men,Jeans,Standard,Maroon,2,1499.00,0,2998.0,Card,Station Branch,Priya
+311,23/10/2023,Sunita Sharma,NA,Accessories,Cap,Free Size,Blue,1,299,0,299.0,Cash,Mall Road,Vikas
+312,27/05/2023,Pooja Verma,1430753666,Men,Trousers,S,Red,3,599,10,1617.3,UPI,Mall Road,House Account
+313,03/05/2025,Walk-in,NA,Women,Palazzo,L,Black,2,1199,0,2398.0,Card,Mall Road,House Account
+314,11/05/2023,Walk-in,4062607870,Accessories,Cap,Free Size,Grey,1,0,20,0.0,UPI,Main Market,Vikas
+315,08/06/2023,Sunita Sharma,0793110291,Accessories,Scarf,Free Size,Navy,1,149,10,134.1,Card,Main Market,Priya
+316,26/05/2023,Walk-in,8377441975,Kids,Shirt,M,White,2,399,0,798.0,Card,Main Market,Rahul
+318,23/05/2023,ANJALI,2588358681,Kids,Shirt,XXL,Maroon,2,399,10,718.2,Card,Unknown,Amit
+319,17/08/2024,Pooja Verma,NA,Kids,Shorts,S,Grey,2,299,0,598.0,Other,Main Market,Amit
+320,15/01/2025,ANJALI,NA,Men,Blazer,M,Red,3,1499,0,4497.0,Card,Station Branch,Amit
+321,21/04/2025,Sunita Sharma,5124189389,Men,Trousers,XL,Blue,1,999,0,999.0,Card,Mall Road,Rahul
+323,30/08/2023,Walk-in,9905169918,Men,Jeans,L,White,1,599,0,599.0,UPI,Unknown,House Account
+324,23/02/2025,Walk-in,6821719553,Accessories,Cap,Free Size,Red,2,399,0,798.0,Card,Unknown,Rahul
+325,12/09/2024,ANJALI,1148375374,Men,Jacket,S,Blue,2,399,0,798.0,UPI,Mall Road,Priya
+326,15/04/2025,Walk-in,7710704496,Men,Jeans,XXL,Grey,1,599,0,599.0,Cash,Mall Road,Rahul
+327,11/02/2025,Sunita Sharma,9305966018,Accessories,Belt,Free Size,Maroon,2,0,10,0.0,Card,Mall Road,Vikas
+328,06/01/2024,Sunita Sharma,9014954277,Women,Dress,Standard,Black,1,599,0,599.0,Other,Station Branch,Sneha
+329,28/06/2023,Walk-in,NA,Accessories,Belt,Free Size,Navy,1,299,0,299.0,Card,Station Branch,House Account
+330,21/03/2023,Ramesh Gupta,5616420595,Men,Kurta,S,Green,1,599,0,599.0,UPI,Main Market,Amit
+331,19/08/2024,Walk-in,1139898681,Kids,T-Shirt,M,Navy,2,299,20,478.4,Card,Mall Road,Vikas
+332,24/02/2024,Walk-in,8157937639,Women,Dupatta,M,Yellow,1,1999.00,0,1999.0,Other,Station Branch,Amit
+333,09/04/2024,Walk-in,NA,Kids,Shorts,L,Blue,2,499,0,998.0,Cash,Main Market,Rahul
+334,24/04/2025,Walk-in,0157676472,Accessories,Belt,Free Size,Black,2,299,0,598.0,Cash,Main Market,House Account
+335,14/05/2025,Sunita Sharma,5220368499,Accessories,Cap,Free Size,Black,1,99,10,89.1,UPI,Main Market,Vikas
+336,19/11/2024,Anil Kumar,0618538003,Kids,T-Shirt,L,Blue,2,199,0,398.0,UPI,Mall Road,Amit
+337,28/12/2024,Walk-in,4969357824,Accessories,Wallet,Free Size,Black,1,399,0,399.0,UPI,Mall Road,Amit
+338,12/02/2024,ANJALI,7963044836,Kids,T-Shirt,S,Green,1,399,0,399.0,Card,Mall Road,Rahul
+339,23/04/2023,Anil Kumar,NA,Accessories,Scarf,Free Size,Grey,2,99,0,198.0,Card,Main Market,House Account
+340,09/08/2023,Ramesh Gupta,0081867024,Kids,T-Shirt,XXL,White,2,299,15,508.3,Cash,Mall Road,Rahul
+341,25/08/2024,Ramesh Gupta,4568044731,Women,Dupatta,S,Blue,2,0,10,0.0,Cash,Main Market,Rahul
+342,26/01/2023,Ramesh Gupta,7914521182,Kids,Shirt,XXL,Pink,3,199,0,597.0,Card,Station Branch,Amit
+343,07/12/2024,Walk-in,8753577881,Women,Kurti,L,Maroon,2,0,0,0.0,UPI,Unknown,Priya
+345,29/10/2023,Walk-in,5922483958,Women,Saree,S,Red,2,899.00,0,1798.0,Cash,Main Market,Amit
+346,24/04/2024,Walk-in,NA,Men,Jeans,M,Black,1,799,0,799.0,Cash,Main Market,Vikas
+347,02/07/2023,Walk-in,NA,Kids,Shirt,L,Navy,1,399,0,399.0,UPI,Station Branch,Vikas
+348,06/04/2025,Pooja Verma,5481386667,Accessories,Wallet,Free Size,White,1,149,10,134.1,UPI,Main Market,Vikas
+349,28/02/2025,Pooja Verma,NA,Women,Dupatta,XXL,Grey,1,1599,10,1439.1,Card,Mall Road,Amit
+350,07/10/2023,Sunita Sharma,6044090797,Men,T-Shirt,L,Pink,1,0,0,0.0,Cash,Mall Road,Rahul
+352,18/07/2023,Walk-in,5295806601,Women,Palazzo,M,Blue,1,1999.00,0,1999.0,Cash,Mall Road,Rahul
+353,03/04/2023,Walk-in,NA,Kids,Frock,M,Red,2,399,10,718.2,Cash,Main Market,House Account
+354,28/02/2024,Ramesh Gupta,3244741759,Accessories,Belt,Free Size,White,1,0,0,0.0,Cash,Main Market,Rahul
+355,04/08/2023,Ramesh Gupta,0182727955,Women,Top,XL,Yellow,2,1999,10,3598.2,Card,Main Market,Amit
+356,12/12/2024,Pooja Verma,3459576403,Accessories,Cap,Free Size,Blue,1,149.00,0,149.0,UPI,Mall Road,Rahul
+357,22/03/2025,Anil Kumar,2702324412,Women,Top,Standard,Navy,1,1199,0,1199.0,Other,Station Branch,House Account
+358,01/02/2024,Anil Kumar,2654696815,Men,Trousers,L,Blue,3,799,0,2397.0,UPI,Mall Road,House Account
+359,15/11/2023,ANJALI,NA,Kids,T-Shirt,S,White,1,299,0,299.0,Other,Station Branch,Priya
+360,17/11/2024,Pooja Verma,4641978575,Accessories,Belt,Free Size,Maroon,1,149,0,149.0,Card,Unknown,Priya
+361,21/02/2023,Anil Kumar,5408424560,Women,Kurti,XXL,Green,1,0,10,0.0,UPI,Unknown,Rahul
+362,04/05/2025,ANJALI,NA,Women,Saree,Standard,Blue,1,1599.00,0,1599.0,Other,Main Market,Rahul
+363,22/09/2024,Walk-in,3059736424,Men,Jeans,XL,Maroon,1,399,0,399.0,Cash,Mall Road,Sneha
+364,31/01/2023,Walk-in,9660487368,Kids,Shirt,XXL,Blue,1,399,10,359.1,UPI,Main Market,Priya
+365,10/10/2024,Walk-in,6367747226,Kids,Frock,XL,Pink,3,299,0,897.0,Cash,Unknown,Priya
+366,24/01/2023,Ramesh Gupta,NA,Accessories,Socks,Free Size,Maroon,2,399,0,798.0,Cash,Unknown,Rahul
+367,31/07/2023,ANJALI,9732781952,Women,Dupatta,Standard,Yellow,1,1999.00,0,1999.0,Other,Unknown,Rahul
+368,12/02/2024,Anil Kumar,8761124912,Accessories,Cap,Free Size,Green,1,399,10,359.1,UPI,Main Market,House Account
+369,18/06/2024,Walk-in,NA,Men,Trousers,M,Green,2,599,0,1198.0,Cash,Station Branch,Vikas
+370,23/09/2023,Walk-in,8679252985,Accessories,Cap,Free Size,Black,3,299,0,897.0,Card,Main Market,Amit
+371,06/08/2024,Walk-in,3506158148,Accessories,Belt,Free Size,White,3,149,0,447.0,Card,Station Branch,Sneha
+372,20/01/2025,Walk-in,0333997718,Women,Leggings,Standard,White,2,0,0,0.0,Card,Main Market,Amit
+373,12/10/2024,ANJALI,4694725878,Women,Kurti,XXL,Grey,2,1199.00,20,1918.4,Card,Mall Road,Vikas
+374,23/08/2023,ANJALI,4524555746,Women,Dupatta,M,Black,2,1599,0,3198.0,Card,Mall Road,Amit
+375,29/11/2023,Walk-in,9493817359,Women,Leggings,S,Blue,1,1599,0,1599.0,Cash,Main Market,House Account
+376,24/05/2023,Pooja Verma,7080850960,Kids,Shirt,M,Yellow,2,499,0,998.0,Card,Unknown,Priya
+377,21/04/2024,Walk-in,1295786069,Men,Kurta,XXL,Blue,1,999,10,899.1,Card,Mall Road,Amit
+378,31/07/2023,Walk-in,NA,Kids,Frock,XXL,Grey,2,299,0,598.0,Cash,Station Branch,House Account
+379,26/03/2024,Pooja Verma,NA,Men,Jeans,M,White,1,499,0,499.0,Cash,Mall Road,Amit
+380,28/01/2025,Anil Kumar,5633185748,Accessories,Wallet,Free Size,Navy,2,149,10,268.2,Card,Main Market,House Account
+381,13/03/2025,Anil Kumar,NA,Women,Top,M,Yellow,2,1999.00,20,3198.4,Card,Main Market,Rahul
+382,09/09/2024,Sunita Sharma,4258591779,Women,Saree,S,Yellow,1,349,0,349.0,UPI,Unknown,Priya
+383,13/06/2024,Sunita Sharma,2565290603,Men,Blazer,L,Navy,1,399,0,399.0,Card,Mall Road,Rahul
+384,12/12/2023,Walk-in,7871584156,Accessories,Cap,Free Size,Navy,1,299,0,299.0,Cash,Main Market,Vikas
+385,23/07/2023,Walk-in,2988085838,Women,Dupatta,L,Grey,2,1199,20,1918.4,UPI,Main Market,Amit
+386,21/01/2025,Walk-in,NA,Accessories,Wallet,Free Size,Maroon,1,299.00,15,254.15,UPI,Mall Road,Amit
+387,26/05/2023,Anil Kumar,NA,Accessories,Cap,Free Size,Yellow,2,149,0,298.0,Other,Station Branch,Amit
+388,11/02/2023,Sunita Sharma,NA,Women,Palazzo,L,Blue,2,0,0,0.0,Card,Mall Road,Sneha
+389,10/10/2023,Walk-in,4510173973,Men,Shirt,M,Grey,3,0,0,0.0,UPI,Station Branch,Rahul
+390,22/12/2023,ANJALI,8066039205,Accessories,Belt,Free Size,Navy,2,199,0,398.0,UPI,Mall Road,House Account
+391,26/06/2023,Walk-in,9835411659,Kids,Frock,XL,Red,2,399,15,678.3,Card,Mall Road,Amit
+392,19/03/2023,Walk-in,NA,Kids,Frock,L,Red,3,399,0,1197.0,UPI,Main Market,House Account
+393,14/02/2024,Pooja Verma,5465535851,Women,Kurti,M,Red,2,1199.00,0,2398.0,UPI,Station Branch,Amit
+394,06/05/2025,ANJALI,7961208780,Men,Jacket,Standard,Yellow,2,399,0,798.0,UPI,Station Branch,Vikas
+395,28/05/2023,Anil Kumar,9059119186,Men,Blazer,XL,Black,1,799,20,639.2,Cash,Main Market,Rahul
+396,25/12/2024,Sunita Sharma,2463351571,Accessories,Belt,Free Size,Blue,3,299,0,897.0,Card,Main Market,Amit
+397,12/08/2023,Walk-in,2959272827,Men,Kurta,S,Yellow,1,799,0,799.0,Cash,Mall Road,Vikas
+398,03/02/2024,Walk-in,1535237360,Men,Jeans,XXL,Pink,1,499,10,449.1,UPI,Main Market,Priya
+399,26/11/2023,ANJALI,4740803149,Kids,Shirt,L,Yellow,1,299,0,299.0,Cash,Main Market,Vikas
+400,30/12/2024,Walk-in,7399006314,Accessories,Wallet,Free Size,Maroon,1,399,10,359.1,Cash,Mall Road,Sneha
+401,07/10/2023,Walk-in,6643749060,Kids,Shirt,M,Black,2,399,10,718.2,Cash,Main Market,Amit
+402,24/06/2025,Walk-in,7328077113,Men,T-Shirt,Standard,Green,2,1299,10,2338.2,Cash,Main Market,Rahul
+403,17/04/2023,Walk-in,9069130981,Women,Saree,S,Blue,1,349,0,349.0,Card,Mall Road,Rahul
+404,02/02/2024,Walk-in,0642076836,Accessories,Wallet,Free Size,Yellow,1,149.00,0,149.0,Card,Mall Road,Amit
+405,16/01/2025,Anil Kumar,8654362718,Accessories,Cap,Free Size,Yellow,1,149,0,149.0,Cash,Main Market,Sneha
+406,18/10/2024,Ramesh Gupta,NA,Kids,Frock,XXL,Maroon,1,199,0,199.0,Card,Mall Road,Rahul
+407,10/05/2025,Anil Kumar,5977524418,Men,Jacket,S,Red,1,399,0,399.0,UPI,Mall Road,Amit
+408,17/04/2025,ANJALI,2707955151,Accessories,Scarf,Free Size,Black,1,149,0,149.0,Cash,Unknown,Sneha
+409,16/06/2024,ANJALI,2034476504,Kids,Shorts,Standard,Navy,1,199,0,199.0,Cash,Station Branch,Rahul
+410,25/12/2024,Walk-in,4837441715,Men,Jeans,M,Grey,3,799,10,2157.3,UPI,Main Market,Amit
+411,03/10/2024,Anil Kumar,1910231211,Kids,T-Shirt,XXL,White,1,199,0,199.0,Cash,Mall Road,House Account
+412,30/06/2023,Sunita Sharma,NA,Women,Dress,XL,Navy,3,449,0,1347.0,Cash,Main Market,Amit
+414,30/06/2025,Sunita Sharma,1017509617,Kids,Frock,Standard,Navy,1,499,20,399.2,Card,Unknown,Priya
+416,24/02/2024,ANJALI,6777226602,Kids,Shorts,L,Grey,1,399,0,399.0,Card,Unknown,Amit
+417,16/07/2024,Ramesh Gupta,NA,Women,Top,M,Blue,1,899,0,899.0,Cash,Mall Road,Rahul
+418,12/06/2023,Sunita Sharma,6919284552,Kids,T-Shirt,L,Grey,1,299,0,299.0,UPI,Mall Road,Sneha
+419,30/08/2024,Ramesh Gupta,3797058162,Kids,Shirt,XXL,Yellow,3,399,10,1077.3,UPI,Main Market,Amit
+420,13/03/2025,Anil Kumar,5983399140,Accessories,Wallet,Free Size,Yellow,1,299,0,299.0,Card,Unknown,Rahul
+421,30/03/2024,Walk-in,7439742925,Kids,Shorts,M,Green,1,499,0,499.0,Card,Unknown,Rahul
+422,16/05/2023,Walk-in,2218231555,Men,Blazer,Standard,Maroon,1,499,0,499.0,Cash,Station Branch,Rahul
+423,15/02/2025,Walk-in,2855660847,Accessories,Wallet,Free Size,Grey,2,149,0,298.0,UPI,Station Branch,Rahul
+424,29/09/2024,Sunita Sharma,8623945354,Women,Saree,S,Yellow,1,349,0,349.0,Other,Station Branch,Rahul
+425,17/04/2025,Anil Kumar,3943804032,Women,Saree,S,Maroon,1,349,0,349.0,Card,Station Branch,Amit
+426,04/08/2024,Walk-in,NA,Accessories,Cap,Free Size,Blue,1,99,0,99.0,Card,Main Market,Vikas
+427,29/11/2024,ANJALI,NA,Accessories,Belt,Free Size,Blue,3,299,0,897.0,UPI,Unknown,Vikas
+428,14/01/2023,Walk-in,4473404337,Kids,T-Shirt,S,Black,3,0,0,0.0,UPI,Unknown,Amit
+429,30/05/2023,Anil Kumar,9657542786,Women,Palazzo,L,Yellow,1,1199,0,1199.0,Card,Unknown,Amit
+430,22/03/2025,Pooja Verma,NA,Accessories,Socks,Free Size,Yellow,2,399,20,638.4,Cash,Station Branch,Priya
+431,22/02/2024,Ramesh Gupta,7230817214,Men,Jeans,M,Yellow,2,799,0,1598.0,Cash,Main Market,Rahul
+432,03/09/2024,Anil Kumar,3469979907,Men,Shirt,S,White,1,499,0,499.0,Card,Station Branch,Priya
+434,06/02/2025,Ramesh Gupta,7054873961,Accessories,Socks,Free Size,Red,1,99.00,10,89.1,UPI,Mall Road,Priya
+435,10/02/2023,Anil Kumar,2137730626,Women,Dress,XXL,Maroon,1,1199,0,1199.0,Card,Main Market,Amit
+436,30/04/2024,Sunita Sharma,6111457683,Men,Shirt,M,Black,1,1299.00,0,1299.0,Other,Main Market,Amit
+437,12/01/2023,Walk-in,0184980425,Kids,Shorts,S,Black,1,0,0,0.0,Card,Main Market,Priya
+438,09/05/2025,Ramesh Gupta,6060560356,Women,Dress,M,Black,1,1199.00,0,1199.0,UPI,Mall Road,Amit
+439,28/11/2023,Ramesh Gupta,4358644963,Accessories,Scarf,Free Size,Yellow,3,199,0,597.0,Other,Unknown,House Account
+440,19/01/2024,Pooja Verma,4978524914,Kids,Frock,XXL,Pink,3,399,10,1077.3,Cash,Main Market,Vikas
+441,17/02/2025,Walk-in,4188421630,Accessories,Cap,Free Size,White,1,299,0,299.0,UPI,Mall Road,Rahul
+442,05/04/2025,Ramesh Gupta,0219947113,Women,Saree,XXL,Navy,1,1999,0,1999.0,UPI,Mall Road,Priya
+443,28/06/2025,Pooja Verma,NA,Men,T-Shirt,XL,Navy,1,1499,0,1499.0,Card,Station Branch,House Account
+444,17/03/2025,Ramesh Gupta,NA,Kids,T-Shirt,XXL,Navy,1,499,0,499.0,UPI,Mall Road,Amit
+445,19/09/2023,Ramesh Gupta,4722398983,Men,Blazer,S,Grey,1,1299,10,1169.1,Cash,Main Market,Rahul
+446,05/04/2023,Walk-in,2487623039,Kids,T-Shirt,XL,Black,1,499,0,499.0,Cash,Mall Road,House Account
+447,06/02/2025,Sunita Sharma,6287203195,Kids,Shirt,XL,Pink,2,499.00,0,998.0,Cash,Mall Road,Amit
+448,17/01/2023,ANJALI,6775372603,Women,Dupatta,M,Maroon,2,1599,10,2878.2,Card,Mall Road,Rahul
+449,14/04/2023,Walk-in,0838507659,Men,Kurta,Standard,Pink,1,0,10,0.0,Cash,Mall Road,Amit
+450,29/01/2024,Pooja Verma,NA,Accessories,Socks,Free Size,Black,1,299,10,269.1,Card,Station Branch,Sneha
+451,19/11/2024,Walk-in,NA,Accessories,Wallet,Free Size,White,1,99,10,89.1,Card,Mall Road,Vikas
+452,11/01/2025,Walk-in,4412833372,Kids,Shorts,XXL,Pink,1,299,0,299.0,UPI,Mall Road,Vikas
+453,15/01/2024,Sunita Sharma,NA,Men,T-Shirt,XXL,Grey,1,1299.00,10,1169.1,UPI,Main Market,Rahul
+454,09/01/2023,Walk-in,1200720245,Accessories,Wallet,Free Size,Navy,3,149,0,447.0,Cash,Mall Road,House Account
+455,22/06/2024,Sunita Sharma,NA,Men,Shirt,S,Navy,1,399,0,399.0,UPI,Main Market,Amit
+456,04/03/2024,Sunita Sharma,3372201091,Women,Palazzo,S,Maroon,2,599,0,1198.0,UPI,Mall Road,House Account
+457,02/02/2023,Pooja Verma,NA,Women,Palazzo,XL,Maroon,1,1599,0,1599.0,Card,Mall Road,Amit
+458,10/09/2024,Sunita Sharma,2600559550,Kids,Shirt,XXL,Black,1,299.00,10,269.1,Cash,Mall Road,Vikas
+459,21/03/2025,ANJALI,6799359374,Accessories,Socks,Free Size,Red,1,399,0,399.0,UPI,Mall Road,Vikas
+460,24/10/2024,ANJALI,NA,Accessories,Socks,Free Size,Blue,2,399,0,798.0,Other,Mall Road,Vikas
+461,23/05/2025,Ramesh Gupta,NA,Accessories,Wallet,Free Size,Black,2,199,10,358.2,Cash,Main Market,Amit
+462,12/07/2023,Anil Kumar,NA,Women,Top,XXL,Blue,2,449,10,808.2,Cash,Mall Road,Amit
+463,03/02/2023,Ramesh Gupta,6401042462,Men,T-Shirt,XXL,Pink,2,999,0,1998.0,Card,Main Market,Amit
+464,28/09/2023,Anil Kumar,2939130448,Kids,Shorts,S,Red,2,299,0,598.0,UPI,Mall Road,Vikas
+465,03/05/2024,ANJALI,6814298315,Men,Trousers,L,Maroon,1,399,0,399.0,Other,Main Market,Amit
+466,02/03/2023,Ramesh Gupta,6384526969,Women,Palazzo,M,Pink,2,899,0,1798.0,Card,Mall Road,Amit
+467,25/08/2023,Walk-in,6234190310,Men,Shirt,XXL,White,1,1299,0,1299.0,Cash,Mall Road,House Account
+468,08/10/2023,Walk-in,6720078436,Accessories,Cap,Free Size,White,2,149,0,298.0,Cash,Mall Road,Priya
+469,29/08/2023,Pooja Verma,NA,Accessories,Scarf,Free Size,Grey,1,299,10,269.1,Cash,Mall Road,House Account
+471,15/11/2024,Walk-in,7802058695,Kids,T-Shirt,XXL,Green,1,199,0,199.0,Card,Mall Road,Vikas
+472,16/02/2025,Walk-in,3680119236,Women,Palazzo,XXL,Navy,1,599.00,10,539.1,Other,Station Branch,Amit
+473,06/04/2023,Ramesh Gupta,1498307482,Women,Saree,M,Yellow,1,349,10,314.1,UPI,Mall Road,House Account
+474,14/11/2024,Ramesh Gupta,NA,Men,Shirt,XXL,Green,1,399,10,359.1,UPI,Main Market,Sneha
+475,18/03/2024,Walk-in,2760250826,Women,Leggings,S,Grey,1,1199,15,1019.15,Cash,Mall Road,Sneha
+476,21/01/2025,Ramesh Gupta,6871912038,Women,Leggings,XL,Black,3,1199.00,0,3597.0,Cash,Main Market,Amit
+477,28/01/2023,Walk-in,NA,Women,Top,S,Maroon,3,1599.00,0,4797.0,Cash,Main Market,Sneha
+479,09/02/2025,Sunita Sharma,NA,Accessories,Belt,Free Size,Red,2,149,10,268.2,UPI,Mall Road,Vikas
+480,10/01/2024,Walk-in,6080706336,Men,Jeans,XXL,Black,2,799.00,0,1598.0,UPI,Unknown,Amit
+481,22/09/2023,Walk-in,7383638164,Women,Kurti,L,Red,2,1999,15,3398.3,Other,Mall Road,Amit
+482,26/03/2023,Walk-in,4625540263,Kids,Shirt,M,Red,1,299,0,299.0,Cash,Unknown,Priya
+483,10/10/2023,Walk-in,0504043333,Accessories,Cap,Free Size,Green,2,149,0,298.0,Cash,Mall Road,Sneha
+484,30/08/2024,Ramesh Gupta,2653060119,Women,Dupatta,S,Blue,1,1199.00,0,1199.0,UPI,Mall Road,Rahul
+485,08/12/2023,ANJALI,4916093659,Men,T-Shirt,S,Red,2,999,0,1998.0,Cash,Station Branch,Vikas
+486,11/06/2023,Walk-in,NA,Men,Kurta,M,White,3,799,0,2397.0,Cash,Main Market,Vikas
+487,20/03/2025,Walk-in,1260030835,Men,Blazer,M,Pink,1,999,10,899.1,Cash,Unknown,Amit
+488,03/10/2024,Pooja Verma,2938440134,Men,Jeans,S,Black,2,1499,0,2998.0,UPI,Main Market,Amit
+489,13/01/2024,Walk-in,4920749269,Women,Dress,M,White,2,599,0,1198.0,Card,Unknown,Vikas
+490,22/03/2025,Walk-in,1234266980,Accessories,Belt,Free Size,Pink,1,399,15,339.15,Cash,Mall Road,Rahul
+491,16/06/2024,Walk-in,4056129965,Men,Blazer,M,White,2,599,0,1198.0,Card,Station Branch,Amit
+492,03/12/2024,Ramesh Gupta,5951434682,Accessories,Scarf,Free Size,Navy,2,99,0,198.0,Other,Main Market,Rahul
+493,01/02/2024,Ramesh Gupta,NA,Women,Dress,S,Red,1,1999,0,1999.0,Cash,Main Market,Priya
+494,11/06/2025,ANJALI,2053440777,Accessories,Socks,Free Size,Blue,1,0,10,0.0,Card,Mall Road,Amit
+495,07/03/2025,Walk-in,8841333731,Women,Leggings,XXL,Blue,1,1999,10,1799.1,Card,Mall Road,Priya
+496,01/09/2023,Anil Kumar,NA,Accessories,Socks,Free Size,Red,1,0,0,0.0,Cash,Main Market,Sneha
+497,17/03/2024,Sunita Sharma,3734167812,Accessories,Belt,Free Size,Green,1,399,0,399.0,Cash,Main Market,Amit
+498,15/02/2025,Ramesh Gupta,8318285605,Men,Trousers,S,White,3,599,20,1437.6,UPI,Station Branch,Rahul
+499,21/01/2024,Walk-in,NA,Accessories,Belt,Free Size,Red,3,149,15,379.95,Card,Unknown,Amit
+500,07/08/2024,Anil Kumar,7908984369,Men,Trousers,Standard,Yellow,1,999.00,20,799.2,Cash,Mall Road,Rahul
+501,28/03/2023,Anil Kumar,8870715238,Women,Palazzo,XXL,Green,2,599,0,1198.0,Cash,Station Branch,Amit
+502,01/06/2024,Walk-in,2589370858,Kids,Shirt,XXL,Blue,2,499,0,998.0,Card,Main Market,Vikas
+503,09/05/2024,Anil Kumar,9269335895,Accessories,Wallet,Free Size,Yellow,1,99,0,99.0,Card,Mall Road,House Account
+504,10/11/2023,Walk-in,8911797203,Men,Blazer,XXL,Green,3,799,20,1917.6,Card,Main Market,Rahul
+506,15/01/2025,Walk-in,NA,Kids,T-Shirt,L,Grey,1,399,0,399.0,UPI,Mall Road,Amit
+507,20/01/2025,ANJALI,NA,Men,Jeans,S,Yellow,2,499,0,998.0,UPI,Mall Road,Rahul
+508,22/05/2023,Anil Kumar,4859655942,Women,Saree,XXL,Maroon,1,349,0,349.0,Card,Mall Road,Rahul
+509,25/04/2025,Anil Kumar,1305570836,Women,Dupatta,S,Red,1,1999,0,1999.0,UPI,Station Branch,Rahul
+510,03/02/2025,Walk-in,8254318328,Accessories,Socks,Free Size,Grey,1,299.00,0,299.0,UPI,Main Market,Rahul
+511,24/02/2025,Pooja Verma,1722577545,Kids,T-Shirt,XL,Red,2,299,0,598.0,Cash,Mall Road,Amit
+512,25/04/2024,Walk-in,3373992052,Men,Kurta,XL,Pink,2,0,0,0.0,Card,Main Market,Priya
+513,07/07/2024,Anil Kumar,4461777326,Accessories,Scarf,Free Size,White,1,149,0,149.0,UPI,Station Branch,Amit
+514,24/12/2023,Anil Kumar,5238600304,Women,Saree,Standard,Green,1,1199,0,1199.0,UPI,Mall Road,Priya
+515,10/11/2024,Walk-in,7483093096,Accessories,Belt,Free Size,White,1,99,20,79.2,Cash,Main Market,Rahul
+516,02/04/2023,Walk-in,1220190725,Men,Blazer,M,Blue,1,499.00,0,499.0,UPI,Unknown,Sneha
+517,14/03/2025,Walk-in,NA,Men,Jeans,XL,Maroon,3,599.00,0,1797.0,Other,Station Branch,Amit
+518,25/12/2023,Walk-in,0399529701,Kids,T-Shirt,M,Black,1,0,15,0.0,Card,Station Branch,House Account
+519,07/05/2023,Walk-in,8740299071,Kids,Shirt,M,White,1,399,0,399.0,UPI,Station Branch,Priya
+520,31/07/2024,Anil Kumar,4915795546,Kids,Shorts,M,Red,2,399,10,718.2,UPI,Mall Road,Rahul
+521,13/02/2024,Walk-in,6808081571,Men,Shirt,XXL,Red,2,1499,0,2998.0,Cash,Mall Road,Priya
+522,10/10/2023,Sunita Sharma,NA,Women,Top,XL,Grey,1,449,0,449.0,Cash,Station Branch,Rahul
+523,02/04/2025,Pooja Verma,NA,Women,Leggings,XL,Maroon,1,0,0,0.0,Card,Mall Road,Rahul
+524,23/05/2024,Walk-in,3137971669,Men,Jeans,S,Yellow,3,1499,0,4497.0,UPI,Mall Road,Vikas
+525,19/08/2024,Walk-in,7014262037,Men,Trousers,XXL,Green,2,499.00,0,998.0,Cash,Main Market,Rahul
+526,09/03/2025,ANJALI,1170889480,Men,Jacket,S,Green,2,399,0,798.0,UPI,Station Branch,Amit
+527,11/04/2025,Sunita Sharma,6757123691,Women,Dupatta,XL,Yellow,1,1199,0,1199.0,Cash,Station Branch,Amit
+528,25/08/2024,Ramesh Gupta,4196156078,Kids,Frock,XXL,Pink,3,499,0,1497.0,UPI,Main Market,House Account
+529,28/05/2024,Walk-in,2467287991,Women,Dupatta,L,Pink,3,449,0,1347.0,Cash,Station Branch,Sneha
+530,15/02/2024,Walk-in,5447241916,Kids,Frock,XL,Blue,1,499,0,499.0,UPI,Mall Road,Rahul
+531,18/07/2024,Walk-in,7468135926,Men,Trousers,S,Pink,2,499,10,898.2,UPI,Unknown,Rahul
+532,15/08/2023,Walk-in,0623546622,Kids,Frock,L,Yellow,1,399,15,339.15,UPI,Station Branch,House Account
+533,11/12/2024,Sunita Sharma,5916011241,Women,Kurti,XL,Black,3,449,0,1347.0,UPI,Station Branch,Rahul
+534,22/06/2025,ANJALI,0472642612,Men,Shirt,S,Grey,1,999,0,999.0,Card,Mall Road,Sneha
+535,08/02/2025,Walk-in,4540064454,Accessories,Scarf,Free Size,Grey,1,199,0,199.0,Cash,Main Market,Sneha
+536,28/10/2023,ANJALI,NA,Women,Palazzo,L,Pink,1,1999,20,1599.2,Other,Main Market,Priya
+537,22/03/2025,Anil Kumar,8249353400,Accessories,Scarf,Free Size,Blue,2,149,0,298.0,Card,Mall Road,Amit
+538,01/05/2024,Ramesh Gupta,8105391287,Kids,T-Shirt,L,Black,3,399,15,1017.45,UPI,Station Branch,Rahul
+539,02/04/2023,Walk-in,6424238397,Women,Dupatta,L,Yellow,2,1199,0,2398.0,Cash,Unknown,Amit
+540,29/06/2023,Walk-in,NA,Men,Trousers,XXL,White,1,499,10,449.1,Cash,Main Market,Amit
+541,07/09/2023,Walk-in,7468235469,Accessories,Belt,Free Size,Green,1,99,0,99.0,Cash,Mall Road,Rahul
+542,08/03/2024,Walk-in,NA,Women,Kurti,L,Yellow,2,1199,10,2158.2,Cash,Unknown,Priya
+543,16/01/2023,Walk-in,6683482689,Women,Leggings,XL,Pink,1,349,0,349.0,UPI,Station Branch,Rahul
+544,10/12/2024,Ramesh Gupta,NA,Men,Trousers,XXL,Blue,3,599.00,0,1797.0,Card,Mall Road,Amit
+545,16/04/2024,ANJALI,1274692118,Accessories,Belt,Free Size,Pink,1,149,0,149.0,UPI,Mall Road,Amit
+546,08/01/2025,Sunita Sharma,1854570568,Accessories,Scarf,Free Size,Black,3,399,10,1077.3,Card,Mall Road,Rahul
+547,01/03/2025,Walk-in,0580119509,Men,Trousers,M,Green,1,1299,0,1299.0,Other,Main Market,House Account
+548,16/01/2023,ANJALI,1894854329,Women,Dress,S,Yellow,1,1999,20,1599.2,Card,Main Market,Vikas
+549,14/03/2023,Sunita Sharma,2589632174,Kids,Shirt,XL,Blue,2,299,10,538.2,UPI,Station Branch,Sneha
+550,15/09/2023,Walk-in,8425364628,Kids,Frock,XXL,Red,1,399.00,0,399.0,UPI,Unknown,Rahul
+551,23/02/2025,Walk-in,NA,Accessories,Scarf,Free Size,Yellow,3,149,0,447.0,UPI,Main Market,Sneha
+552,22/06/2023,Pooja Verma,5354120122,Men,Shirt,XL,Pink,1,799,0,799.0,Cash,Main Market,Amit
+553,14/12/2023,ANJALI,7173279805,Accessories,Belt,Free Size,Blue,2,199,0,398.0,Cash,Main Market,Rahul
+554,16/12/2024,Walk-in,NA,Accessories,Scarf,Free Size,Red,1,99,0,99.0,UPI,Unknown,House Account
+555,06/08/2024,Walk-in,6968018677,Women,Top,L,White,1,0,0,0.0,UPI,Mall Road,Amit
+556,10/06/2023,Anil Kumar,NA,Women,Palazzo,XXL,Green,1,0,0,0.0,Card,Main Market,Rahul
+557,03/06/2023,Ramesh Gupta,1100906053,Kids,Shorts,XL,Black,2,499,10,898.2,UPI,Mall Road,Sneha
+558,08/02/2025,Walk-in,NA,Accessories,Scarf,Free Size,Blue,1,99,20,79.2,UPI,Unknown,Amit
+559,07/12/2023,Walk-in,NA,Men,Jeans,XXL,Navy,3,799,0,2397.0,Card,Main Market,Priya
+560,02/04/2025,Sunita Sharma,4018227200,Accessories,Socks,Free Size,Yellow,1,99,0,99.0,UPI,Main Market,Amit
+561,04/01/2024,Ramesh Gupta,2020304232,Men,Jeans,L,Green,2,799,0,1598.0,Cash,Main Market,House Account
+562,01/09/2024,ANJALI,5691983210,Women,Kurti,XXL,Blue,2,599,0,1198.0,Cash,Mall Road,Vikas
+563,27/03/2024,Pooja Verma,4933965049,Accessories,Wallet,Free Size,Blue,1,199,15,169.15,Cash,Main Market,Vikas
+564,26/06/2025,Walk-in,9919623419,Women,Leggings,XL,Black,1,1599,0,1599.0,Cash,Unknown,Vikas
+565,10/01/2024,ANJALI,5457694757,Accessories,Wallet,Free Size,Yellow,3,149,0,447.0,Other,Mall Road,Sneha
+566,02/08/2023,Walk-in,NA,Kids,Frock,L,Navy,3,399,10,1077.3,Cash,Station Branch,House Account
+567,14/01/2023,Sunita Sharma,NA,Kids,T-Shirt,M,Maroon,3,399,0,1197.0,UPI,Main Market,Rahul
+568,13/11/2023,Walk-in,6373100817,Men,Jacket,S,Green,1,1299,0,1299.0,Card,Unknown,Amit
+569,30/06/2025,Walk-in,NA,Men,Kurta,L,Black,3,499.00,0,1497.0,Other,Main Market,Rahul
+570,23/10/2024,Anil Kumar,7810558000,Kids,Frock,XL,Grey,1,499,0,499.0,Cash,Mall Road,Amit
+571,05/02/2023,Walk-in,NA,Women,Kurti,S,Navy,2,449,0,898.0,Card,Main Market,Rahul
+572,04/06/2023,Ramesh Gupta,3899204573,Women,Top,M,Yellow,2,1599,10,2878.2,Cash,Mall Road,Rahul
+573,18/05/2024,Walk-in,5838821764,Men,Shirt,S,Pink,3,499,0,1497.0,UPI,Main Market,Amit
+574,02/08/2024,Walk-in,NA,Women,Saree,M,Black,1,1199,10,1079.1,UPI,Mall Road,Sneha
+575,18/04/2023,Walk-in,5384185201,Kids,T-Shirt,M,Grey,1,299,0,299.0,UPI,Unknown,Rahul
+576,03/10/2024,Anil Kumar,NA,Women,Top,L,Maroon,2,0,0,0.0,Other,Mall Road,House Account
+577,10/04/2025,Walk-in,6201971212,Accessories,Scarf,Free Size,Navy,1,399,0,399.0,UPI,Mall Road,Amit
+578,03/02/2024,ANJALI,9889786533,Accessories,Cap,Free Size,White,3,299,20,717.6,Cash,Station Branch,Priya
+579,04/03/2025,ANJALI,4497470002,Accessories,Scarf,Free Size,Red,1,149,0,149.0,Card,Mall Road,Rahul
+580,08/09/2023,Anil Kumar,7309649692,Kids,Shirt,L,Blue,1,299,0,299.0,Cash,Station Branch,Rahul
+582,03/11/2023,Walk-in,9489895965,Women,Leggings,S,Yellow,2,899,0,1798.0,UPI,Mall Road,Sneha
+583,11/08/2024,Pooja Verma,8822309586,Kids,Shorts,L,Navy,3,299,0,897.0,UPI,Unknown,Vikas
+584,01/12/2023,Walk-in,4655792203,Men,T-Shirt,S,Red,3,0,0,0.0,Card,Main Market,Amit
+585,31/12/2023,Pooja Verma,NA,Women,Top,S,Black,2,1999,0,3998.0,Cash,Station Branch,Rahul
+586,17/07/2024,Walk-in,4236220334,Men,Kurta,S,Green,1,1299,0,1299.0,UPI,Unknown,Amit
+587,31/10/2024,ANJALI,4174304350,Accessories,Socks,Free Size,Red,3,149,0,447.0,Cash,Main Market,Amit
+588,18/05/2023,Pooja Verma,1330303346,Kids,Shirt,L,Black,1,399,0,399.0,Card,Mall Road,Rahul
+589,02/05/2024,Anil Kumar,6199240658,Women,Saree,L,Red,2,349,10,628.2,Card,Unknown,Amit
+590,11/09/2023,Ramesh Gupta,7912121101,Kids,T-Shirt,M,Yellow,2,399,0,798.0,UPI,Mall Road,Rahul
+591,22/11/2023,ANJALI,NA,Men,Trousers,XL,Green,2,1299,0,2598.0,UPI,Main Market,Sneha
+592,27/01/2024,Ramesh Gupta,0833444704,Accessories,Wallet,Free Size,Yellow,2,149,20,238.4,UPI,Mall Road,Rahul
+593,19/12/2024,Pooja Verma,3295634277,Women,Kurti,XXL,Maroon,1,1199,0,1199.0,Card,Main Market,Rahul
+594,26/02/2025,Ramesh Gupta,NA,Kids,T-Shirt,XXL,Black,2,399,0,798.0,UPI,Mall Road,Sneha
+595,28/01/2023,Anil Kumar,NA,Accessories,Wallet,Free Size,Maroon,1,0,0,0.0,Cash,Main Market,Vikas
+596,23/06/2025,Anil Kumar,6868764019,Women,Palazzo,S,Blue,1,1999,0,1999.0,UPI,Mall Road,Amit
+597,16/10/2023,Sunita Sharma,1962342192,Men,Shirt,Standard,Navy,2,999.00,10,1798.2,UPI,Unknown,Priya
+598,02/06/2025,ANJALI,NA,Men,Jeans,XXL,Green,2,999,10,1798.2,UPI,Mall Road,Priya
+599,07/09/2023,Walk-in,3896337618,Kids,Frock,XXL,Black,1,199.00,0,199.0,Card,Main Market,Rahul
+600,04/01/2025,Walk-in,NA,Accessories,Belt,Free Size,Pink,2,99,0,198.0,Card,Main Market,Amit
+601,09/06/2025,Walk-in,NA,Kids,Shorts,M,Red,3,299,0,897.0,UPI,Main Market,House Account
+602,26/02/2024,Sunita Sharma,NA,Kids,Frock,XL,Red,1,399,0,399.0,UPI,Main Market,Amit
+603,18/04/2024,Sunita Sharma,8536988164,Kids,Shirt,XXL,Yellow,1,399,15,339.15,Cash,Unknown,Rahul
+604,10/05/2025,Walk-in,4581308898,Men,Jeans,Standard,Red,2,0,0,0.0,Other,Station Branch,Sneha
+605,26/11/2024,Pooja Verma,6199530564,Accessories,Scarf,Free Size,Maroon,1,149,0,149.0,UPI,Unknown,Vikas
+606,06/05/2023,Ramesh Gupta,4442990674,Accessories,Cap,Free Size,Red,1,149.00,0,149.0,Card,Main Market,Vikas
+607,15/09/2024,Anil Kumar,NA,Men,Trousers,M,Blue,3,599,10,1617.3,Cash,Mall Road,Amit
+608,17/11/2023,ANJALI,2455312900,Kids,Shirt,L,Pink,1,399,20,319.2,Cash,Unknown,Amit
+609,21/07/2024,Walk-in,NA,Women,Dupatta,XL,Grey,2,899,0,1798.0,Cash,Unknown,House Account
+610,07/01/2024,Walk-in,7447353524,Men,Trousers,XXL,Yellow,1,0,0,0.0,Card,Main Market,House Account
+611,27/03/2023,Ramesh Gupta,NA,Kids,Shirt,L,Green,2,299,0,598.0,Card,Main Market,Amit
+612,17/11/2023,Walk-in,4653537801,Women,Dupatta,L,Black,1,0,0,0.0,UPI,Mall Road,Amit
+613,12/08/2024,Pooja Verma,6450999900,Men,Blazer,XL,Maroon,1,499,0,499.0,UPI,Main Market,Sneha
+614,26/09/2024,ANJALI,7285759582,Kids,Frock,Standard,Pink,1,399,0,399.0,Card,Unknown,Amit
+615,03/12/2023,Sunita Sharma,3672868112,Men,Jacket,L,Pink,3,999.00,0,2997.0,UPI,Main Market,Priya
+616,31/03/2024,Walk-in,2866933515,Women,Top,XXL,Blue,3,599,20,1437.6,Cash,Unknown,House Account
+617,30/04/2024,Walk-in,5513609085,Women,Saree,S,Blue,3,0,0,0.0,Card,Main Market,Amit
+618,05/09/2024,Ramesh Gupta,NA,Kids,Frock,M,Maroon,1,499,0,499.0,Other,Mall Road,House Account
+619,19/03/2025,Walk-in,3690283772,Accessories,Belt,Free Size,Grey,1,199,0,199.0,Card,Mall Road,Rahul
+620,30/09/2024,Anil Kumar,3584640510,Kids,Frock,Standard,Pink,1,0,0,0.0,UPI,Main Market,Vikas
+621,24/03/2025,Walk-in,9067649092,Women,Dress,M,Maroon,1,1999,20,1599.2,UPI,Mall Road,Vikas
+622,05/04/2025,Walk-in,1640343988,Kids,Shorts,M,Yellow,1,499,0,499.0,Card,Station Branch,Sneha
+623,06/10/2023,Ramesh Gupta,NA,Kids,Shirt,M,Red,1,0,0,0.0,Other,Main Market,Rahul
+624,04/04/2024,Walk-in,2009536621,Accessories,Belt,Free Size,Red,1,399.00,0,399.0,Card,Mall Road,House Account
+625,25/06/2023,Walk-in,NA,Men,Shirt,XL,White,1,499,10,449.1,UPI,Mall Road,Priya
+626,21/06/2023,Walk-in,0744360234,Accessories,Cap,Free Size,Blue,1,199,10,179.1,Cash,Main Market,Rahul
+627,23/04/2025,ANJALI,6903265513,Men,T-Shirt,M,White,2,999,0,1998.0,UPI,Main Market,Amit
+628,11/05/2025,Walk-in,8649864786,Kids,Shorts,XXL,Pink,2,499,10,898.2,Card,Main Market,Rahul
+629,26/10/2023,Walk-in,NA,Kids,Shorts,Standard,Red,1,299,0,299.0,UPI,Main Market,Rahul
+630,24/06/2024,Anil Kumar,2202123720,Women,Dupatta,L,White,1,1199.00,0,1199.0,Cash,Main Market,Rahul
+631,05/05/2023,Walk-in,0091692327,Women,Dupatta,XL,Grey,2,0,20,0.0,UPI,Unknown,Amit
+632,15/04/2025,Walk-in,3361137118,Men,Trousers,XXL,Yellow,1,599.00,0,599.0,UPI,Mall Road,Amit
+633,20/01/2024,Sunita Sharma,4667201082,Kids,Frock,Standard,Green,1,199,0,199.0,UPI,Main Market,Amit
+634,26/09/2023,Walk-in,5364235700,Women,Palazzo,Standard,Grey,1,1999,0,1999.0,Cash,Station Branch,House Account
+635,20/04/2024,Walk-in,NA,Men,Kurta,XL,Blue,3,1299,0,3897.0,Cash,Station Branch,Sneha
+636,02/04/2023,Walk-in,4850766534,Women,Dress,S,Blue,2,1599,0,3198.0,Cash,Mall Road,Rahul
+637,19/01/2025,ANJALI,4358617682,Women,Dupatta,XL,Red,2,1199,0,2398.0,Card,Unknown,Amit
+638,28/09/2024,Pooja Verma,7849477129,Accessories,Cap,Free Size,Maroon,1,199,0,199.0,Cash,Station Branch,Vikas
+639,24/04/2023,Walk-in,6495254920,Accessories,Scarf,Free Size,White,1,149,20,119.2,Cash,Main Market,Amit
+640,29/05/2024,Walk-in,4968066405,Women,Top,XXL,Black,2,449,0,898.0,Card,Mall Road,Sneha
+641,13/04/2023,Pooja Verma,NA,Kids,T-Shirt,M,Red,2,499,20,798.4,UPI,Main Market,Amit
+642,19/02/2025,Pooja Verma,NA,Men,Shirt,L,Red,3,399,20,957.6,Cash,Mall Road,Rahul
+643,03/04/2024,Walk-in,0248085578,Accessories,Wallet,Free Size,Navy,2,199.00,0,398.0,UPI,Main Market,Sneha
+644,21/01/2023,ANJALI,5169139521,Accessories,Wallet,Free Size,Maroon,1,399,0,399.0,Card,Main Market,Rahul
+645,14/08/2024,Sunita Sharma,4813004169,Accessories,Belt,Free Size,Yellow,2,149,0,298.0,Cash,Mall Road,Priya
+646,04/01/2023,Walk-in,4764278961,Accessories,Cap,Free Size,Green,3,149,0,447.0,Cash,Main Market,Priya
+647,04/04/2025,ANJALI,3703175438,Kids,Shirt,XL,Black,1,199,0,199.0,UPI,Station Branch,House Account
+648,22/07/2024,Sunita Sharma,7664207632,Accessories,Wallet,Free Size,Black,2,199,0,398.0,UPI,Mall Road,Amit
+649,19/06/2024,Ramesh Gupta,NA,Accessories,Wallet,Free Size,White,2,0,0,0.0,UPI,Main Market,House Account
+650,25/01/2025,Pooja Verma,7897755426,Men,Blazer,XL,White,1,999,0,999.0,UPI,Main Market,Amit
+651,05/05/2025,Anil Kumar,7691716204,Accessories,Wallet,Free Size,Grey,2,99,0,198.0,UPI,Mall Road,Sneha
+652,15/01/2023,Sunita Sharma,NA,Men,Jeans,S,Maroon,1,999,20,799.2,Card,Station Branch,Rahul
+653,23/07/2023,Walk-in,7244693172,Men,Trousers,S,White,1,1499.00,10,1349.1,UPI,Main Market,Rahul
+654,15/02/2025,Walk-in,1291635049,Accessories,Scarf,Free Size,Black,2,99,0,198.0,Other,Mall Road,Amit
+655,21/03/2024,Walk-in,7560208019,Accessories,Wallet,Free Size,White,1,399,0,399.0,Card,Mall Road,Sneha
+656,08/09/2023,Walk-in,NA,Men,Jeans,XXL,Navy,1,399,0,399.0,Card,Main Market,Priya
+657,05/03/2025,Ramesh Gupta,4362962080,Women,Leggings,L,Red,2,1999,20,3198.4,UPI,Mall Road,Priya
+658,23/05/2024,Ramesh Gupta,NA,Women,Top,XL,Yellow,2,1199,0,2398.0,Cash,Main Market,Rahul
+659,30/05/2025,Anil Kumar,NA,Men,Shirt,XXL,Green,1,0,0,0.0,Cash,Station Branch,Priya
+660,06/04/2023,Walk-in,NA,Kids,Frock,XXL,Grey,1,499,20,399.2,UPI,Main Market,Amit
+661,16/03/2024,Walk-in,9025784640,Men,Jeans,XL,Red,1,799,0,799.0,UPI,Main Market,Amit
+662,10/08/2023,Anil Kumar,NA,Kids,Shirt,M,Maroon,2,199,0,398.0,Cash,Mall Road,Rahul
+663,03/04/2023,Walk-in,NA,Men,Kurta,L,Maroon,2,499,10,898.2,UPI,Main Market,Rahul
+664,16/03/2024,Walk-in,NA,Accessories,Cap,Free Size,Red,1,99,0,99.0,UPI,Station Branch,Priya
+665,16/08/2023,Walk-in,6082770564,Men,Blazer,XXL,White,1,499,0,499.0,Card,Main Market,Rahul
+666,17/08/2023,Ramesh Gupta,3610944164,Kids,Frock,Standard,Red,1,299,0,299.0,UPI,Main Market,Sneha
+667,27/10/2023,Walk-in,6175518870,Accessories,Wallet,Free Size,Maroon,1,299,0,299.0,UPI,Unknown,Amit
+668,10/12/2023,Walk-in,9479025485,Men,T-Shirt,XXL,White,1,0,0,0.0,UPI,Unknown,Amit
+669,02/10/2023,Walk-in,4359900937,Women,Saree,L,Blue,1,349,0,349.0,Other,Mall Road,Priya
+670,29/10/2024,Pooja Verma,6726368154,Kids,Frock,XXL,Pink,1,0,0,0.0,Cash,Main Market,Amit
+671,30/08/2023,Pooja Verma,6050337469,Accessories,Cap,Free Size,Red,3,0,10,0.0,Cash,Mall Road,Amit
+673,03/12/2023,Walk-in,9067396342,Men,Kurta,M,Black,2,799,0,1598.0,Card,Main Market,House Account
+674,21/03/2023,Pooja Verma,7066320162,Kids,T-Shirt,Standard,Black,2,0,0,0.0,UPI,Station Branch,Amit
+675,07/01/2023,Pooja Verma,4942694203,Men,Blazer,XL,Blue,3,999,0,2997.0,Cash,Unknown,Sneha
+676,05/07/2024,Ramesh Gupta,NA,Kids,Shorts,S,Green,1,0,0,0.0,UPI,Main Market,Vikas
+677,10/11/2024,Walk-in,8901649281,Women,Dupatta,Standard,Blue,1,1599.00,0,1599.0,UPI,Main Market,Rahul
+678,19/06/2023,Pooja Verma,4485007288,Kids,T-Shirt,S,White,3,199,0,597.0,Other,Mall Road,Priya
+679,10/05/2025,Ramesh Gupta,7026344435,Men,Trousers,XL,Navy,1,1299,0,1299.0,UPI,Unknown,Amit
+680,09/06/2023,ANJALI,0284976039,Men,Shirt,S,Green,1,1499,0,1499.0,Card,Mall Road,Amit
+681,21/02/2023,Walk-in,6226992066,Men,Trousers,XL,Navy,2,1499,20,2398.4,UPI,Mall Road,Rahul
+682,20/03/2024,Sunita Sharma,NA,Women,Top,M,Yellow,1,1199,0,1199.0,UPI,Station Branch,Sneha
+683,05/11/2024,Pooja Verma,NA,Men,Jeans,XXL,Pink,1,1299,0,1299.0,UPI,Unknown,Sneha
+684,26/04/2024,Walk-in,8656422405,Men,Jacket,XXL,Blue,1,499,10,449.1,UPI,Main Market,Amit
+685,27/05/2025,Pooja Verma,0175307966,Accessories,Cap,Free Size,Pink,2,399,10,718.2,Cash,Unknown,Vikas
+686,04/08/2023,Walk-in,NA,Women,Dress,XXL,Black,2,449,0,898.0,UPI,Mall Road,Amit
+687,26/04/2024,Anil Kumar,NA,Kids,T-Shirt,Standard,Maroon,1,499,10,449.1,Cash,Unknown,House Account
+688,02/01/2023,Anil Kumar,1157449653,Men,Trousers,M,Pink,1,999,0,999.0,Cash,Main Market,Vikas
+689,13/12/2023,Pooja Verma,6933356230,Men,T-Shirt,XXL,Pink,1,799,0,799.0,UPI,Main Market,Rahul
+690,31/10/2023,Walk-in,2317146199,Men,Jeans,M,Black,1,399,0,399.0,Card,Mall Road,Amit
+691,18/01/2024,Walk-in,0368605063,Accessories,Wallet,Free Size,Navy,1,149,0,149.0,Cash,Main Market,Priya
+693,19/05/2023,Sunita Sharma,3759795319,Accessories,Scarf,Free Size,Red,3,399,0,1197.0,Card,Main Market,Amit
+694,10/05/2025,Sunita Sharma,0704726602,Accessories,Wallet,Free Size,Black,1,99,10,89.1,Cash,Main Market,House Account
+695,20/10/2024,Walk-in,4693656183,Men,Blazer,L,Yellow,1,499,10,449.1,Other,Station Branch,Amit
+696,26/05/2025,Walk-in,2095673332,Accessories,Socks,Free Size,Grey,3,149,20,357.6,UPI,Mall Road,Vikas
+697,22/09/2023,ANJALI,3923852023,Kids,T-Shirt,XXL,Black,1,299,10,269.1,Card,Station Branch,Sneha
+698,26/06/2025,Walk-in,6470703850,Kids,Frock,M,Black,1,499,0,499.0,UPI,Station Branch,Vikas
+699,15/02/2025,Walk-in,NA,Women,Palazzo,S,Red,1,899,10,809.1,Cash,Mall Road,Amit
+700,19/11/2023,ANJALI,3183997984,Men,Jacket,M,Maroon,1,499,0,499.0,Card,Main Market,House Account
+701,14/04/2023,Walk-in,NA,Kids,T-Shirt,XXL,White,2,499,0,998.0,Other,Main Market,Priya
+702,17/07/2023,Walk-in,4742256787,Kids,Shorts,M,Green,2,199,10,358.2,Cash,Main Market,Amit
+703,15/02/2024,ANJALI,9984605867,Accessories,Belt,Free Size,Blue,1,299,0,299.0,UPI,Main Market,Amit
+704,31/12/2023,ANJALI,6457865557,Women,Saree,S,Red,1,1199,0,1199.0,Cash,Main Market,Rahul
+705,06/11/2023,Walk-in,9974023386,Accessories,Scarf,Free Size,Green,1,99.00,0,99.0,Card,Main Market,Priya
+706,07/12/2023,Walk-in,8309413490,Accessories,Belt,Free Size,White,2,199,0,398.0,UPI,Mall Road,Amit
+707,10/02/2025,ANJALI,8095739405,Kids,Shorts,XXL,Green,1,399,0,399.0,Cash,Main Market,Vikas
+708,09/04/2023,ANJALI,7486759514,Kids,Frock,M,Blue,3,299,20,717.6,Other,Station Branch,Amit
+709,22/06/2023,Walk-in,5869427674,Women,Kurti,XXL,Yellow,2,1599,0,3198.0,Card,Mall Road,Amit
+710,15/12/2023,Sunita Sharma,8906232723,Women,Palazzo,L,Blue,3,1199,0,3597.0,Cash,Main Market,Sneha
+711,02/04/2024,Anil Kumar,1767553981,Accessories,Socks,Free Size,Maroon,2,399,0,798.0,Card,Unknown,Sneha
+712,30/12/2024,Walk-in,8384887638,Accessories,Socks,Free Size,Navy,1,0,0,0.0,Cash,Main Market,Sneha
+713,19/06/2024,Walk-in,2070669010,Accessories,Belt,Free Size,Navy,1,99,0,99.0,Card,Station Branch,Sneha
+714,15/06/2024,Ramesh Gupta,7077312315,Women,Leggings,L,Navy,1,0,0,0.0,Cash,Mall Road,Amit
+715,18/04/2023,Sunita Sharma,NA,Men,Kurta,XXL,Navy,1,1299,10,1169.1,Cash,Main Market,Sneha
+716,18/06/2025,ANJALI,2344568446,Kids,T-Shirt,XL,Pink,2,399,0,798.0,Card,Unknown,Rahul
+717,25/05/2024,ANJALI,2927318683,Kids,T-Shirt,XL,White,2,399,0,798.0,Other,Mall Road,Amit
+718,25/01/2023,Ramesh Gupta,6746215958,Women,Saree,L,Blue,1,1999,0,1999.0,UPI,Main Market,Rahul
+719,12/04/2023,Sunita Sharma,7609483774,Men,Trousers,L,Red,2,499,15,848.3,Cash,Station Branch,Rahul
+720,13/07/2023,Pooja Verma,1966661025,Kids,Frock,S,Black,1,399,0,399.0,Cash,Main Market,Amit
+721,08/04/2024,Walk-in,4461440923,Women,Leggings,Standard,White,1,899,0,899.0,Card,Mall Road,Rahul
+722,20/10/2024,Anil Kumar,2277641490,Kids,Frock,S,Blue,1,299,15,254.15,UPI,Mall Road,Rahul
+723,30/06/2024,Ramesh Gupta,4733145461,Women,Palazzo,L,Blue,1,1599,0,1599.0,Cash,Mall Road,Amit
+724,11/03/2024,Walk-in,NA,Accessories,Socks,Free Size,Blue,1,0,0,0.0,Cash,Main Market,Amit
+725,16/01/2023,Walk-in,NA,Women,Kurti,Standard,Navy,2,599,0,1198.0,Other,Station Branch,House Account
+726,20/09/2023,Walk-in,NA,Men,Blazer,M,Black,1,599,0,599.0,UPI,Unknown,Amit
+727,10/11/2024,Walk-in,1348433913,Women,Saree,L,Red,1,599,0,599.0,Cash,Main Market,Amit
+729,23/03/2025,Walk-in,8663420953,Women,Palazzo,L,Maroon,1,599,20,479.2,UPI,Mall Road,House Account
+730,01/10/2023,Pooja Verma,5380966414,Women,Top,M,Yellow,1,1999,0,1999.0,Card,Main Market,Vikas
+731,23/02/2025,Walk-in,3243679241,Accessories,Scarf,Free Size,Yellow,2,149,0,298.0,Card,Main Market,Sneha
+732,14/04/2025,Walk-in,0826493121,Women,Kurti,M,Grey,3,899,0,2697.0,Card,Mall Road,Amit
+733,22/08/2024,Sunita Sharma,NA,Kids,Shorts,XXL,Black,3,399,0,1197.0,Other,Main Market,Priya
+734,03/12/2023,Walk-in,NA,Women,Palazzo,XL,Green,1,899.00,10,809.1,UPI,Main Market,Priya
+735,03/12/2024,Walk-in,4098410167,Accessories,Wallet,Free Size,Blue,2,199,0,398.0,Card,Main Market,Vikas
+736,11/07/2024,Walk-in,9034213485,Men,Jacket,Standard,Green,1,1299,10,1169.1,Cash,Mall Road,Rahul
+737,20/03/2025,Walk-in,NA,Accessories,Socks,Free Size,Navy,1,0,10,0.0,UPI,Main Market,Amit
+738,21/11/2023,ANJALI,1936785764,Kids,Shirt,M,Pink,2,0,0,0.0,Cash,Unknown,Amit
+739,12/08/2023,Walk-in,6261684552,Kids,T-Shirt,S,Navy,1,299,0,299.0,Cash,Main Market,House Account
+740,04/09/2024,Walk-in,NA,Kids,Shirt,XL,Navy,1,399,0,399.0,Card,Mall Road,Amit
+741,17/05/2023,Pooja Verma,4607001441,Kids,Shirt,L,Yellow,2,399,0,798.0,Card,Main Market,Vikas
+742,16/10/2024,ANJALI,0978302801,Women,Leggings,L,White,2,1999,10,3598.2,Card,Main Market,Vikas
+743,07/02/2023,Walk-in,8930635780,Men,Kurta,M,Pink,1,1499.00,10,1349.1,Cash,Main Market,Amit
+744,25/02/2025,Walk-in,2906969045,Kids,Frock,XXL,Navy,1,399,0,399.0,Cash,Mall Road,House Account
+745,16/06/2025,Walk-in,2324234800,Kids,Frock,XL,Navy,3,499,10,1347.3,Card,Mall Road,Sneha
+746,16/01/2023,Sunita Sharma,NA,Accessories,Socks,Free Size,Pink,1,199,20,159.2,UPI,Unknown,Amit
+747,24/05/2023,Pooja Verma,9917217429,Kids,Shorts,M,White,1,399,0,399.0,UPI,Main Market,Priya
+748,09/05/2025,Walk-in,4850220619,Kids,Frock,XL,Maroon,3,499,0,1497.0,UPI,Main Market,Amit
+749,24/11/2024,ANJALI,NA,Accessories,Belt,Free Size,Red,1,399,10,359.1,Cash,Unknown,Amit
+750,21/04/2025,ANJALI,6190223116,Accessories,Cap,Free Size,Yellow,1,299,20,239.2,Card,Unknown,Rahul
+751,07/01/2025,Walk-in,3711429430,Women,Leggings,M,Black,1,1599,0,1599.0,UPI,Station Branch,Amit
+752,12/02/2025,Sunita Sharma,NA,Women,Palazzo,M,Black,1,899,0,899.0,Card,Mall Road,Priya
+753,31/03/2024,Anil Kumar,NA,Kids,Frock,S,Blue,1,399,0,399.0,Card,Main Market,Sneha
+754,14/08/2024,Anil Kumar,0462506929,Accessories,Scarf,Free Size,Maroon,2,199,0,398.0,Other,Main Market,Rahul
+755,06/06/2025,Walk-in,NA,Women,Dupatta,XL,Grey,2,1199,0,2398.0,Card,Main Market,Amit
+756,30/04/2023,Sunita Sharma,0703398214,Women,Dupatta,L,Grey,2,1199,10,2158.2,UPI,Main Market,Amit
+757,24/05/2023,Pooja Verma,NA,Women,Palazzo,XXL,Green,1,349.00,0,349.0,Cash,Main Market,Rahul
+758,19/03/2025,Walk-in,8967136054,Kids,Shorts,XL,Green,3,299,0,897.0,UPI,Mall Road,Rahul
+760,26/10/2023,Walk-in,8080388904,Kids,T-Shirt,M,Black,1,399,0,399.0,Cash,Mall Road,Rahul
+761,27/12/2023,Walk-in,NA,Accessories,Socks,Free Size,White,2,399,0,798.0,UPI,Mall Road,Rahul
+762,12/09/2024,Walk-in,3716115866,Kids,Shirt,Standard,Grey,1,199,10,179.1,Card,Mall Road,House Account
+763,06/07/2024,Anil Kumar,7285353399,Women,Palazzo,M,Maroon,2,899,0,1798.0,Cash,Mall Road,Amit
+764,16/12/2023,Walk-in,7276698345,Kids,T-Shirt,L,Pink,1,499,0,499.0,Card,Main Market,House Account
+765,10/08/2023,Anil Kumar,7771961997,Men,Jacket,S,Grey,1,399,0,399.0,Card,Mall Road,Amit
+766,09/04/2023,Walk-in,2600802658,Kids,Shirt,XL,Red,1,399,0,399.0,Card,Station Branch,Sneha
+767,17/04/2025,Pooja Verma,NA,Women,Leggings,XXL,Pink,1,449,0,449.0,Other,Mall Road,Vikas
+768,28/05/2025,Walk-in,7240002086,Women,Dupatta,S,White,2,899.00,0,1798.0,Cash,Station Branch,Rahul
+769,02/11/2024,Pooja Verma,3010009089,Kids,Shorts,M,Grey,1,299,0,299.0,UPI,Station Branch,Rahul
+770,01/04/2023,Pooja Verma,8081226815,Women,Top,L,Green,1,599,10,539.1,UPI,Mall Road,Rahul
+771,25/09/2024,Sunita Sharma,1891426937,Kids,Frock,Standard,Red,1,0,10,0.0,Card,Mall Road,Rahul
+772,16/01/2025,Walk-in,6292266678,Accessories,Belt,Free Size,Maroon,2,299,0,598.0,Card,Main Market,Rahul
+774,16/12/2023,ANJALI,2659764083,Kids,Frock,Standard,Navy,3,199,0,597.0,Cash,Unknown,Vikas
+775,07/06/2025,Anil Kumar,8871148600,Men,Jacket,S,Maroon,2,0,10,0.0,UPI,Station Branch,Amit
+776,14/01/2023,Walk-in,0742906952,Accessories,Socks,Free Size,Grey,1,99,20,79.2,Cash,Unknown,Rahul
+777,04/04/2025,ANJALI,7405714469,Accessories,Wallet,Free Size,Grey,1,149,0,149.0,Card,Station Branch,Amit
+778,13/06/2025,Ramesh Gupta,4834835862,Women,Leggings,L,Yellow,2,599,0,1198.0,UPI,Mall Road,Sneha
+779,16/09/2024,Ramesh Gupta,4436958050,Women,Kurti,Standard,Yellow,1,899,0,899.0,Cash,Station Branch,Amit
+780,02/04/2024,ANJALI,9545038016,Kids,Shirt,M,Red,2,299,0,598.0,Other,Main Market,Rahul
+781,24/03/2023,Pooja Verma,9193511745,Accessories,Cap,Free Size,Blue,2,299,0,598.0,Card,Main Market,Amit
+782,19/01/2024,Walk-in,4126084818,Women,Top,Standard,Grey,1,449,0,449.0,Cash,Mall Road,Sneha
+783,03/02/2023,Walk-in,NA,Men,Kurta,M,Red,1,1499,10,1349.1,Card,Mall Road,Sneha
+784,14/01/2024,Ramesh Gupta,5028231342,Men,T-Shirt,L,White,1,1499,0,1499.0,Cash,Main Market,House Account
+785,26/05/2025,ANJALI,1506291792,Kids,T-Shirt,Standard,White,1,299,10,269.1,Cash,Station Branch,Priya
+786,26/11/2023,Ramesh Gupta,6710529877,Accessories,Wallet,Free Size,Pink,1,0,0,0.0,UPI,Unknown,Priya
+787,21/05/2024,Walk-in,4502958676,Kids,Frock,Standard,Green,1,0,20,0.0,UPI,Mall Road,Rahul
+788,15/03/2023,Anil Kumar,NA,Accessories,Scarf,Free Size,Pink,1,149,20,119.2,UPI,Main Market,Amit
+789,09/02/2025,Walk-in,NA,Men,Shirt,XXL,Pink,1,0,0,0.0,Cash,Main Market,Priya
+790,13/04/2023,ANJALI,7163485089,Accessories,Wallet,Free Size,Grey,1,299.00,0,299.0,Cash,Station Branch,Priya
+791,25/05/2024,Ramesh Gupta,1886263956,Kids,Shorts,L,Yellow,1,499,0,499.0,Card,Station Branch,Sneha
+792,24/05/2023,Sunita Sharma,1446627633,Men,Jeans,XL,White,2,799,10,1438.2,Card,Main Market,Vikas
+793,05/05/2024,Sunita Sharma,6896987036,Women,Palazzo,Standard,Black,2,1199,10,2158.2,Card,Unknown,Sneha
+794,14/10/2023,Walk-in,0629118722,Accessories,Wallet,Free Size,Navy,1,399,0,399.0,Cash,Mall Road,Rahul
+795,08/06/2025,Walk-in,1486565818,Men,Jacket,L,Grey,2,999.00,0,1998.0,Cash,Mall Road,Sneha
+796,06/06/2025,Walk-in,4963788119,Kids,Shirt,S,Maroon,1,199,0,199.0,UPI,Main Market,Rahul
+797,25/06/2023,Pooja Verma,NA,Women,Palazzo,S,White,1,0,0,0.0,UPI,Main Market,Amit
+798,30/05/2024,Anil Kumar,3998127439,Kids,Shorts,S,Green,1,199.00,0,199.0,Card,Mall Road,Priya
+799,09/02/2024,Sunita Sharma,1384531563,Women,Leggings,L,Grey,2,899,10,1618.2,Card,Station Branch,House Account
+800,20/12/2024,ANJALI,3516681133,Men,Blazer,L,Yellow,1,1499,20,1199.2,Cash,Main Market,Amit
+801,09/01/2025,Walk-in,3236540181,Women,Palazzo,S,Black,1,449,0,449.0,UPI,Main Market,Rahul
+802,11/12/2023,Sunita Sharma,NA,Women,Palazzo,M,Yellow,1,1599.00,10,1439.1,Card,Main Market,Priya
+803,03/07/2023,Walk-in,1035659429,Women,Dress,L,Green,2,1599,0,3198.0,Card,Mall Road,Rahul
+804,29/06/2023,Ramesh Gupta,2692855074,Women,Leggings,Standard,Yellow,1,1599,15,1359.15,Cash,Station Branch,House Account
+805,22/09/2023,Walk-in,8300995428,Kids,Shirt,M,Navy,1,499,0,499.0,UPI,Unknown,Rahul
+806,06/06/2025,Walk-in,NA,Accessories,Socks,Free Size,Grey,1,0,10,0.0,Cash,Main Market,Vikas
+807,01/05/2025,Walk-in,7140250385,Kids,Shirt,XXL,White,1,399,10,359.1,UPI,Station Branch,Priya
+808,21/02/2025,ANJALI,6951930485,Accessories,Wallet,Free Size,Maroon,1,299,0,299.0,UPI,Mall Road,Amit
+809,10/03/2025,Pooja Verma,3318123357,Men,T-Shirt,L,Maroon,1,499,0,499.0,UPI,Main Market,Amit
+810,21/07/2024,ANJALI,4759443485,Kids,Shorts,XL,Grey,1,499,0,499.0,UPI,Main Market,Sneha
+811,17/12/2023,Ramesh Gupta,2660004709,Accessories,Scarf,Free Size,Pink,3,199,0,597.0,Other,Mall Road,Rahul
+812,16/11/2023,ANJALI,1868704796,Men,Shirt,L,Blue,1,399,0,399.0,UPI,Main Market,House Account
+813,24/08/2024,Sunita Sharma,9180038146,Kids,T-Shirt,XXL,Maroon,1,199.00,0,199.0,UPI,Main Market,Priya
+814,16/02/2024,Ramesh Gupta,NA,Kids,Shirt,S,Navy,1,299,10,269.1,Cash,Main Market,House Account
+815,22/02/2024,Walk-in,5576634541,Women,Kurti,S,Green,1,349,0,349.0,UPI,Station Branch,Vikas
+816,22/09/2024,Walk-in,NA,Kids,Frock,XL,Green,2,199.00,10,358.2,UPI,Unknown,Amit
+817,15/10/2024,Walk-in,6996208347,Women,Palazzo,Standard,Blue,1,1199,0,1199.0,UPI,Main Market,House Account
+818,26/07/2024,ANJALI,4387129514,Accessories,Wallet,Free Size,Red,2,0,0,0.0,Other,Main Market,Amit
+819,03/04/2025,Anil Kumar,NA,Accessories,Belt,Free Size,Green,1,149,10,134.1,UPI,Unknown,House Account
+820,29/03/2024,Anil Kumar,9931360622,Accessories,Cap,Free Size,Red,2,199.00,0,398.0,UPI,Station Branch,Rahul
+821,08/01/2025,Walk-in,5382944191,Men,Jeans,XXL,Green,1,1299,0,1299.0,UPI,Mall Road,Amit
+822,02/11/2023,ANJALI,7809645837,Men,Jacket,XXL,White,2,0,0,0.0,Cash,Main Market,Sneha
+823,11/10/2023,Walk-in,4862675119,Kids,Frock,XL,Yellow,2,399,0,798.0,Card,Main Market,House Account
+824,20/07/2024,Walk-in,6018040334,Accessories,Wallet,Free Size,Black,3,399,0,1197.0,UPI,Mall Road,Rahul
+825,04/02/2025,Walk-in,0536499119,Accessories,Cap,Free Size,Yellow,1,99,0,99.0,Other,Unknown,Amit
+826,10/03/2025,ANJALI,7656590705,Kids,T-Shirt,XXL,Black,1,199,0,199.0,UPI,Main Market,Rahul
+827,19/02/2024,Sunita Sharma,5359771001,Accessories,Cap,Free Size,Maroon,1,149,10,134.1,UPI,Mall Road,Vikas
+828,04/10/2023,Sunita Sharma,NA,Women,Palazzo,L,Pink,2,449,0,898.0,UPI,Station Branch,House Account
+829,28/05/2024,Pooja Verma,2841362334,Women,Saree,XXL,Yellow,1,599,0,599.0,Card,Unknown,Priya
+830,01/01/2025,Walk-in,NA,Kids,Shirt,M,Green,2,399,0,798.0,Cash,Main Market,Amit
+831,17/11/2023,Walk-in,2159389676,Kids,T-Shirt,S,Grey,2,499,20,798.4,Card,Unknown,House Account
+832,18/03/2023,Ramesh Gupta,NA,Accessories,Belt,Free Size,Grey,1,199,20,159.2,Other,Mall Road,Sneha
+833,25/02/2025,Walk-in,3565826082,Accessories,Cap,Free Size,Grey,2,299,10,538.2,Card,Station Branch,Vikas
+834,06/06/2025,Pooja Verma,NA,Men,T-Shirt,XL,Navy,1,399,0,399.0,UPI,Main Market,House Account
+835,20/03/2023,Walk-in,NA,Kids,Shirt,XL,Green,1,399,15,339.15,Card,Main Market,Sneha
+836,09/01/2025,Walk-in,1847146220,Accessories,Cap,Free Size,Yellow,1,399,0,399.0,Cash,Main Market,Priya
+837,19/01/2025,Walk-in,7618376295,Women,Dress,XXL,White,1,349,0,349.0,Other,Mall Road,Amit
+838,15/02/2023,Walk-in,4564967419,Men,Trousers,S,Green,2,0,0,0.0,UPI,Unknown,Rahul
+839,19/07/2024,Anil Kumar,1368296707,Accessories,Scarf,Free Size,Red,2,199,0,398.0,UPI,Main Market,Rahul
+840,11/01/2023,Ramesh Gupta,NA,Women,Dupatta,M,Maroon,3,349,0,1047.0,UPI,Main Market,Priya
+841,16/06/2025,Walk-in,1283319558,Men,Trousers,XL,White,1,1499,15,1274.15,Card,Station Branch,Amit
+842,16/12/2024,Walk-in,6483895337,Men,Trousers,S,Grey,1,1299,0,1299.0,Card,Mall Road,Rahul
+843,28/09/2023,Pooja Verma,7574510484,Men,Shirt,L,White,1,599,0,599.0,UPI,Main Market,Priya
+844,28/02/2024,Walk-in,NA,Kids,Shirt,L,Green,1,199,15,169.15,UPI,Mall Road,House Account
+845,27/11/2024,Ramesh Gupta,9846856066,Kids,Shorts,L,Grey,1,499,0,499.0,Card,Main Market,Sneha
+846,25/04/2025,Walk-in,7792711073,Women,Dress,S,Navy,1,1999,20,1599.2,Cash,Mall Road,Amit
+847,17/03/2025,Walk-in,6943069523,Kids,Frock,M,White,2,299,0,598.0,Cash,Main Market,House Account
+848,30/04/2023,Walk-in,4255428053,Women,Dress,S,Maroon,1,599,15,509.15,Cash,Mall Road,Rahul
+849,30/11/2023,Pooja Verma,3992879872,Accessories,Socks,Free Size,Black,1,149,0,149.0,Cash,Mall Road,House Account
+850,05/01/2023,Anil Kumar,NA,Accessories,Wallet,Free Size,Navy,3,99.00,0,297.0,Other,Main Market,Amit
+852,04/06/2025,Walk-in,4662750152,Men,T-Shirt,S,Blue,1,1299,0,1299.0,UPI,Unknown,Rahul
+853,12/02/2024,Walk-in,1457923267,Men,Trousers,L,Pink,1,1499,0,1499.0,Cash,Station Branch,Amit
+854,08/08/2024,Walk-in,NA,Men,Shirt,S,Blue,2,999,0,1998.0,Cash,Main Market,Sneha
+855,08/10/2024,Anil Kumar,1639714920,Women,Top,S,Green,2,1599,0,3198.0,Cash,Mall Road,Amit
+856,11/08/2024,ANJALI,NA,Kids,Shirt,XXL,Maroon,2,299,0,598.0,Card,Main Market,Vikas
+857,20/02/2024,Ramesh Gupta,0299034804,Kids,Frock,M,Yellow,3,499.00,0,1497.0,Other,Main Market,Rahul
+858,25/09/2023,Walk-in,3693091401,Kids,T-Shirt,XL,Yellow,1,499,20,399.2,Card,Main Market,Amit
+859,19/03/2025,Walk-in,2473650032,Women,Top,L,Navy,1,1599,0,1599.0,UPI,Mall Road,Rahul
+860,18/10/2023,Ramesh Gupta,NA,Men,Jacket,L,Black,1,799,10,719.1,Cash,Unknown,Rahul
+861,05/07/2024,Ramesh Gupta,7203350516,Kids,Frock,S,Black,3,399,0,1197.0,Cash,Mall Road,Priya
+862,07/02/2024,Walk-in,NA,Kids,Shorts,XXL,Grey,2,399,0,798.0,Cash,Main Market,House Account
+863,16/01/2025,Sunita Sharma,1971575571,Women,Top,XL,Pink,1,1199,0,1199.0,Other,Main Market,Vikas
+864,20/11/2023,Walk-in,0761504205,Accessories,Wallet,Free Size,Blue,2,99,10,178.2,UPI,Mall Road,Amit
+865,20/02/2023,ANJALI,8999514549,Accessories,Wallet,Free Size,White,2,99.00,0,198.0,UPI,Main Market,Rahul
+866,19/01/2023,Walk-in,8719261548,Women,Top,S,Red,1,599,10,539.1,Cash,Mall Road,Vikas
+867,04/08/2024,Pooja Verma,3887246163,Kids,Shorts,S,Yellow,2,199,10,358.2,UPI,Unknown,Rahul
+868,04/08/2024,Pooja Verma,4662897351,Men,Shirt,L,White,1,599,10,539.1,Card,Unknown,Rahul
+869,15/04/2023,Anil Kumar,NA,Men,Shirt,M,White,1,0,0,0.0,UPI,Main Market,Amit
+870,04/02/2023,Walk-in,3615276958,Men,Jeans,XL,Maroon,2,799,10,1438.2,Cash,Mall Road,Amit
+871,11/06/2025,Walk-in,NA,Kids,Shirt,S,White,1,0,10,0.0,Cash,Mall Road,Priya
+872,14/04/2025,Walk-in,6924768834,Women,Palazzo,S,Maroon,3,349,10,942.3,UPI,Main Market,Priya
+873,09/02/2023,Anil Kumar,9406714878,Men,Jacket,L,Red,3,599,0,1797.0,Card,Mall Road,Vikas
+874,27/10/2024,Pooja Verma,0077017737,Accessories,Scarf,Free Size,Navy,2,399,0,798.0,Cash,Mall Road,Priya
+876,30/03/2023,Anil Kumar,6743338496,Men,Shirt,S,Navy,1,1299,0,1299.0,Cash,Mall Road,Rahul
+877,08/08/2023,Walk-in,9773173946,Women,Palazzo,L,White,2,1999,0,3998.0,UPI,Unknown,House Account
+878,03/04/2024,Walk-in,5570393427,Accessories,Wallet,Free Size,Maroon,1,199,0,199.0,UPI,Main Market,House Account
+879,14/11/2024,Walk-in,6161973844,Kids,Frock,Standard,Red,3,0,10,0.0,UPI,Main Market,Rahul
+880,12/11/2024,Walk-in,NA,Women,Palazzo,XXL,Green,1,899,0,899.0,Other,Main Market,Rahul
+881,12/02/2024,Walk-in,1302364169,Kids,Shorts,S,Navy,1,199,20,159.2,UPI,Main Market,Rahul
+882,27/06/2025,ANJALI,2693794999,Accessories,Cap,Free Size,White,1,399,10,359.1,Card,Mall Road,Vikas
+883,25/01/2023,Walk-in,NA,Kids,Shorts,XL,Pink,1,0,0,0.0,Card,Unknown,House Account
+884,30/08/2023,Walk-in,NA,Men,Jacket,M,Grey,2,999,15,1698.3,Cash,Main Market,Amit
+885,08/01/2025,Ramesh Gupta,5795519247,Women,Leggings,Standard,Pink,2,349,0,698.0,Card,Mall Road,Rahul
+886,01/02/2023,Walk-in,NA,Women,Palazzo,M,Yellow,2,1599,10,2878.2,UPI,Unknown,Amit
+887,03/01/2025,ANJALI,6365129555,Women,Saree,Standard,Black,1,349,0,349.0,Cash,Main Market,Priya
+888,02/01/2023,Anil Kumar,4106166497,Accessories,Cap,Free Size,Maroon,2,399,0,798.0,Card,Station Branch,Rahul
+889,19/01/2023,Pooja Verma,6131525523,Men,Jeans,XL,Maroon,1,599,0,599.0,UPI,Station Branch,Sneha
+890,17/02/2023,Walk-in,NA,Accessories,Cap,Free Size,Yellow,1,199.00,0,199.0,UPI,Unknown,Rahul
+891,18/09/2023,Walk-in,8097186142,Women,Dress,XXL,Pink,1,449,0,449.0,Card,Unknown,Vikas
+892,29/08/2024,Ramesh Gupta,NA,Kids,Frock,L,Yellow,3,499.00,0,1497.0,Cash,Mall Road,Vikas
+893,21/06/2023,Walk-in,3689600834,Kids,T-Shirt,XL,Red,1,399,0,399.0,UPI,Station Branch,Sneha
+894,31/08/2024,ANJALI,NA,Men,Blazer,L,Maroon,3,399,0,1197.0,Cash,Main Market,Sneha
+895,10/02/2024,Walk-in,9007379499,Accessories,Socks,Free Size,Pink,3,399,0,1197.0,UPI,Mall Road,Amit
+896,30/04/2025,Walk-in,0435983985,Kids,Shorts,S,Red,1,299,0,299.0,UPI,Unknown,Rahul
+897,12/08/2023,Walk-in,3071776135,Kids,Shorts,XXL,White,1,399,0,399.0,UPI,Main Market,Amit
+898,22/02/2025,Pooja Verma,2735514972,Women,Saree,L,Red,2,449,20,718.4,UPI,Mall Road,Amit
+899,07/02/2023,Pooja Verma,NA,Accessories,Belt,Free Size,Navy,1,199,0,199.0,UPI,Mall Road,Vikas
+900,15/01/2023,Anil Kumar,NA,Accessories,Cap,Free Size,Blue,1,0,0,0.0,Cash,Station Branch,Sneha
+901,22/02/2023,Pooja Verma,NA,Men,Jeans,Standard,Green,1,799,15,679.15,UPI,Station Branch,Vikas
+902,14/02/2024,Pooja Verma,2690222097,Women,Saree,XL,Maroon,1,449,0,449.0,Cash,Mall Road,Amit
+903,17/06/2023,Pooja Verma,NA,Men,Blazer,L,Blue,1,499,0,499.0,Other,Main Market,Priya
+904,14/06/2024,Walk-in,2698044665,Men,Jeans,XXL,Pink,1,599,0,599.0,UPI,Mall Road,Rahul
+905,03/07/2024,Walk-in,9465777061,Accessories,Scarf,Free Size,Green,1,199.00,0,199.0,Cash,Station Branch,Vikas
+906,22/04/2024,Walk-in,NA,Accessories,Socks,Free Size,Blue,3,299,0,897.0,UPI,Main Market,House Account
+907,03/01/2023,ANJALI,NA,Women,Leggings,S,Maroon,2,349,0,698.0,Cash,Mall Road,Amit
+908,17/12/2024,Sunita Sharma,0511090070,Men,Trousers,Standard,Red,2,799,20,1278.4,Card,Main Market,Amit
+909,09/01/2024,ANJALI,7539659744,Kids,Shorts,M,White,1,0,0,0.0,UPI,Unknown,Amit
+910,12/07/2023,ANJALI,9376699768,Men,Jeans,XL,Green,3,399,0,1197.0,UPI,Mall Road,House Account
+911,05/02/2023,Walk-in,NA,Accessories,Belt,Free Size,Navy,2,399,0,798.0,UPI,Unknown,Rahul
+912,22/04/2023,Walk-in,NA,Kids,Shirt,L,Yellow,1,499,10,449.1,Cash,Station Branch,Vikas
+913,23/07/2023,Walk-in,NA,Accessories,Cap,Free Size,Black,1,399.00,0,399.0,Card,Mall Road,Amit
+914,15/07/2024,Walk-in,4749847460,Kids,Shirt,S,Yellow,2,399,10,718.2,Card,Unknown,Vikas
+915,09/04/2024,Walk-in,9346389012,Kids,T-Shirt,XXL,Black,2,299,0,598.0,UPI,Mall Road,House Account
+916,21/04/2024,Pooja Verma,4805316022,Accessories,Belt,Free Size,Maroon,1,149,0,149.0,Other,Main Market,Amit
+917,12/02/2023,Sunita Sharma,9842882847,Men,Kurta,Standard,Pink,2,1299,0,2598.0,Other,Main Market,Amit
+918,12/07/2024,Walk-in,8527287603,Men,Jacket,M,Black,1,399,10,359.1,UPI,Mall Road,Amit
+919,17/12/2023,Walk-in,NA,Men,Blazer,XL,Black,3,1299,15,3312.45,Card,Mall Road,Rahul
+920,24/04/2025,Walk-in,7042402555,Men,Jeans,M,Yellow,1,0,0,0.0,Other,Main Market,Amit
+921,27/08/2023,Pooja Verma,5690448467,Accessories,Belt,Free Size,Blue,3,199,0,597.0,Cash,Mall Road,House Account
+922,13/06/2023,Sunita Sharma,NA,Kids,Shirt,S,Red,1,499,0,499.0,UPI,Main Market,Priya
+923,11/09/2023,Pooja Verma,0581080153,Women,Palazzo,M,White,1,1199,20,959.2,Card,Main Market,Amit
+924,28/12/2023,Anil Kumar,9955055362,Accessories,Cap,Free Size,Blue,1,399.00,0,399.0,UPI,Main Market,Sneha
+925,08/02/2024,Walk-in,9214574452,Kids,Frock,M,Yellow,2,199,0,398.0,Card,Unknown,Rahul
+926,04/04/2023,Sunita Sharma,4029363409,Kids,Shirt,S,Pink,2,299,10,538.2,Cash,Mall Road,Amit
+927,29/11/2023,Pooja Verma,NA,Kids,Shirt,XXL,Navy,1,199,20,159.2,Cash,Main Market,Vikas
+928,12/05/2023,Walk-in,NA,Women,Leggings,XL,Blue,1,449,0,449.0,UPI,Station Branch,Priya
+929,15/08/2024,Pooja Verma,5231919908,Women,Kurti,L,Navy,1,599,0,599.0,UPI,Unknown,Sneha
+930,10/05/2024,Walk-in,3891918740,Men,Trousers,M,Maroon,2,0,10,0.0,Cash,Main Market,Vikas
+931,30/05/2025,Walk-in,NA,Kids,Shorts,S,Grey,1,499,20,399.2,Card,Main Market,Sneha
+932,10/03/2024,ANJALI,NA,Accessories,Socks,Free Size,Red,2,99,10,178.2,UPI,Mall Road,Rahul
+933,22/05/2024,Sunita Sharma,8633234306,Women,Dupatta,M,White,1,899.00,0,899.0,UPI,Station Branch,Sneha
+935,17/07/2024,Sunita Sharma,1391960348,Women,Saree,L,Navy,1,349,20,279.2,UPI,Station Branch,Amit
+936,29/03/2025,Walk-in,7416371206,Women,Dress,M,White,1,349,0,349.0,Card,Mall Road,Rahul
+937,24/12/2024,Ramesh Gupta,1168611460,Men,Shirt,L,Pink,3,599,0,1797.0,Cash,Mall Road,House Account
+938,02/04/2023,Walk-in,NA,Kids,Shorts,L,Green,3,499,20,1197.6,Card,Mall Road,House Account
+939,21/01/2024,ANJALI,2173683850,Kids,Shirt,S,Red,1,199,20,159.2,UPI,Main Market,Vikas
+940,20/01/2023,Sunita Sharma,4843770062,Men,Jacket,XL,Yellow,3,399,10,1077.3,Cash,Mall Road,Amit
+941,22/08/2023,Pooja Verma,8971001707,Accessories,Wallet,Free Size,Grey,2,199,0,398.0,Other,Mall Road,Amit
+942,18/05/2025,Anil Kumar,2833728756,Accessories,Belt,Free Size,Green,3,399,0,1197.0,Cash,Mall Road,House Account
+943,22/11/2024,Sunita Sharma,NA,Accessories,Scarf,Free Size,Blue,2,399,10,718.2,Cash,Main Market,Rahul
+944,07/11/2023,Sunita Sharma,7388523774,Men,Shirt,XL,Green,1,599,0,599.0,UPI,Station Branch,Priya
+945,22/08/2024,Pooja Verma,6028653839,Women,Leggings,M,Yellow,1,449,0,449.0,Other,Station Branch,Amit
+946,14/05/2024,Walk-in,8669320709,Men,Jacket,S,White,3,1299,0,3897.0,Other,Unknown,Rahul
+947,17/05/2023,ANJALI,4198281794,Accessories,Scarf,Free Size,Black,2,99,10,178.2,UPI,Mall Road,Amit
+948,16/01/2024,Ramesh Gupta,NA,Women,Kurti,XL,Black,1,1199,10,1079.1,Card,Mall Road,Rahul
+949,24/07/2023,Walk-in,NA,Accessories,Wallet,Free Size,Maroon,1,149,0,149.0,Card,Unknown,Rahul
+950,24/05/2023,ANJALI,2593103370,Women,Saree,XL,Maroon,2,449,20,718.4,UPI,Main Market,Sneha
+951,11/10/2024,Walk-in,7804737198,Accessories,Belt,Free Size,White,3,99,0,297.0,Card,Mall Road,Rahul
+952,21/03/2025,ANJALI,2640532739,Men,Blazer,L,Yellow,1,1499,0,1499.0,UPI,Station Branch,Sneha
+953,19/01/2024,Pooja Verma,5102506668,Men,T-Shirt,XXL,Navy,1,0,0,0.0,UPI,Mall Road,Rahul
+954,31/05/2023,Pooja Verma,NA,Accessories,Belt,Free Size,White,1,0,0,0.0,UPI,Unknown,Amit
+955,21/03/2024,Ramesh Gupta,NA,Kids,Frock,M,Navy,2,399,15,678.3,Cash,Unknown,Priya
+956,07/01/2025,Walk-in,3487493916,Men,Blazer,XL,White,1,799,0,799.0,UPI,Station Branch,Rahul
+957,01/01/2024,Anil Kumar,4176090937,Accessories,Belt,Free Size,Black,2,299,0,598.0,Other,Unknown,House Account
+958,28/08/2023,ANJALI,0528905665,Men,Shirt,L,Grey,1,1499.00,0,1499.0,Card,Mall Road,Priya
+959,16/02/2023,Pooja Verma,9243435486,Women,Dress,M,Green,1,349,10,314.1,Card,Main Market,Sneha
+960,03/05/2024,Sunita Sharma,7691161221,Accessories,Belt,Free Size,White,1,299,0,299.0,Card,Unknown,House Account
+961,01/01/2025,Walk-in,NA,Kids,Shirt,XXL,Red,1,399,0,399.0,Cash,Main Market,House Account
+962,20/05/2025,Anil Kumar,NA,Men,Kurta,XL,Blue,3,799,0,2397.0,Cash,Main Market,Sneha
+963,01/05/2025,Walk-in,NA,Accessories,Wallet,Free Size,Red,1,99.00,0,99.0,Other,Main Market,Sneha
+964,15/04/2025,Pooja Verma,8910961968,Women,Kurti,Standard,Yellow,1,1999,0,1999.0,Cash,Main Market,Rahul
+965,16/06/2025,Walk-in,7140834695,Women,Dupatta,S,Pink,3,899,10,2427.3,Cash,Station Branch,House Account
+966,13/05/2024,Walk-in,4142904957,Men,Trousers,XL,Green,2,599,20,958.4,UPI,Unknown,Vikas
+967,07/10/2024,Walk-in,4685902629,Accessories,Cap,Free Size,Navy,1,0,0,0.0,UPI,Mall Road,Rahul
+968,17/02/2023,Pooja Verma,2774021572,Men,Jacket,L,Navy,2,999,0,1998.0,Cash,Main Market,House Account
+969,28/03/2025,Sunita Sharma,8783437798,Women,Saree,Standard,Navy,1,449,0,449.0,Cash,Mall Road,Amit
+970,05/02/2025,Walk-in,4225351178,Kids,Shorts,XL,Green,1,399.00,10,359.1,UPI,Mall Road,House Account
+971,22/05/2024,Anil Kumar,8712075313,Women,Top,XXL,Grey,1,349,0,349.0,Cash,Mall Road,Amit
+972,31/12/2023,Pooja Verma,5744331997,Men,Blazer,XL,Green,1,1299,0,1299.0,UPI,Mall Road,Amit
+973,09/01/2024,Anil Kumar,6188817860,Women,Top,XXL,Grey,1,349,0,349.0,UPI,Main Market,Amit
+974,15/08/2023,Pooja Verma,5600762282,Accessories,Wallet,Free Size,Pink,2,399.00,0,798.0,Cash,Main Market,Sneha
+975,03/11/2023,Pooja Verma,0666048531,Accessories,Socks,Free Size,Pink,1,149.00,0,149.0,Card,Station Branch,Vikas
+977,14/02/2025,Sunita Sharma,3648116595,Men,Shirt,XL,Yellow,2,399,0,798.0,UPI,Mall Road,Amit
+978,14/02/2024,Pooja Verma,7759358613,Men,Kurta,XL,Navy,2,1499,0,2998.0,Card,Main Market,Rahul
+979,19/04/2023,Sunita Sharma,0442364792,Kids,Frock,Standard,Black,3,199,0,597.0,UPI,Mall Road,Priya
+980,09/08/2024,ANJALI,6720961023,Accessories,Scarf,Free Size,Green,2,199,0,398.0,Card,Station Branch,Amit
+981,02/05/2023,Anil Kumar,9177326096,Women,Leggings,XXL,Grey,1,1599,10,1439.1,UPI,Mall Road,Priya
+982,25/02/2024,Sunita Sharma,0263276765,Men,Jacket,XXL,Grey,3,499,20,1197.6,Other,Unknown,Rahul
+983,24/11/2023,Walk-in,5377290848,Accessories,Socks,Free Size,Grey,1,199,0,199.0,Cash,Main Market,Amit
+984,13/09/2024,Ramesh Gupta,6480407373,Kids,Shorts,XL,Pink,1,299,0,299.0,Card,Main Market,Amit
+985,26/10/2023,ANJALI,6466033273,Kids,T-Shirt,S,Red,2,299,0,598.0,Cash,Unknown,Vikas
+986,14/06/2024,ANJALI,7383306144,Men,Shirt,S,Black,2,1299.00,0,2598.0,Card,Station Branch,Sneha
+987,13/10/2024,Walk-in,9236139123,Kids,T-Shirt,M,Maroon,1,499,10,449.1,Other,Main Market,Sneha
+988,02/05/2023,Pooja Verma,7078384784,Women,Dress,XXL,Grey,2,599,0,1198.0,Card,Mall Road,Sneha
+989,10/03/2025,Walk-in,2302999663,Women,Kurti,M,Red,1,0,0,0.0,UPI,Mall Road,Rahul
+990,17/06/2023,Walk-in,NA,Kids,Shorts,M,Red,1,199,0,199.0,UPI,Mall Road,Rahul
+991,05/11/2023,Walk-in,0930548473,Men,Jeans,M,Blue,1,1299,0,1299.0,UPI,Station Branch,Amit
+992,09/10/2023,Anil Kumar,1852557688,Kids,Shorts,M,Pink,3,399,20,957.6,UPI,Main Market,Rahul
+993,31/12/2024,Walk-in,2446403507,Kids,Shorts,XXL,Grey,2,399,0,798.0,UPI,Mall Road,House Account
+994,06/10/2023,Walk-in,1238724937,Men,Jacket,Standard,Black,3,1299,0,3897.0,Card,Mall Road,Vikas
+995,08/01/2024,Ramesh Gupta,0276749064,Kids,Shirt,L,Blue,1,299,0,299.0,Cash,Unknown,Amit
+996,09/01/2024,Walk-in,NA,Accessories,Scarf,Free Size,Green,2,149,0,298.0,Card,Mall Road,Amit
+997,22/09/2024,Walk-in,6089888501,Kids,Shorts,XXL,Yellow,1,199.00,10,179.1,Cash,Main Market,Priya
+998,26/05/2024,Walk-in,NA,Kids,Frock,S,Black,2,199,20,318.4,UPI,Unknown,Amit
+999,18/02/2024,Sunita Sharma,2083481242,Women,Palazzo,XXL,Pink,1,449,0,449.0,Card,Mall Road,Vikas
+1000,30/11/2024,ANJALI,4499246871,Men,Jeans,XXL,White,1,1499,15,1274.15,UPI,Station Branch,House Account
+1001,07/03/2023,Walk-in,4857830455,Kids,Shirt,M,Black,3,499,10,1347.3,Other,Mall Road,House Account
+1002,08/09/2024,Ramesh Gupta,3270561465,Accessories,Socks,Free Size,Red,1,149,0,149.0,UPI,Main Market,Priya
+1003,15/02/2023,Walk-in,7513061092,Kids,Frock,S,Black,1,499,10,449.1,Card,Main Market,Amit
+1004,26/12/2023,Walk-in,NA,Men,Jeans,Standard,Black,1,399,0,399.0,Card,Mall Road,Rahul
+1005,04/02/2025,Walk-in,5100568706,Accessories,Wallet,Free Size,Yellow,1,299.00,0,299.0,Cash,Unknown,Priya
+1006,19/08/2024,Walk-in,6570794321,Accessories,Cap,Free Size,White,1,399,0,399.0,Card,Unknown,House Account
+1007,14/07/2023,Pooja Verma,3363305754,Kids,T-Shirt,Standard,Red,1,199,0,199.0,UPI,Mall Road,Priya
+1008,28/10/2024,ANJALI,6470894406,Accessories,Wallet,Free Size,Blue,3,199,20,477.6,Cash,Unknown,House Account
+1009,20/06/2025,Pooja Verma,NA,Women,Dupatta,XL,Red,1,0,10,0.0,Other,Main Market,Rahul
+1010,18/04/2023,Anil Kumar,9646077359,Kids,Shirt,XL,Grey,2,199,0,398.0,Cash,Main Market,Rahul
+1011,19/04/2023,ANJALI,8673581821,Kids,T-Shirt,L,Maroon,2,499,0,998.0,Card,Station Branch,Sneha
+1012,24/03/2023,Ramesh Gupta,NA,Kids,Shorts,M,Pink,1,499,0,499.0,Cash,Main Market,Rahul
+1013,27/04/2023,Walk-in,NA,Women,Leggings,M,Maroon,2,449,0,898.0,Card,Main Market,Amit
+1014,28/10/2024,ANJALI,0557779174,Women,Top,M,Black,1,449,0,449.0,Other,Mall Road,Sneha
+1015,17/03/2025,Pooja Verma,5756294339,Kids,Frock,S,Yellow,1,199,0,199.0,Cash,Station Branch,House Account
+1016,13/09/2024,Pooja Verma,1854133366,Kids,Frock,L,Blue,1,199,0,199.0,Cash,Mall Road,Rahul
+1017,13/02/2023,Walk-in,8446988866,Women,Top,L,Black,3,599,0,1797.0,UPI,Main Market,Sneha
+1018,15/07/2023,Walk-in,2315682342,Accessories,Cap,Free Size,Maroon,1,199,0,199.0,UPI,Mall Road,Amit
+1019,10/02/2023,ANJALI,4293987667,Accessories,Cap,Free Size,Black,1,149,0,149.0,Cash,Main Market,Rahul
+1020,28/03/2025,Walk-in,2654168939,Accessories,Scarf,Free Size,Red,1,99,10,89.1,UPI,Station Branch,House Account
+1021,12/06/2024,ANJALI,0423573189,Women,Saree,Standard,Black,2,1199,20,1918.4,UPI,Station Branch,Amit
+1022,07/01/2023,Walk-in,4949996357,Men,Blazer,L,White,3,599,0,1797.0,UPI,Main Market,House Account
+1023,13/07/2023,Anil Kumar,5419635110,Kids,T-Shirt,XXL,Green,1,399,0,399.0,Card,Main Market,Rahul
+1024,13/05/2024,ANJALI,0323812817,Kids,T-Shirt,S,Green,1,299,0,299.0,UPI,Main Market,House Account
+1025,31/03/2023,Ramesh Gupta,NA,Kids,Shirt,M,Blue,3,499,10,1347.3,UPI,Mall Road,Amit
+1026,01/11/2023,Anil Kumar,0021824140,Women,Kurti,L,Navy,1,1599,0,1599.0,Card,Unknown,Amit
+1027,19/09/2023,Ramesh Gupta,2106510046,Accessories,Wallet,Free Size,Green,1,99,0,99.0,UPI,Mall Road,House Account
+1028,14/05/2023,ANJALI,1898987877,Kids,Shirt,M,Red,1,299,10,269.1,Card,Mall Road,Priya
+1029,30/04/2023,Sunita Sharma,8681734188,Women,Dupatta,XXL,Pink,1,1199.00,0,1199.0,UPI,Unknown,Rahul
+1030,05/02/2024,Walk-in,4493392719,Women,Palazzo,L,Grey,3,599,0,1797.0,Card,Main Market,Amit
+1031,11/12/2023,Anil Kumar,0789677888,Men,Blazer,S,Yellow,1,0,0,0.0,Cash,Main Market,Rahul
+1032,26/11/2024,Ramesh Gupta,0438177998,Men,Trousers,M,Green,1,1499,0,1499.0,Card,Main Market,Vikas
+1033,10/03/2023,Walk-in,0607136930,Accessories,Scarf,Free Size,White,1,99,15,84.15,UPI,Main Market,Rahul
+1034,21/02/2025,Sunita Sharma,2618455375,Accessories,Wallet,Free Size,Pink,3,199,10,537.3,Cash,Station Branch,Priya
+1035,24/01/2025,Walk-in,0507507819,Kids,Shorts,M,White,1,399,0,399.0,UPI,Main Market,House Account
+1036,24/02/2023,Pooja Verma,NA,Women,Leggings,XL,Grey,2,599,0,1198.0,Card,Mall Road,Rahul
+1037,25/10/2023,Walk-in,2104072545,Women,Palazzo,L,Yellow,3,449,0,1347.0,UPI,Main Market,Amit
+1038,08/02/2024,Ramesh Gupta,NA,Kids,Shirt,XL,Navy,1,299,0,299.0,UPI,Mall Road,Sneha
+1039,26/09/2023,Sunita Sharma,5957812731,Kids,Shorts,XL,Pink,1,299.00,0,299.0,Card,Unknown,Priya
+1040,05/10/2023,Sunita Sharma,4655112863,Women,Saree,L,Red,1,449,0,449.0,Cash,Station Branch,Amit
+1041,04/08/2023,Sunita Sharma,NA,Men,Trousers,L,Navy,1,599,0,599.0,Card,Main Market,Amit
+1042,11/03/2023,Ramesh Gupta,4869653715,Accessories,Socks,Free Size,Navy,1,0,0,0.0,UPI,Station Branch,Sneha
+1043,14/05/2023,ANJALI,4148502759,Men,Kurta,M,Red,1,1299.00,20,1039.2,Cash,Main Market,Rahul
+1044,09/09/2023,Anil Kumar,0233159987,Accessories,Wallet,Free Size,Pink,1,99,15,84.15,Cash,Main Market,Rahul
+1045,25/01/2023,ANJALI,8675875585,Men,Jacket,S,Navy,2,0,0,0.0,Cash,Mall Road,Amit
+1046,07/12/2024,Walk-in,3845046217,Women,Saree,XL,Navy,1,1599.00,10,1439.1,UPI,Mall Road,Priya
+1047,02/04/2024,Walk-in,1066726418,Accessories,Cap,Free Size,Red,2,399,10,718.2,UPI,Mall Road,Amit
+1048,22/09/2023,ANJALI,4704079365,Men,Shirt,L,Navy,2,499,10,898.2,UPI,Main Market,Rahul
+1049,13/09/2023,Walk-in,5789591532,Women,Dupatta,M,Black,1,449,10,404.1,UPI,Unknown,Rahul
+1050,20/02/2024,Ramesh Gupta,NA,Kids,Shirt,XL,Navy,1,299,10,269.1,UPI,Station Branch,Amit
+1051,24/06/2023,Walk-in,3141988726,Accessories,Scarf,Free Size,Green,3,299,0,897.0,Cash,Main Market,Sneha
+1052,24/10/2023,Walk-in,5677154176,Women,Top,S,Yellow,1,1999.00,0,1999.0,Cash,Main Market,Rahul
+1053,08/02/2024,Walk-in,0852964552,Kids,Shorts,XL,Grey,2,499,0,998.0,UPI,Mall Road,Amit
+1054,08/06/2025,Sunita Sharma,6548855875,Men,Jeans,S,White,3,399,0,1197.0,Cash,Mall Road,Sneha
+1055,28/05/2024,Walk-in,5566963389,Accessories,Socks,Free Size,Yellow,2,0,10,0.0,Other,Station Branch,Amit
+1056,22/06/2023,Ramesh Gupta,8426851797,Kids,Shirt,S,Navy,2,199,0,398.0,Cash,Main Market,Rahul
+1057,05/03/2025,Walk-in,4562446220,Women,Palazzo,S,Navy,2,349,0,698.0,UPI,Station Branch,Sneha
+1058,21/05/2024,Anil Kumar,9841420248,Kids,T-Shirt,L,White,1,499,0,499.0,Card,Main Market,Sneha
+1059,26/09/2024,ANJALI,8235327737,Women,Saree,Standard,Navy,1,1999,0,1999.0,Card,Mall Road,Sneha
+1061,28/03/2025,Walk-in,2702150134,Kids,Shorts,Standard,Blue,1,199,0,199.0,UPI,Unknown,House Account
+1062,23/04/2023,ANJALI,3955714211,Women,Leggings,Standard,White,1,1599,10,1439.1,Card,Unknown,House Account
+1063,04/03/2024,Walk-in,2007227683,Men,Shirt,L,Green,1,499,20,399.2,Card,Station Branch,House Account
+1064,21/04/2024,ANJALI,NA,Women,Saree,L,Maroon,1,1599,20,1279.2,UPI,Mall Road,Priya
+1065,24/08/2023,Pooja Verma,4142643029,Men,Kurta,M,Black,2,599,10,1078.2,UPI,Station Branch,Amit
+1066,24/07/2024,Walk-in,6953908783,Men,Shirt,L,Black,1,599,0,599.0,Cash,Main Market,Amit
+1067,12/06/2023,Walk-in,5925629726,Women,Leggings,XL,Maroon,3,899,0,2697.0,Card,Mall Road,Amit
+1068,04/09/2023,Sunita Sharma,6661051496,Accessories,Wallet,Free Size,Pink,1,299,0,299.0,Cash,Station Branch,Rahul
+1069,13/03/2024,Anil Kumar,1344088331,Accessories,Socks,Free Size,Green,2,149,0,298.0,Card,Mall Road,Priya
+1070,11/07/2023,Walk-in,NA,Men,Jeans,Standard,Pink,2,0,0,0.0,UPI,Main Market,Amit
+1071,23/06/2025,Walk-in,4834387151,Accessories,Scarf,Free Size,Red,1,399,0,399.0,Other,Main Market,Amit
+1072,12/07/2024,Sunita Sharma,9123216005,Men,T-Shirt,M,Pink,2,0,10,0.0,UPI,Main Market,House Account
+1073,25/10/2023,Walk-in,3267011678,Women,Palazzo,XL,Black,1,0,0,0.0,UPI,Mall Road,Amit
+1074,10/08/2024,Walk-in,5304053198,Men,T-Shirt,S,Yellow,1,499,0,499.0,Card,Mall Road,Rahul
+1075,08/01/2023,Ramesh Gupta,7644058355,Kids,Shorts,XXL,Green,1,499,0,499.0,Other,Station Branch,Amit
+1076,19/09/2023,Pooja Verma,6801990502,Women,Palazzo,XXL,Black,1,349,10,314.1,UPI,Mall Road,Priya
+1077,15/03/2025,Walk-in,9044813881,Men,Trousers,XL,Green,1,999.00,0,999.0,Card,Unknown,Rahul
+1078,07/04/2023,Pooja Verma,1770223804,Accessories,Cap,Free Size,Maroon,1,149,0,149.0,Card,Mall Road,Amit
+1079,28/06/2023,Walk-in,3357024093,Kids,Frock,S,Navy,1,299,0,299.0,UPI,Mall Road,Vikas
+1080,20/01/2025,Pooja Verma,6227353340,Kids,Shorts,XL,White,2,299,20,478.4,UPI,Mall Road,Rahul
+1081,29/03/2025,Walk-in,3357044455,Men,Jeans,S,Yellow,1,799,0,799.0,UPI,Mall Road,Amit
+1082,28/06/2024,Walk-in,4638151291,Men,Shirt,XL,Yellow,2,599,10,1078.2,UPI,Main Market,Vikas
+1083,06/08/2024,Anil Kumar,NA,Accessories,Scarf,Free Size,Black,2,199,0,398.0,UPI,Mall Road,Priya
+1084,20/03/2023,Walk-in,NA,Women,Dupatta,XL,Navy,2,1599,0,3198.0,UPI,Unknown,Amit
+1085,23/02/2023,ANJALI,NA,Accessories,Belt,Free Size,Blue,1,99,0,99.0,UPI,Main Market,Amit
+1086,13/10/2024,Walk-in,2001414424,Men,T-Shirt,XXL,Maroon,2,399,0,798.0,UPI,Mall Road,Priya
+1087,20/12/2024,Walk-in,NA,Kids,Shorts,XXL,Yellow,2,399,10,718.2,UPI,Mall Road,Sneha
+1088,01/03/2025,Ramesh Gupta,3560285869,Accessories,Cap,Free Size,Grey,1,99,0,99.0,Card,Mall Road,Amit
+1089,15/11/2023,Walk-in,2459408593,Accessories,Belt,Free Size,Blue,1,0,0,0.0,Card,Mall Road,House Account
+1090,06/02/2025,Anil Kumar,NA,Men,Jacket,XL,Yellow,3,1499,15,3822.45,UPI,Mall Road,Rahul
+1091,18/02/2025,Anil Kumar,3967499902,Accessories,Socks,Free Size,Grey,2,149,0,298.0,Card,Main Market,Rahul
+1092,25/12/2024,ANJALI,3529461426,Kids,T-Shirt,XXL,Blue,1,299,0,299.0,UPI,Main Market,Vikas
+1093,12/08/2023,Walk-in,9171603330,Accessories,Belt,Free Size,Pink,1,149,10,134.1,Card,Unknown,Rahul
+1094,04/09/2023,ANJALI,6777736576,Men,Blazer,S,Navy,2,499,10,898.2,UPI,Main Market,House Account
+1095,08/02/2025,Ramesh Gupta,3135148550,Kids,Frock,S,Blue,1,499,0,499.0,Card,Main Market,Rahul
+1096,20/10/2023,Ramesh Gupta,4279730294,Accessories,Scarf,Free Size,Blue,1,199,10,179.1,Card,Main Market,Rahul
+1097,28/03/2023,Sunita Sharma,5165991945,Women,Saree,XXL,Navy,2,899,10,1618.2,Card,Main Market,Sneha
+1098,29/05/2024,ANJALI,9501467093,Men,Shirt,S,Yellow,1,499,10,449.1,Cash,Station Branch,Rahul
+1099,10/11/2024,Walk-in,9921645752,Men,Jacket,S,Grey,1,799,0,799.0,UPI,Main Market,Rahul
+1100,09/01/2024,Pooja Verma,NA,Accessories,Socks,Free Size,Yellow,1,299,0,299.0,UPI,Main Market,Sneha
+1101,01/08/2023,Anil Kumar,3224518256,Accessories,Wallet,Free Size,Maroon,2,399,10,718.2,Card,Station Branch,Amit
+1102,04/10/2024,Sunita Sharma,6922591642,Kids,Shirt,XXL,Green,1,0,0,0.0,UPI,Unknown,Rahul
+1103,20/06/2024,Anil Kumar,NA,Men,Trousers,M,Blue,1,1499,0,1499.0,UPI,Main Market,Rahul
+1105,08/03/2023,Sunita Sharma,0327303248,Women,Leggings,XL,White,2,1599.00,20,2558.4,UPI,Unknown,House Account
+1106,07/01/2025,Anil Kumar,6218531112,Women,Palazzo,L,Maroon,2,349,10,628.2,UPI,Unknown,Rahul
+1107,27/03/2024,Anil Kumar,NA,Men,Blazer,L,Blue,1,599.00,10,539.1,Card,Main Market,House Account
+1108,14/04/2024,Pooja Verma,1388655009,Kids,T-Shirt,XXL,Green,3,399,0,1197.0,UPI,Main Market,Amit
+1109,29/07/2024,Ramesh Gupta,8780720203,Women,Top,XXL,White,1,1999,0,1999.0,Cash,Main Market,Rahul
+1110,09/05/2024,ANJALI,9056574396,Accessories,Cap,Free Size,Grey,2,299,10,538.2,UPI,Main Market,Rahul
+1111,05/02/2023,Ramesh Gupta,5467347436,Kids,Shirt,L,Navy,2,0,0,0.0,UPI,Main Market,Sneha
+1112,17/09/2023,Anil Kumar,1190359409,Men,Kurta,XXL,Maroon,1,799,10,719.1,Card,Station Branch,Amit
+1113,24/11/2023,Ramesh Gupta,4039978387,Men,Blazer,M,White,1,999,20,799.2,Cash,Station Branch,Sneha
+1114,23/12/2023,Walk-in,NA,Accessories,Wallet,Free Size,Navy,1,99,10,89.1,Cash,Main Market,Amit
+1115,19/05/2023,Ramesh Gupta,NA,Accessories,Belt,Free Size,Grey,2,0,20,0.0,Card,Mall Road,Vikas
+1116,03/09/2024,Walk-in,5713649674,Men,Jeans,M,Red,1,499.00,0,499.0,Cash,Mall Road,Amit
+1117,23/01/2025,ANJALI,3851576467,Kids,Shorts,L,Black,1,199,0,199.0,UPI,Main Market,Sneha
+1118,02/02/2025,Pooja Verma,NA,Women,Kurti,L,Maroon,1,1599,10,1439.1,Cash,Main Market,Vikas
+1119,17/05/2023,Ramesh Gupta,0324271618,Kids,Frock,L,Grey,2,199,0,398.0,Other,Mall Road,Amit
+1120,09/04/2023,Ramesh Gupta,9229412328,Kids,Shirt,M,White,1,199,20,159.2,Card,Main Market,Vikas
+1121,23/02/2025,Walk-in,5630328267,Men,Kurta,L,Yellow,2,599,10,1078.2,Card,Station Branch,Rahul
+1122,26/06/2023,Pooja Verma,5643476088,Kids,Shirt,XL,Pink,2,0,10,0.0,Card,Main Market,Vikas
+1123,01/02/2025,Walk-in,0336490847,Accessories,Cap,Free Size,White,1,0,0,0.0,UPI,Mall Road,Sneha
+1124,16/03/2023,Walk-in,5796229511,Men,T-Shirt,Standard,Blue,1,799.00,0,799.0,Card,Unknown,Rahul
+1125,22/04/2025,Walk-in,4106678845,Men,T-Shirt,S,Green,1,799.00,20,639.2,Card,Mall Road,Rahul
+1126,13/02/2025,Walk-in,2305066714,Women,Palazzo,M,White,3,1199,10,3237.3,Cash,Mall Road,Amit
+1127,16/07/2024,Anil Kumar,2089521768,Kids,Shorts,S,Black,1,299,0,299.0,Cash,Mall Road,Rahul
+1128,10/01/2024,Walk-in,9623838440,Kids,T-Shirt,M,Black,1,199,10,179.1,Other,Mall Road,House Account
+1129,27/04/2024,ANJALI,0034568848,Women,Dress,M,Blue,2,1199,0,2398.0,UPI,Station Branch,Rahul
+1130,19/04/2023,Walk-in,NA,Accessories,Cap,Free Size,Black,3,99,0,297.0,Card,Main Market,Vikas
+1132,18/01/2024,Pooja Verma,4803163678,Men,Jeans,XXL,White,3,0,10,0.0,Cash,Main Market,House Account
+1133,19/05/2023,Walk-in,8532987340,Women,Dress,L,Black,2,1999,0,3998.0,UPI,Mall Road,House Account
+1134,30/05/2025,ANJALI,3961034057,Kids,Shirt,XL,Grey,1,199,0,199.0,UPI,Main Market,Rahul
+1135,02/06/2024,ANJALI,6991658723,Men,Jeans,Standard,Yellow,1,0,20,0.0,Card,Mall Road,Rahul
+1136,19/05/2025,Walk-in,8852499196,Accessories,Belt,Free Size,Yellow,1,399,0,399.0,Other,Station Branch,House Account
+1137,20/05/2024,ANJALI,6944814400,Kids,Frock,Standard,Red,1,399.00,0,399.0,Card,Main Market,Amit
+1138,20/01/2025,Walk-in,5427344979,Women,Dupatta,S,Maroon,1,1999,0,1999.0,Other,Station Branch,Amit
+1139,07/09/2023,Walk-in,5392590677,Women,Dupatta,XL,Yellow,2,899,10,1618.2,Other,Main Market,Amit
+1140,21/05/2024,Anil Kumar,NA,Kids,Frock,Standard,Red,1,0,0,0.0,Cash,Mall Road,Amit
+1141,04/08/2023,Walk-in,7676227025,Men,Trousers,M,Yellow,2,399,10,718.2,Cash,Mall Road,Vikas
+1142,22/03/2024,Walk-in,1550261340,Accessories,Scarf,Free Size,Yellow,2,299,0,598.0,Other,Main Market,Rahul
+1143,02/06/2025,Sunita Sharma,NA,Accessories,Cap,Free Size,Yellow,1,199,10,179.1,Card,Main Market,Amit
+1144,31/10/2024,Pooja Verma,5526151070,Men,Jeans,M,Pink,3,399,10,1077.3,Cash,Station Branch,House Account
+1145,02/11/2024,Anil Kumar,9263560062,Men,Kurta,XXL,Grey,2,1499,20,2398.4,UPI,Mall Road,House Account
+1146,15/09/2023,Walk-in,1976213461,Men,Jacket,XL,Pink,1,0,15,0.0,Card,Mall Road,Sneha
+1147,21/06/2023,ANJALI,NA,Women,Dupatta,M,Green,1,0,0,0.0,UPI,Station Branch,Vikas
+1148,28/11/2023,Walk-in,9058081403,Women,Dress,Standard,Blue,2,449,20,718.4,UPI,Unknown,Priya
+1149,19/12/2024,Sunita Sharma,2124676428,Men,Jeans,M,Yellow,1,1299,10,1169.1,UPI,Main Market,Rahul
+1150,15/08/2024,Walk-in,NA,Women,Kurti,L,Navy,2,1999,0,3998.0,Card,Mall Road,House Account
+1152,29/08/2023,Pooja Verma,1645086295,Accessories,Belt,Free Size,Yellow,2,0,0,0.0,Cash,Mall Road,Amit
+1153,11/07/2024,Walk-in,0583934083,Kids,Shirt,L,Blue,3,199,10,537.3,Card,Station Branch,House Account
+1154,14/04/2024,Walk-in,NA,Men,Kurta,S,Maroon,2,999,0,1998.0,Card,Mall Road,Sneha
+1155,13/03/2025,Walk-in,NA,Kids,T-Shirt,XXL,Navy,2,399,10,718.2,Cash,Mall Road,Amit
+1156,19/10/2024,Ramesh Gupta,0323186679,Kids,Shorts,M,Maroon,2,399.00,0,798.0,Card,Mall Road,Amit
+1157,19/10/2024,ANJALI,7953342253,Men,Blazer,S,Red,3,599,0,1797.0,Card,Mall Road,Amit
+1158,13/04/2023,Walk-in,0363839687,Women,Dress,L,Yellow,3,1599,10,4317.3,Other,Mall Road,Amit
+1159,15/12/2023,Walk-in,0254616794,Kids,Frock,XXL,Navy,2,499,0,998.0,UPI,Station Branch,Rahul
+1160,08/03/2023,Walk-in,7235019473,Women,Palazzo,S,White,1,1199,0,1199.0,UPI,Mall Road,House Account
+1161,10/04/2023,Walk-in,6690625157,Kids,Shirt,XXL,Blue,2,0,0,0.0,Cash,Station Branch,Rahul
+1162,18/10/2024,Pooja Verma,2948305171,Accessories,Belt,Free Size,Red,1,399,0,399.0,UPI,Main Market,Sneha
+1163,26/02/2025,Walk-in,5031049791,Kids,Frock,XL,Yellow,2,499.00,0,998.0,Other,Unknown,Amit
+1164,15/11/2024,ANJALI,NA,Men,Jacket,S,Navy,2,999,0,1998.0,Cash,Main Market,Vikas
+1165,16/01/2024,Anil Kumar,7673507810,Women,Leggings,XL,Pink,1,1999,10,1799.1,Card,Mall Road,Vikas
+1166,27/03/2024,Pooja Verma,4390951956,Accessories,Belt,Free Size,Blue,3,299,0,897.0,Card,Main Market,Priya
+1167,22/02/2025,ANJALI,3965272959,Men,Jeans,XL,Green,2,399,0,798.0,UPI,Station Branch,Rahul
+1168,10/08/2024,Ramesh Gupta,1326893746,Accessories,Belt,Free Size,Navy,3,199,0,597.0,UPI,Mall Road,Priya
+1169,09/02/2025,ANJALI,5589223552,Kids,Shirt,Standard,Black,2,199,15,338.3,Card,Main Market,Rahul
+1170,18/07/2023,Pooja Verma,2684746455,Women,Dupatta,XXL,Black,1,449,0,449.0,Cash,Main Market,House Account
+1171,11/01/2023,Walk-in,8679744761,Men,Kurta,XXL,Grey,1,599,0,599.0,Card,Main Market,Rahul
+1172,01/06/2023,Pooja Verma,2819150237,Kids,Shirt,M,White,1,499,0,499.0,Card,Main Market,House Account
+1173,17/06/2023,Walk-in,9773660985,Women,Kurti,S,Yellow,2,349,10,628.2,UPI,Mall Road,Rahul
+1174,30/04/2023,Walk-in,9844496163,Kids,Frock,XXL,Pink,2,499,0,998.0,UPI,Main Market,Amit
+1175,15/07/2024,Walk-in,5798322900,Women,Kurti,M,Pink,1,1199,10,1079.1,Card,Main Market,Rahul
+1176,09/06/2025,Walk-in,3933065335,Kids,Shorts,S,Yellow,1,199,0,199.0,UPI,Unknown,Rahul
+1177,07/03/2025,Ramesh Gupta,6309773983,Accessories,Wallet,Free Size,Navy,2,399.00,0,798.0,Card,Station Branch,House Account
+1178,02/03/2025,Walk-in,NA,Kids,T-Shirt,L,Green,1,199,10,179.1,Cash,Mall Road,House Account
+1179,28/03/2024,Ramesh Gupta,7245819870,Women,Dress,L,Green,2,449,0,898.0,UPI,Unknown,Rahul
+1180,27/03/2025,Walk-in,6721281568,Kids,Frock,Standard,Navy,1,299,10,269.1,Card,Station Branch,House Account
+1181,12/03/2024,Walk-in,8583068483,Women,Dress,S,Green,1,0,0,0.0,Card,Main Market,Sneha
+1182,20/03/2025,Sunita Sharma,NA,Accessories,Cap,Free Size,Red,1,199,0,199.0,Other,Mall Road,Amit
+1183,11/05/2024,Sunita Sharma,7208024104,Women,Leggings,L,Red,3,599,0,1797.0,UPI,Station Branch,Sneha
+1184,25/08/2023,Walk-in,7500045840,Men,Trousers,S,Pink,2,0,0,0.0,UPI,Station Branch,Rahul
+1185,18/02/2024,ANJALI,NA,Accessories,Scarf,Free Size,Yellow,1,399,0,399.0,Cash,Mall Road,Rahul
+1186,11/09/2023,Walk-in,0453980488,Women,Saree,S,Green,3,1599,10,4317.3,Cash,Unknown,Rahul
+1187,12/02/2024,Walk-in,1303846912,Men,Blazer,S,Navy,2,0,0,0.0,Card,Mall Road,Amit
+1188,15/06/2023,Anil Kumar,9474508098,Kids,Shirt,S,Black,2,299,0,598.0,Card,Mall Road,Priya
+1189,09/07/2023,Sunita Sharma,5829694541,Accessories,Belt,Free Size,Maroon,1,199.00,0,199.0,Card,Station Branch,Rahul
+1190,01/05/2024,Walk-in,7414644026,Kids,Shirt,M,Red,1,299,0,299.0,Card,Main Market,Sneha
+1191,16/05/2023,Walk-in,5056880848,Women,Dupatta,M,Blue,1,1199,0,1199.0,UPI,Main Market,Vikas
+1192,04/04/2024,Pooja Verma,6958819468,Men,Blazer,XXL,White,1,799,0,799.0,UPI,Mall Road,Vikas
+1193,14/04/2025,Walk-in,5366783203,Women,Dupatta,M,Maroon,3,599,0,1797.0,Cash,Mall Road,Amit
+1194,08/06/2024,Walk-in,4802362801,Men,Jeans,L,Red,3,499,10,1347.3,Other,Mall Road,Sneha
+1195,20/11/2024,Pooja Verma,NA,Men,Shirt,L,White,1,999.00,0,999.0,Card,Main Market,Vikas
+1196,11/03/2025,Walk-in,6135062108,Accessories,Belt,Free Size,Black,1,299,10,269.1,UPI,Mall Road,Rahul
+1197,08/08/2023,Walk-in,NA,Accessories,Wallet,Free Size,Navy,1,149,0,149.0,Cash,Main Market,Vikas
+1198,27/01/2023,Anil Kumar,6260702474,Men,Trousers,XL,White,2,399,0,798.0,UPI,Station Branch,Amit
+1199,28/06/2023,Sunita Sharma,NA,Men,T-Shirt,XL,White,1,999,0,999.0,UPI,Unknown,Vikas
+1200,30/04/2025,Walk-in,4636698375,Accessories,Scarf,Free Size,Blue,2,199,0,398.0,Card,Station Branch,Sneha
+1201,21/03/2023,Anil Kumar,8043331569,Accessories,Scarf,Free Size,Grey,1,399,0,399.0,UPI,Unknown,Sneha
+1202,07/05/2025,Ramesh Gupta,NA,Women,Leggings,Standard,Maroon,1,449,0,449.0,Cash,Main Market,Priya
+1203,09/08/2024,Walk-in,9005673526,Men,Shirt,S,Grey,1,399.00,0,399.0,Card,Main Market,Vikas
+1204,27/04/2023,Walk-in,4124845467,Kids,Frock,S,Yellow,1,199,10,179.1,Card,Unknown,Vikas
+1205,06/05/2023,ANJALI,1706130112,Men,Kurta,XL,Maroon,1,999,0,999.0,Other,Main Market,Amit
+1206,30/01/2025,Walk-in,8460389515,Accessories,Scarf,Free Size,Maroon,2,149,10,268.2,Cash,Mall Road,Vikas
+1207,25/04/2023,Walk-in,NA,Kids,Shirt,S,Red,2,199,0,398.0,Other,Mall Road,Vikas
+1208,04/05/2024,Walk-in,8525317504,Accessories,Scarf,Free Size,White,3,199,0,597.0,Cash,Station Branch,House Account
+1209,09/05/2024,Walk-in,8472668063,Accessories,Socks,Free Size,Red,3,149,0,447.0,Other,Main Market,Priya
+1210,02/04/2023,Walk-in,1795928223,Kids,Shorts,XL,Black,2,199,0,398.0,Cash,Mall Road,Rahul
+1211,21/05/2024,Walk-in,NA,Women,Top,XL,Blue,1,449,0,449.0,UPI,Main Market,Priya
+1212,26/12/2024,Sunita Sharma,NA,Kids,Frock,XXL,Green,1,499,0,499.0,UPI,Main Market,House Account
+1213,15/05/2024,ANJALI,7238161292,Women,Dupatta,XXL,Yellow,2,1599,0,3198.0,Cash,Main Market,Sneha
+1214,23/10/2023,Walk-in,NA,Men,Shirt,XL,Yellow,2,499,0,998.0,Cash,Main Market,Amit
+1215,29/07/2024,Walk-in,NA,Women,Top,XL,Red,1,1999,10,1799.1,Cash,Mall Road,Amit
+1216,10/07/2024,Sunita Sharma,8838037473,Women,Dress,XXL,Red,1,0,0,0.0,UPI,Mall Road,Rahul
+1217,15/06/2024,Ramesh Gupta,8118082938,Women,Leggings,L,Green,1,0,0,0.0,Card,Mall Road,Amit
+1218,01/03/2025,Pooja Verma,7063311916,Kids,Shirt,M,Grey,3,499,0,1497.0,UPI,Main Market,Sneha
+1219,03/01/2025,Pooja Verma,7912072095,Accessories,Socks,Free Size,White,3,99,0,297.0,Card,Main Market,Priya
+1221,19/11/2023,Walk-in,5155674092,Accessories,Socks,Free Size,Yellow,1,399,10,359.1,UPI,Unknown,Sneha
+1222,07/08/2024,Sunita Sharma,4654840000,Men,Shirt,M,Green,2,1499,0,2998.0,UPI,Station Branch,Amit
+1223,21/10/2024,Walk-in,4183281137,Accessories,Belt,Free Size,Green,1,399,0,399.0,UPI,Unknown,Amit
+1224,19/09/2023,Ramesh Gupta,9248878073,Accessories,Scarf,Free Size,Green,1,99,10,89.1,UPI,Mall Road,Sneha
+1225,19/01/2024,Ramesh Gupta,9670447771,Men,Trousers,XXL,Grey,3,1499,0,4497.0,Cash,Main Market,House Account
+1227,28/11/2023,Anil Kumar,3744845557,Men,Blazer,L,Yellow,2,599,0,1198.0,Card,Unknown,Vikas
+1228,27/05/2023,Pooja Verma,8870894266,Women,Kurti,S,Navy,1,449,0,449.0,Cash,Unknown,Amit
+1229,05/03/2023,Walk-in,NA,Men,Jacket,M,Yellow,1,0,0,0.0,Cash,Main Market,Sneha
+1230,04/01/2023,Pooja Verma,5991129464,Kids,T-Shirt,M,Grey,3,299,0,897.0,Card,Station Branch,Priya
+1231,09/09/2024,Pooja Verma,9423943837,Kids,Shirt,XXL,Yellow,2,299,10,538.2,UPI,Station Branch,Vikas
+1232,31/05/2025,Walk-in,8672877478,Women,Palazzo,Standard,Maroon,2,1599,0,3198.0,Cash,Station Branch,Rahul
+1233,21/03/2023,ANJALI,9129433702,Accessories,Scarf,Free Size,Blue,1,0,0,0.0,Card,Mall Road,Rahul
+1235,15/06/2025,Ramesh Gupta,0174931756,Men,Kurta,Standard,White,2,399,0,798.0,Card,Main Market,Amit
+1236,18/07/2024,Walk-in,2400613865,Women,Saree,S,Blue,2,1999,0,3998.0,Cash,Unknown,House Account
+1237,03/02/2023,Anil Kumar,NA,Men,Jeans,L,Pink,2,0,10,0.0,Cash,Station Branch,House Account
+1238,17/05/2025,Sunita Sharma,5625750422,Accessories,Belt,Free Size,Maroon,1,199,0,199.0,Other,Unknown,Rahul
+1239,27/01/2024,Anil Kumar,0197557082,Men,Jacket,L,Green,1,399,0,399.0,UPI,Mall Road,Vikas
+1240,08/03/2023,Walk-in,NA,Men,Jeans,M,Navy,2,599.00,0,1198.0,Cash,Mall Road,Vikas
+1241,25/03/2024,Walk-in,1436597239,Accessories,Belt,Free Size,Green,1,199,0,199.0,Card,Mall Road,Priya
+1242,28/12/2024,Walk-in,NA,Accessories,Belt,Free Size,Red,1,0,0,0.0,UPI,Mall Road,House Account
+1243,28/03/2025,Walk-in,4914309215,Kids,Shirt,S,Pink,1,499,0,499.0,UPI,Main Market,Sneha
+1244,12/12/2023,Anil Kumar,9151676166,Women,Leggings,S,Blue,1,899,0,899.0,UPI,Mall Road,Sneha
+1245,17/02/2023,Walk-in,4097873871,Accessories,Belt,Free Size,White,2,149,0,298.0,Cash,Main Market,Rahul
+1246,30/06/2024,ANJALI,6493759044,Accessories,Cap,Free Size,Pink,1,99,10,89.1,UPI,Main Market,Rahul
+1248,25/02/2025,Anil Kumar,0198575473,Kids,Shirt,M,Grey,1,199,0,199.0,Cash,Mall Road,Amit
+1249,14/01/2024,Walk-in,NA,Women,Top,S,Grey,1,599,0,599.0,Card,Station Branch,Amit
+1250,10/04/2025,ANJALI,NA,Accessories,Wallet,Free Size,Red,1,149,0,149.0,Card,Main Market,Vikas
+1251,10/12/2024,Walk-in,5945681508,Men,T-Shirt,XXL,Blue,1,999,10,899.1,Other,Main Market,Amit
+1252,16/02/2025,Walk-in,6025092704,Accessories,Cap,Free Size,Red,1,199,0,199.0,Card,Mall Road,Rahul
+1253,30/01/2023,Ramesh Gupta,7380882330,Kids,Shirt,XL,Black,2,299,0,598.0,UPI,Mall Road,Amit
+1254,18/02/2024,Walk-in,2816896006,Men,Blazer,L,Blue,2,999,10,1798.2,Cash,Main Market,Amit
+1255,18/05/2023,Sunita Sharma,NA,Men,Jeans,L,Black,1,999,0,999.0,Card,Main Market,Sneha
+1256,18/07/2024,Walk-in,4833465867,Men,Shirt,XXL,White,2,599,10,1078.2,Other,Station Branch,Rahul
+1257,10/10/2023,Ramesh Gupta,NA,Women,Palazzo,M,Blue,1,1999,0,1999.0,UPI,Unknown,Rahul
+1258,21/02/2025,Anil Kumar,4662199785,Kids,Shirt,XL,Black,1,399,0,399.0,UPI,Main Market,Vikas
+1259,25/01/2023,Anil Kumar,4138273868,Kids,Shirt,XL,Black,1,199,0,199.0,Other,Station Branch,Rahul
+1260,03/10/2023,Walk-in,4371492627,Women,Saree,L,Maroon,1,1199,0,1199.0,Cash,Main Market,Rahul
+1261,22/07/2023,ANJALI,3216656910,Women,Dupatta,L,Black,2,1599,0,3198.0,Cash,Main Market,Amit
+1262,14/11/2023,Sunita Sharma,6526505347,Men,T-Shirt,Standard,Black,1,599,10,539.1,Cash,Station Branch,House Account
+1263,27/11/2023,Walk-in,2301643032,Kids,Frock,L,Yellow,1,499,0,499.0,UPI,Main Market,Amit
+1264,21/02/2025,Sunita Sharma,7283419067,Kids,Shorts,Standard,Maroon,1,399,0,399.0,Card,Station Branch,Vikas
+1265,26/04/2024,Walk-in,9105579991,Kids,Frock,XXL,Navy,1,499,0,499.0,Card,Mall Road,House Account
+1266,10/08/2023,Ramesh Gupta,9435784590,Men,Blazer,M,Green,1,499,0,499.0,Cash,Main Market,Priya
+1267,11/04/2024,ANJALI,NA,Men,T-Shirt,L,Black,2,399,0,798.0,Other,Unknown,Rahul
+1268,26/02/2025,Walk-in,NA,Accessories,Wallet,Free Size,Black,1,199,0,199.0,Other,Main Market,Amit
+1269,06/06/2025,Walk-in,8579282629,Accessories,Cap,Free Size,White,3,149,0,447.0,UPI,Unknown,House Account
+1270,01/04/2024,Ramesh Gupta,NA,Women,Dress,XL,Pink,1,1599,0,1599.0,Card,Mall Road,Priya
+1271,17/09/2024,Anil Kumar,8700512538,Accessories,Belt,Free Size,Yellow,3,99,0,297.0,Cash,Mall Road,Sneha
+1272,23/11/2024,ANJALI,1152438720,Accessories,Cap,Free Size,Pink,1,299,0,299.0,UPI,Mall Road,Vikas
+1273,03/01/2025,ANJALI,1573685070,Men,Kurta,L,Yellow,2,1299,10,2338.2,Cash,Main Market,Sneha
+1274,26/09/2024,Pooja Verma,6015043401,Men,Blazer,XL,Black,2,399,0,798.0,Card,Unknown,Vikas
+1275,16/06/2024,Walk-in,2330946214,Accessories,Scarf,Free Size,Yellow,1,149,0,149.0,Card,Main Market,Amit
+1277,03/02/2023,Pooja Verma,8749612298,Kids,T-Shirt,XL,Navy,1,499,10,449.1,UPI,Unknown,Amit
+1278,29/05/2024,Ramesh Gupta,NA,Accessories,Socks,Free Size,White,1,399,0,399.0,Cash,Mall Road,Vikas
+1279,19/01/2025,Walk-in,8282464913,Accessories,Scarf,Free Size,Blue,2,299.00,10,538.2,Cash,Unknown,Sneha
+1280,05/09/2023,Walk-in,NA,Men,Jeans,M,Grey,1,999,0,999.0,UPI,Mall Road,Vikas
+1281,02/10/2024,Walk-in,8900986068,Men,Jacket,XXL,Blue,2,599,0,1198.0,Card,Unknown,Rahul
+1282,28/01/2025,Anil Kumar,4049779572,Accessories,Belt,Free Size,Grey,3,149,0,447.0,Card,Main Market,Rahul
+1284,13/04/2023,Sunita Sharma,5832519901,Men,Trousers,XXL,Pink,2,999,0,1998.0,UPI,Station Branch,Amit
+1285,23/07/2023,Sunita Sharma,2138011557,Women,Dress,XL,Red,2,599.00,0,1198.0,Cash,Main Market,House Account
+1286,04/01/2025,Walk-in,4213957965,Kids,Frock,M,Grey,1,299.00,20,239.2,Cash,Main Market,Rahul
