@@ -1,11 +1,6 @@
 
 # 🛍️ Retail Store Analytics: End-to-End ETL, SQL Data Cleaning Pipeline & Power BI Analytics
 
-![SQL](https://img.shields.io/badge/Language-SQL%20%28SQLite%29-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Power BI](https://img.shields.io/badge/Visualization-Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/Modeling-DAX-yellow?style=for-the-badge)
-![ETL](https://img.shields.io/badge/Workflow-ETL%20%26%20Data%20Profiling-blue?style=for-the-badge)
-
 ## 📌 Project Overview
 In retail enterprise operations, raw transactional ledgers generated across multiple Point-of-Sale (POS) terminals are frequently plagued by inconsistent text casing, corrupted currency strings, non-standardized dates, duplicate records, missing sales attributions, and invalid unit quantities. 
 
